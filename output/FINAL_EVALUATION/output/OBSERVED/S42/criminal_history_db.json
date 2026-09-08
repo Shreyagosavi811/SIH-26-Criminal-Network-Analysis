@@ -1,0 +1,1002 @@
+[
+  {
+    "history_record_id": "CRIM-S42-0001",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-616/2022/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0002",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-896/2024/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0003",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-085/2022/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0004",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-589/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0005",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-983/2025/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0006",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-869/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0007",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-129/2020/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0008",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-356/2022/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0009",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-680/2025/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0010",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-535/2021/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0011",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-694/2020/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0012",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-282/2021/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0013",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-112/2021/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0014",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-361/2020/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0015",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-487/2024/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0016",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-035/2023/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0017",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-773/2022/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0018",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-735/2020/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0019",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-563/2025/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0020",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-263/2025/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0021",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-049/2024/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0022",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-334/2022/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0023",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-056/2024/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0024",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-112/2023/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0025",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-500/2021/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0026",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-150/2020/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0027",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-886/2020/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0028",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-254/2023/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0029",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-305/2022/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0030",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-144/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0031",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-887/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0032",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-969/2025/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0033",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-592/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0034",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-196/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0035",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-977/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0036",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-945/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0037",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-770/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0038",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-903/2023/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0039",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-868/2025/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0040",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-255/2024/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0041",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-790/2020/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0042",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-497/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0043",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-391/2021/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0044",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-731/2022/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0045",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-696/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0046",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-990/2021/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0047",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-416/2024/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0048",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-369/2021/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0049",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-212/2023/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0050",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-377/2022/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0051",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-040/2025/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0052",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-399/2020/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0053",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-667/2024/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0054",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-597/2022/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0055",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-297/2022/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0056",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-371/2020/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0057",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-841/2025/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0058",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-418/2023/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0059",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-877/2025/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0060",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-138/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0061",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-644/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0062",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-295/2025/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0063",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-676/2021/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0064",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-224/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0065",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-458/2023/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0066",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-812/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0067",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-910/2021/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0068",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-113/2021/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0069",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-737/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0070",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-643/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0071",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-803/2021/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0072",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-118/2020/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0073",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-297/2023/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0074",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-133/2024/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0075",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-804/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0076",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-017/2023/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0077",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-355/2024/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0078",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-913/2024/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0079",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-950/2022/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0080",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-328/2024/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0081",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-314/2024/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0082",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-558/2023/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0083",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-419/2020/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0084",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-094/2022/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0085",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-948/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0086",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-286/2025/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0087",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-019/2021/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0088",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-735/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0089",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-286/2021/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0090",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-104/2023/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0091",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-321/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0092",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-737/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0093",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-201/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0094",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-598/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0095",
+    "person_reference": "Vikram Rao",
+    "case_reference": "FIR-146/2020/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0096",
+    "person_reference": "Deepak Joshi",
+    "case_reference": "FIR-683/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S42-0097",
+    "person_reference": "Priya Bhatia",
+    "case_reference": "FIR-659/2020/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0098",
+    "person_reference": "Rohit Choudhury",
+    "case_reference": "FIR-200/2023/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S42-0099",
+    "person_reference": "Dhruv Bansal",
+    "case_reference": "FIR-212/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S42-0100",
+    "person_reference": "Lata Mukherjee",
+    "case_reference": "FIR-947/2025/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  }
+]

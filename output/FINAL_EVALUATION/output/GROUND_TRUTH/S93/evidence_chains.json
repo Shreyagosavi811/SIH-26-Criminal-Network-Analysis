@@ -1,0 +1,16 @@
+[
+  {
+    "chain_id": "EC-S03-001",
+    "claim": "SIM +91-9859756793 belongs to Deepak Chauhan post-June-2026",
+    "gt_edge_id": "S03-E002",
+    "supporting_record_ids": [
+      "CAF-S03-0002",
+      "CDR-S03-00010"
+    ],
+    "source_types": [
+      "telecom_caf_kyc.json",
+      "telecom_cdr_logs.csv"
+    ],
+    "source_diversity": 2
+  }
+]

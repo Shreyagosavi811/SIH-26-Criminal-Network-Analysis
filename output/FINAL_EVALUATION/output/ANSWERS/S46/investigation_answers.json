@@ -1,0 +1,266 @@
+[
+  {
+    "query_id": "QRY-S06-001",
+    "scenario_id": "S46",
+    "target_entities": [
+      "PER-S06-000",
+      "PER-S06-001",
+      "PER-S06-002"
+    ],
+    "entity_chain": [
+      {
+        "canonical_id": "PER-S06-000",
+        "entity_type": "PERSON",
+        "role_or_label": "SUSPECT_PRESENT",
+        "description": "CDR call + fund transfer + FIR"
+      },
+      {
+        "canonical_id": "PER-S06-001",
+        "entity_type": "PERSON",
+        "role_or_label": "SUSPECT_PRESENT",
+        "description": "CDR call + fund receipt"
+      },
+      {
+        "canonical_id": "PER-S06-002",
+        "entity_type": "PERSON",
+        "role_or_label": "SUSPECT_PRESENT",
+        "description": "Named in FIR + field notes"
+      }
+    ],
+    "relationship_graph": [
+      {
+        "edge_id": "S06-E001",
+        "source_entity": "PER-S06-000",
+        "target_entity": "PER-S06-001",
+        "relationship_type": "COMMUNICATES_WITH",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S06-00001"
+          },
+          {
+            "source": "cell_tower_dumps.json",
+            "record_id": "TDUMP-S06-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S06-E002",
+        "source_entity": "PER-S06-000",
+        "target_entity": "PER-S06-002",
+        "relationship_type": "MEETS_AT_TOWER",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "cell_tower_dumps.json",
+            "record_id": "TDUMP-S06-0001"
+          },
+          {
+            "source": "field_intelligence_notes.txt",
+            "record_id": "FNOTE-S06-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S06-E003",
+        "source_entity": "PER-S06-000",
+        "target_entity": "LOC-S06-000",
+        "relationship_type": "PRESENT_AT",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cell_tower_dumps.json",
+            "record_id": "TDUMP-S06-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S06-E004",
+        "source_entity": "PER-S06-001",
+        "target_entity": "LOC-S06-000",
+        "relationship_type": "PRESENT_AT",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cell_tower_dumps.json",
+            "record_id": "TDUMP-S06-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S06-E005",
+        "source_entity": "PER-S06-002",
+        "target_entity": "LOC-S06-000",
+        "relationship_type": "PRESENT_AT",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cell_tower_dumps.json",
+            "record_id": "TDUMP-S06-0001"
+          },
+          {
+            "source": "cctns_fir_records.json",
+            "record_id": "FIR-S06-001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S06-E006",
+        "source_entity": "PER-S06-000",
+        "target_entity": "ACC-S06-000",
+        "relationship_type": "OWNS_ACCOUNT",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S06-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S06-E007",
+        "source_entity": "PER-S06-000",
+        "target_entity": "ACC-S06-001",
+        "relationship_type": "TRANSFERS_FUNDS",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S06-00001"
+          },
+          {
+            "source": "fiu_str_alerts.json",
+            "record_id": "FIU-S06-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      }
+    ],
+    "supporting_evidence": [
+      {
+        "source": "telecom_cdr_logs.csv",
+        "record_id": "CDR-S06-00001"
+      },
+      {
+        "source": "cbs_bank_transactions.csv",
+        "record_id": "CBS-S06-00001"
+      },
+      {
+        "source": "cctns_fir_records.json",
+        "record_id": "FIR-S06-001"
+      }
+    ],
+    "timeline": [
+      {
+        "step": 1,
+        "event_id": "EVT-S06-001",
+        "timestamp": "2026-08-22T07:30:00Z",
+        "event_type": "TOWER_DUMP_WINDOW_START",
+        "description": "Tower TOWER-DL-CP-101 active. 122 MSISDNs present in window.",
+        "entity_ids": [
+          "PER-S06-000",
+          "PER-S06-001",
+          "PER-S06-002"
+        ],
+        "location_id": "LOC-S06-000",
+        "supporting_evidence_records": [
+          "TDUMP-S06-0001"
+        ]
+      },
+      {
+        "step": 2,
+        "event_id": "EVT-S06-002",
+        "timestamp": "2026-08-22T08:00:00Z",
+        "event_type": "SUSPECT_COMMUNICATION",
+        "description": "Nikhil Reddy calls Meena Pandey while at tower.",
+        "entity_ids": [
+          "PER-S06-000",
+          "PER-S06-001"
+        ],
+        "location_id": "LOC-S06-000",
+        "supporting_evidence_records": [
+          "CDR-S06-00001"
+        ]
+      },
+      {
+        "step": 3,
+        "event_id": "EVT-S06-003",
+        "timestamp": "2026-08-22T08:15:00Z",
+        "event_type": "MEETING_AT_TOWER",
+        "description": "Nikhil Reddy meets Ramesh Singh near tower location.",
+        "entity_ids": [
+          "PER-S06-000",
+          "PER-S06-002"
+        ],
+        "location_id": "LOC-S06-000",
+        "supporting_evidence_records": [
+          "FNOTE-S06-0001"
+        ]
+      },
+      {
+        "step": 4,
+        "event_id": "EVT-S06-004",
+        "timestamp": "2026-08-22T09:00:00Z",
+        "event_type": "CRIME_EVENT",
+        "description": "Snatching incident reported in vicinity.",
+        "entity_ids": [
+          "PER-S06-000",
+          "PER-S06-002"
+        ],
+        "location_id": "LOC-S06-000",
+        "supporting_evidence_records": [
+          "FIR-S06-001"
+        ]
+      },
+      {
+        "step": 5,
+        "event_id": "EVT-S06-005",
+        "timestamp": "2026-08-22T09:30:00Z",
+        "event_type": "FINANCIAL_ACTIVITY",
+        "description": "Nikhil Reddy transfers funds post-crime.",
+        "entity_ids": [
+          "PER-S06-000",
+          "PER-S06-001",
+          "ACC-S06-000",
+          "ACC-S06-001"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CBS-S06-00001",
+          "FIU-S06-0001"
+        ]
+      }
+    ],
+    "reasoning_summary": "Of 122 MSISDNs in tower dump, only 3 satisfy time+location+communication+event conditions: Nikhil Reddy, Meena Pandey, Ramesh Singh. 119 others are mere co-located commuters.",
+    "confidence": 0.9,
+    "alternative_hypotheses": [
+      "Any of the 117 distractor MSISDNs could superficially match if only tower co-location is used as the sole criterion."
+    ],
+    "false_positive_candidates": [
+      "PER-S06-003",
+      "PER-S06-004"
+    ],
+    "ground_truth_match": true
+  }
+]

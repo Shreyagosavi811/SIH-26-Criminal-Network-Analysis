@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S07-001",
+    "scenario_id": "S77",
+    "starting_entity": "PER-S07-000",
+    "starting_entity_type": "PERSON",
+    "time_window": {
+      "start": "2026-08-01T00:00:00Z",
+      "end": "2026-08-31T23:59:59Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Starting from Ankit Bhattacharya, reconstruct the complete criminal network. Evidence is fragmented across CDR, banking, and ANPR sources. Identify all 4 hops to the terminal entity.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "NETWORK_DISCOVERY"
+  }
+]

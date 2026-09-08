@@ -1,0 +1,211 @@
+[
+  {
+    "query_id": "QRY-S03-001",
+    "scenario_id": "S23",
+    "target_entities": [
+      "PER-S03-001"
+    ],
+    "entity_chain": [
+      {
+        "canonical_id": "PHN-S03-000",
+        "entity_type": "PHONE",
+        "role_or_label": "HISTORICAL_SIM_OWNER",
+        "description": "Original subscriber: Ankit Bhatia until May 2026"
+      },
+      {
+        "canonical_id": "PHN-S03-001",
+        "entity_type": "PHONE",
+        "role_or_label": "CURRENT_SIM_USER",
+        "description": "New subscriber: Ashok Choudhury from June 2026"
+      },
+      {
+        "canonical_id": "PER-S03-001",
+        "entity_type": "PERSON",
+        "role_or_label": "ACTIVE_SUSPECT",
+        "description": "Recycled SIM user with suspicious financial activity"
+      }
+    ],
+    "relationship_graph": [
+      {
+        "edge_id": "S03-E001",
+        "source_entity": "PER-S03-000",
+        "target_entity": "PHN-S03-000",
+        "relationship_type": "HISTORICALLY_OWNED",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "telecom_caf_kyc.json",
+            "record_id": "CAF-S03-0001"
+          }
+        ],
+        "ground_truth_confidence": 1.0,
+        "temporal_start": "2025-01-01T00:00:00Z",
+        "temporal_end": "2026-05-31T23:59:59Z"
+      },
+      {
+        "edge_id": "S03-E002",
+        "source_entity": "PER-S03-001",
+        "target_entity": "PHN-S03-001",
+        "relationship_type": "CURRENTLY_OWNS",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "telecom_caf_kyc.json",
+            "record_id": "CAF-S03-0002"
+          }
+        ],
+        "ground_truth_confidence": 1.0,
+        "temporal_start": "2026-06-01T00:00:00Z",
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S03-E003",
+        "source_entity": "PER-S03-001",
+        "target_entity": "PER-S03-002",
+        "relationship_type": "COMMUNICATES_WITH",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S03-00010"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S03-E005",
+        "source_entity": "PER-S03-001",
+        "target_entity": "ACC-S03-002",
+        "relationship_type": "TRANSFERS_TO",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S03-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      }
+    ],
+    "supporting_evidence": [
+      {
+        "source": "telecom_caf_kyc.json",
+        "record_id": "CAF-S03-0001"
+      },
+      {
+        "source": "telecom_caf_kyc.json",
+        "record_id": "CAF-S03-0002"
+      },
+      {
+        "source": "telecom_cdr_logs.csv",
+        "record_id": "CDR-S03-00010"
+      }
+    ],
+    "timeline": [
+      {
+        "step": 1,
+        "event_id": "EVT-S03-001",
+        "timestamp": "2026-01-15T10:00:00Z",
+        "event_type": "ORIGINAL_SIM_USAGE",
+        "description": "Original subscriber Ankit Bhatia uses +91-9866166793.",
+        "entity_ids": [
+          "PER-S03-000",
+          "PHN-S03-000"
+        ],
+        "location_id": "LOC-S03-000",
+        "supporting_evidence_records": [
+          "CDR-S03-00001"
+        ]
+      },
+      {
+        "step": 2,
+        "event_id": "EVT-S03-002",
+        "timestamp": "2026-05-31T23:59:59Z",
+        "event_type": "SIM_DEACTIVATION",
+        "description": "SIM +91-9866166793 deactivated under Ankit Bhatia.",
+        "entity_ids": [
+          "PER-S03-000",
+          "PHN-S03-000"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CAF-S03-0001"
+        ]
+      },
+      {
+        "step": 3,
+        "event_id": "EVT-S03-003",
+        "timestamp": "2026-06-01T09:00:00Z",
+        "event_type": "SIM_REASSIGNMENT",
+        "description": "Same MSISDN +91-9866166793 reissued. New subscriber activates.",
+        "entity_ids": [
+          "PER-S03-001",
+          "PHN-S03-001"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CAF-S03-0002"
+        ]
+      },
+      {
+        "step": 4,
+        "event_id": "EVT-S03-004",
+        "timestamp": "2026-08-10T11:00:00Z",
+        "event_type": "SUSPECT_CALL",
+        "description": "Recycled SIM user contacts associate Ajay Bansal.",
+        "entity_ids": [
+          "PER-S03-001",
+          "PER-S03-002"
+        ],
+        "location_id": "LOC-S03-001",
+        "supporting_evidence_records": [
+          "CDR-S03-00010"
+        ]
+      },
+      {
+        "step": 5,
+        "event_id": "EVT-S03-005",
+        "timestamp": "2026-08-10T14:00:00Z",
+        "event_type": "SUSPICIOUS_TRANSFER",
+        "description": "Funds transferred from recycled SIM user's account.",
+        "entity_ids": [
+          "PER-S03-001",
+          "ACC-S03-001",
+          "ACC-S03-002"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CBS-S03-00001"
+        ]
+      },
+      {
+        "step": 6,
+        "event_id": "EVT-S03-006",
+        "timestamp": "2026-08-10T14:30:00Z",
+        "event_type": "CO_LOCATION_NOISE",
+        "description": "Distractor Sunita Mukherjee in same tower, unrelated.",
+        "entity_ids": [
+          "PER-S03-003",
+          "PER-S03-001"
+        ],
+        "location_id": "LOC-S03-001",
+        "supporting_evidence_records": [
+          "TDUMP-S03-0001"
+        ]
+      }
+    ],
+    "reasoning_summary": "MSISDN +91-9866166793 was deactivated from Ankit Bhatia on 31-May-2026 and reissued to Ashok Choudhury on 01-Jun-2026. Historical 2025 CDRs belong to Ankit Bhatia. Post-June-2026 activity belongs to Ashok Choudhury. These are distinct persons.",
+    "confidence": 0.97,
+    "alternative_hypotheses": [
+      "Ankit Bhatia continued using the phone under a different registration."
+    ],
+    "false_positive_candidates": [
+      "PER-S03-000"
+    ],
+    "ground_truth_match": true
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SIH26189 Query & Expected Answer Schema",
+  "type": "object",
+  "definitions": {
+    "investigation_query": {
+      "type": "object",
+      "required": ["query_id", "scenario_id", "query_type", "starting_entity", "investigation_prompt"],
+      "properties": {
+        "query_id": { "type": "string" },
+        "scenario_id": { "type": "string" },
+        "query_type": { "type": "string" },
+        "starting_entity": {
+          "type": "object",
+          "required": ["entity_type", "identifier_key", "identifier_value"],
+          "properties": {
+            "entity_type": { "type": "string" },
+            "identifier_key": { "type": "string" },
+            "identifier_value": { "type": "string" }
+          }
+        },
+        "search_parameters": {
+          "type": "object",
+          "properties": {
+            "max_hops": { "type": "integer" },
+            "start_timestamp": { "type": "string" },
+            "end_timestamp": { "type": "string" }
+          }
+        },
+        "investigation_prompt": { "type": "string" }
+      }
+    },
+    "investigation_answer": {
+      "type": "object",
+      "required": ["query_id", "scenario_id", "evaluation_ground_truth"],
+      "properties": {
+        "query_id": { "type": "string" },
+        "scenario_id": { "type": "string" },
+        "evaluation_ground_truth": {
+          "type": "object",
+          "required": ["target_primary_suspect", "key_entities_in_chain", "relationship_graph", "intelligence_summary"],
+          "properties": {
+            "target_primary_suspect": {
+              "type": "object",
+              "properties": {
+                "canonical_id": { "type": "string" },
+                "resolved_name": { "type": "string" },
+                "role": { "type": "string" }
+              }
+            },
+            "key_entities_in_chain": { "type": "array" },
+            "relationship_graph": { "type": "array" },
+            "chronological_timeline": { "type": "array" },
+            "intelligence_summary": { "type": "string" },
+            "expected_confidence_score": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

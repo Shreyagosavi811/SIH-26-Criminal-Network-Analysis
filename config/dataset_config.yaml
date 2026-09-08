@@ -1,0 +1,75 @@
+# SIH26189 Synthetic Dataset Generator Configuration
+
+version: "1.0"
+project_name: "SIH26189_Criminal_Investigation_Dataset"
+
+global_settings:
+  random_seed: 42
+  time_horizon:
+    start_date: "2026-01-01T00:00:00Z"
+    end_date: "2026-08-25T23:59:59Z"
+  region: "INDIA"
+  locales: ["en_IN", "hi_IN"]
+
+preset_scales:
+  mvp:
+    total_scenarios: 5
+    ground_truth_entities: 50
+    noise_ratio: 0.75
+    records_per_source: 200
+    export_dir: "./output/mvp/"
+
+  demo:
+    total_scenarios: 25
+    ground_truth_entities: 350
+    noise_ratio: 0.90
+    records_per_source: 2500
+    export_dir: "./output/demo/"
+
+  final_eval:
+    total_scenarios: 100
+    ground_truth_entities: 2500
+    noise_ratio: 0.98
+    records_per_source: 50000
+    export_dir: "./output/final_eval/"
+
+source_databases:
+  - id: "cctns_fir_records"
+    format: "json"
+    noisy_fields: ["accused_mentioned.name", "complaint_summary"]
+  - id: "criminal_history_db"
+    format: "json"
+    noisy_fields: ["known_associates_unverified"]
+  - id: "telecom_cdr_logs"
+    format: "csv"
+    noisy_fields: ["cell_id", "duration_sec"]
+  - id: "telecom_caf_kyc"
+    format: "json"
+    noisy_fields: ["customer_name", "address_line"]
+  - id: "cbs_bank_transactions"
+    format: "csv"
+    noisy_fields: ["remarks"]
+  - id: "fiu_str_alerts"
+    format: "json"
+    noisy_fields: ["structuring_score"]
+  - id: "toll_anpr_logs"
+    format: "csv"
+    noisy_fields: ["vehicle_reg_no", "camera_conf"]
+  - id: "cell_tower_dumps"
+    format: "json"
+    noisy_fields: ["connected_msisdn_list"]
+  - id: "osint_social_posts"
+    format: "json"
+    noisy_fields: ["content_text", "handle"]
+  - id: "field_intelligence_notes"
+    format: "txt"
+    noisy_fields: ["raw_text"]
+
+validation_rules:
+  enable_spatial_speed_check: true
+  max_vehicle_speed_kmh: 120.0
+  max_flight_speed_kmh: 800.0
+  enable_temporal_causality_check: true
+  enable_balance_check: true
+  enable_co_location_check: true
+  enable_anti_leakage_check: true

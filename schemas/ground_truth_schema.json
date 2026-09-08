@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SIH26189 Ground Truth Manifest Schema",
+  "type": "object",
+  "required": ["scenario_id", "scenario_type", "master_timeline", "ground_truth_entities", "ground_truth_relationships"],
+  "properties": {
+    "scenario_id": { "type": "string" },
+    "scenario_name": { "type": "string" },
+    "scenario_type": { "type": "string" },
+    "master_timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["step", "timestamp", "event_type", "description"],
+        "properties": {
+          "step": { "type": "integer" },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "event_type": { "type": "string" },
+          "description": { "type": "string" },
+          "supporting_evidence_records": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "ground_truth_entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["canonical_id", "role_in_scenario"],
+        "properties": {
+          "canonical_id": { "type": "string" },
+          "real_name": { "type": "string" },
+          "role_in_scenario": { "type": "string" },
+          "associated_sources": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "ground_truth_relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["edge_id", "source_entity", "target_entity", "relationship_type", "is_direct_or_inferred", "evidence_path"],
+        "properties": {
+          "edge_id": { "type": "string" },
+          "source_entity": { "type": "string" },
+          "target_entity": { "type": "string" },
+          "relationship_type": { "type": "string" },
+          "is_direct_or_inferred": { "type": "string", "enum": ["DIRECT", "INFERRED"] },
+          "evidence_path": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["source", "record_id"],
+              "properties": {
+                "source": { "type": "string" },
+                "record_id": { "type": "string" }
+              }
+            }
+          },
+          "ground_truth_confidence": { "type": "number", "minimum": 0.0, "maximum": 1.0 }
+        }
+      }
+    }
+  }
+}

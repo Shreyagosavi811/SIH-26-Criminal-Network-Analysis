@@ -1,0 +1,290 @@
+{
+  "scenario_id": "S33",
+  "scenario_name": "Phone-Centric Recycled SIM Investigation",
+  "scenario_type": "PHONE_CENTRIC",
+  "master_timeline": [
+    {
+      "step": 1,
+      "event_id": "EVT-S03-001",
+      "timestamp": "2026-01-15T10:00:00Z",
+      "event_type": "ORIGINAL_SIM_USAGE",
+      "description": "Original subscriber Vikram Bhattacharya uses +91-9879536793.",
+      "entity_ids": [
+        "PER-S03-000",
+        "PHN-S03-000"
+      ],
+      "location_id": "LOC-S03-000",
+      "supporting_evidence_records": [
+        "CDR-S03-00001"
+      ]
+    },
+    {
+      "step": 2,
+      "event_id": "EVT-S03-002",
+      "timestamp": "2026-05-31T23:59:59Z",
+      "event_type": "SIM_DEACTIVATION",
+      "description": "SIM +91-9879536793 deactivated under Vikram Bhattacharya.",
+      "entity_ids": [
+        "PER-S03-000",
+        "PHN-S03-000"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CAF-S03-0001"
+      ]
+    },
+    {
+      "step": 3,
+      "event_id": "EVT-S03-003",
+      "timestamp": "2026-06-01T09:00:00Z",
+      "event_type": "SIM_REASSIGNMENT",
+      "description": "Same MSISDN +91-9879536793 reissued. New subscriber activates.",
+      "entity_ids": [
+        "PER-S03-001",
+        "PHN-S03-001"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CAF-S03-0002"
+      ]
+    },
+    {
+      "step": 4,
+      "event_id": "EVT-S03-004",
+      "timestamp": "2026-08-10T11:00:00Z",
+      "event_type": "SUSPECT_CALL",
+      "description": "Recycled SIM user contacts associate Neha Dixit.",
+      "entity_ids": [
+        "PER-S03-001",
+        "PER-S03-002"
+      ],
+      "location_id": "LOC-S03-001",
+      "supporting_evidence_records": [
+        "CDR-S03-00010"
+      ]
+    },
+    {
+      "step": 5,
+      "event_id": "EVT-S03-005",
+      "timestamp": "2026-08-10T14:00:00Z",
+      "event_type": "SUSPICIOUS_TRANSFER",
+      "description": "Funds transferred from recycled SIM user's account.",
+      "entity_ids": [
+        "PER-S03-001",
+        "ACC-S03-001",
+        "ACC-S03-002"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S03-00001"
+      ]
+    },
+    {
+      "step": 6,
+      "event_id": "EVT-S03-006",
+      "timestamp": "2026-08-10T14:30:00Z",
+      "event_type": "CO_LOCATION_NOISE",
+      "description": "Distractor Pradeep Jha in same tower, unrelated.",
+      "entity_ids": [
+        "PER-S03-003",
+        "PER-S03-001"
+      ],
+      "location_id": "LOC-S03-001",
+      "supporting_evidence_records": [
+        "TDUMP-S03-0001"
+      ]
+    }
+  ],
+  "ground_truth_entities": [
+    {
+      "canonical_id": "PER-S03-000",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Vikram Bhattacharya",
+      "associated_sources": [
+        "telecom_caf_kyc.json",
+        "telecom_cdr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S03-001",
+      "role_in_scenario": "MASTERMIND",
+      "real_name": "Deepak Chauhan",
+      "associated_sources": [
+        "telecom_caf_kyc.json",
+        "telecom_cdr_logs.csv",
+        "cbs_bank_transactions.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S03-002",
+      "role_in_scenario": "ASSOCIATE",
+      "real_name": "Neha Dixit",
+      "associated_sources": [
+        "telecom_cdr_logs.csv",
+        "cbs_bank_transactions.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S03-003",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Pradeep Jha",
+      "associated_sources": [
+        "cell_tower_dumps.json"
+      ]
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "edge_id": "S03-E001",
+      "source_entity": "PER-S03-000",
+      "target_entity": "PHN-S03-000",
+      "relationship_type": "HISTORICALLY_OWNED",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S03-0001"
+        }
+      ],
+      "ground_truth_confidence": 1.0,
+      "temporal_start": "2025-01-01T00:00:00Z",
+      "temporal_end": "2026-05-31T23:59:59Z"
+    },
+    {
+      "edge_id": "S03-E002",
+      "source_entity": "PER-S03-001",
+      "target_entity": "PHN-S03-001",
+      "relationship_type": "CURRENTLY_OWNS",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S03-0002"
+        }
+      ],
+      "ground_truth_confidence": 1.0,
+      "temporal_start": "2026-06-01T00:00:00Z",
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S03-E003",
+      "source_entity": "PER-S03-001",
+      "target_entity": "PER-S03-002",
+      "relationship_type": "COMMUNICATES_WITH",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S03-00010"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S03-E004",
+      "source_entity": "PER-S03-001",
+      "target_entity": "ACC-S03-001",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S03-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S03-E005",
+      "source_entity": "PER-S03-001",
+      "target_entity": "ACC-S03-002",
+      "relationship_type": "TRANSFERS_TO",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S03-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S03-E006",
+      "source_entity": "PER-S03-002",
+      "target_entity": "ACC-S03-002",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S03-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S03-E007",
+      "source_entity": "PER-S03-000",
+      "target_entity": "PER-S03-001",
+      "relationship_type": "SIM_RECYCLED_NOT_SAME_PERSON",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S03-0001"
+        },
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S03-0002"
+        }
+      ],
+      "ground_truth_confidence": 0.0,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S03-E008",
+      "source_entity": "PER-S03-003",
+      "target_entity": "LOC-S03-001",
+      "relationship_type": "CO_LOCATED_BENIGN",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cell_tower_dumps.json",
+          "record_id": "TDUMP-S03-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.05,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S03-E009",
+      "source_entity": "PER-S03-001",
+      "target_entity": "LOC-S03-001",
+      "relationship_type": "PRESENT_AT",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cell_tower_dumps.json",
+          "record_id": "TDUMP-S03-0001"
+        },
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S03-00010"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    }
+  ]
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "history_record_id": "CRIM-S19-0001",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-182/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0002",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-366/2021/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0003",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-827/2022/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0004",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-719/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0005",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-259/2021/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0006",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-174/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0007",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-128/2025/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0008",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-928/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0009",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-154/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0010",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-856/2022/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0011",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-364/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0012",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-423/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0013",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-415/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0014",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-647/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0015",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-411/2022/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0016",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-332/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0017",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-762/2024/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0018",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-558/2021/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0019",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-546/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0020",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-348/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0021",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-019/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0022",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-149/2022/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0023",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-948/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0024",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-483/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0025",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-562/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0026",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-435/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0027",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-069/2023/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0028",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-068/2023/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0029",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-197/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0030",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-454/2022/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0031",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-940/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0032",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-053/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0033",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-774/2021/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0034",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-084/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0035",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-203/2025/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0036",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-734/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0037",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-347/2022/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0038",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-510/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0039",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-223/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0040",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-416/2023/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0041",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-853/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0042",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-265/2023/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0043",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-795/2023/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0044",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-279/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0045",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-149/2020/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0046",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-603/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0047",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-925/2023/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0048",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-700/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0049",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-729/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0050",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-779/2025/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0051",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-719/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0052",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-845/2025/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0053",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-290/2023/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0054",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-314/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0055",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-251/2023/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0056",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-445/2022/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0057",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-747/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0058",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-446/2021/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0059",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-162/2022/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0060",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-600/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0061",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-280/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0062",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-044/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0063",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-848/2023/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0064",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-240/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0065",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-776/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0066",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-334/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0067",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-962/2022/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0068",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-964/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0069",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-666/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0070",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-519/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0071",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-671/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0072",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-350/2021/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0073",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-838/2022/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0074",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-830/2022/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0075",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-837/2020/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0076",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-783/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0077",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-698/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0078",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-960/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0079",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-616/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0080",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-857/2025/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0081",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-765/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0082",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-739/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0083",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-475/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0084",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-964/2022/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0085",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-707/2021/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0086",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-966/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0087",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-563/2023/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0088",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-932/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0089",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-404/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0090",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-057/2021/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0091",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-179/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0092",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-970/2025/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0093",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-584/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0094",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-625/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0095",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-452/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0096",
+    "person_reference": "Manoj Reddy",
+    "case_reference": "FIR-983/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S19-0097",
+    "person_reference": "Pooja Pandey",
+    "case_reference": "FIR-854/2023/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0098",
+    "person_reference": "Mohan Singh",
+    "case_reference": "FIR-012/2022/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S19-0099",
+    "person_reference": "Sumit Kapoor",
+    "case_reference": "FIR-713/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S19-0100",
+    "person_reference": "Priya Sharma",
+    "case_reference": "FIR-835/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  }
+]

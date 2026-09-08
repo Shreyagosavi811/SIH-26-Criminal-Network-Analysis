@@ -1,0 +1,24 @@
+[
+  {
+    "negative_id": "HN-S10-001",
+    "record_a_id": "PER-S10-000",
+    "record_b_id": "PER-S10-003",
+    "shared_features": [
+      "same_district",
+      "co_located_3_times",
+      "same_tower",
+      "similar_movement_pattern"
+    ],
+    "true_label": false
+  },
+  {
+    "negative_id": "HN-S10-002",
+    "record_a_id": "PER-S10-002",
+    "record_b_id": "PER-S10-004",
+    "shared_features": [
+      "similar_transaction_volume",
+      "same_bank_type"
+    ],
+    "true_label": false
+  }
+]

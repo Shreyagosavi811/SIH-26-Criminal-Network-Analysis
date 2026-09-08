@@ -1,0 +1,10 @@
+[
+  {
+    "hypothesis_id": "AH-S02-001",
+    "description": "Dhruv Dixit was primary suspect",
+    "supporting_features": [
+      "same_vehicle_type"
+    ],
+    "why_weaker": "No CDR calls to co-accused, no suspicious financial activity post-incident."
+  }
+]

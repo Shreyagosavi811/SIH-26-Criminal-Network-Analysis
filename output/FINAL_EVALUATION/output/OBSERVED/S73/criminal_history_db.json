@@ -1,0 +1,1002 @@
+[
+  {
+    "history_record_id": "CRIM-S73-0001",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-351/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0002",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-718/2025/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0003",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-372/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0004",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-953/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0005",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-899/2023/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0006",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-743/2025/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0007",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-792/2022/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0008",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-479/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0009",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-572/2020/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0010",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-914/2021/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0011",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-795/2021/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0012",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-548/2021/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0013",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-325/2020/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0014",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-186/2020/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0015",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-705/2025/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0016",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-502/2020/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0017",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-188/2021/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0018",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-724/2024/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0019",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-122/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0020",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-259/2020/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0021",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-136/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0022",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-401/2021/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0023",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-318/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0024",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-350/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0025",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-775/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0026",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-206/2021/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0027",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-648/2023/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0028",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-421/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0029",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-651/2022/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0030",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-226/2023/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0031",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-179/2023/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0032",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-666/2021/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0033",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-982/2023/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0034",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-860/2022/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0035",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-513/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0036",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-507/2023/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0037",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-246/2022/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0038",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-888/2022/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0039",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-913/2022/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0040",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-387/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0041",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-809/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0042",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-392/2023/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0043",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-562/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0044",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-195/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0045",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-508/2023/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0046",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-840/2021/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0047",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-037/2022/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0048",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-221/2021/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0049",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-120/2021/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0050",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-658/2025/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0051",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-842/2023/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0052",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-339/2020/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0053",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-087/2025/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0054",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-282/2024/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0055",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-996/2020/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0056",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-443/2025/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0057",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-789/2021/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0058",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-105/2024/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0059",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-983/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0060",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-863/2021/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0061",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-765/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0062",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-263/2021/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0063",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-787/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0064",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-689/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0065",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-460/2021/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0066",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-336/2022/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0067",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-910/2023/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0068",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-614/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0069",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-715/2023/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0070",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-364/2021/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0071",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-752/2020/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0072",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-529/2021/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0073",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-595/2023/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0074",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-896/2023/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0075",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-148/2021/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0076",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-169/2025/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0077",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-404/2020/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0078",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-132/2020/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0079",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-247/2022/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0080",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-586/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0081",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-501/2022/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0082",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-878/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0083",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-878/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0084",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-517/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0085",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-297/2021/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0086",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-273/2020/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0087",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-990/2024/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0088",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-679/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0089",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-827/2023/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0090",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-192/2020/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0091",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-409/2023/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0092",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-975/2024/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0093",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-167/2023/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0094",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-257/2022/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0095",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-741/2020/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0096",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-579/2025/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S73-0097",
+    "person_reference": "Vikram Reddy",
+    "case_reference": "FIR-318/2022/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0098",
+    "person_reference": "Deepak Pandey",
+    "case_reference": "FIR-572/2023/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S73-0099",
+    "person_reference": "Neha Singh",
+    "case_reference": "FIR-459/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S73-0100",
+    "person_reference": "Pradeep Kapoor",
+    "case_reference": "FIR-126/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  }
+]

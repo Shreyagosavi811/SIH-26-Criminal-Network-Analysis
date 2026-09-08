@@ -1,0 +1,30 @@
+[
+  {
+    "chain_id": "EC-S01-001",
+    "claim": "Nikhil Bhattacharya linked to Meena Chauhan",
+    "gt_edge_id": "S01-E002",
+    "supporting_record_ids": [
+      "CDR-S01-00001",
+      "FNOTE-S01-0001"
+    ],
+    "source_types": [
+      "telecom_cdr_logs.csv",
+      "field_intelligence_notes.txt"
+    ],
+    "source_diversity": 2
+  },
+  {
+    "chain_id": "EC-S01-002",
+    "claim": "Nikhil Bhattacharya routed funds via Ramesh Dixit",
+    "gt_edge_id": "S01-E005",
+    "supporting_record_ids": [
+      "CBS-S01-00002",
+      "FIU-S01-0001"
+    ],
+    "source_types": [
+      "cbs_bank_transactions.csv",
+      "fiu_str_alerts.json"
+    ],
+    "source_diversity": 2
+  }
+]

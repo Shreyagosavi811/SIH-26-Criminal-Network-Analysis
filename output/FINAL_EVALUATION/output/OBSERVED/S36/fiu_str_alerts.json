@@ -1,0 +1,1502 @@
+[
+  {
+    "alert_id": "FIU-S36-0001",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-22T07:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00001",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0002",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-22T10:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00002",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0003",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-22T13:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00003",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0004",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-22T16:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00004",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0005",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-22T19:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00005",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0006",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-22T22:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00006",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0007",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-23T01:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00007",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0008",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-23T04:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00008",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0009",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-23T07:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00009",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0010",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-23T10:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00010",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0011",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-23T13:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00011",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0012",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-23T16:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00012",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0013",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-23T19:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00013",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0014",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-23T22:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00014",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0015",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-24T01:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00015",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0016",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-24T04:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00016",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0017",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-24T07:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00017",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0018",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-24T10:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00018",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0019",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-24T13:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00019",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0020",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-24T16:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00020",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0021",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-24T19:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00021",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0022",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-24T22:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00022",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0023",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-25T01:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00023",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0024",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-25T04:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00024",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0025",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-25T07:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00025",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0026",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-25T10:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00026",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0027",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-25T13:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00027",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0028",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-25T16:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00028",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0029",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-25T19:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00029",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0030",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-25T22:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00030",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0031",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-26T01:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00031",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0032",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-26T04:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00032",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0033",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-26T07:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00033",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0034",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-26T10:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00034",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0035",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-26T13:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00035",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0036",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-26T16:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00036",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0037",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-26T19:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00037",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0038",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-26T22:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00038",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0039",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-27T01:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00039",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0040",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-27T04:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00040",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0041",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-27T07:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00041",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0042",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-27T10:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00042",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0043",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-27T13:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00043",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0044",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-27T16:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00044",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0045",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-27T19:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00045",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0046",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-27T22:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00046",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0047",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-28T01:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00047",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0048",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-28T04:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00048",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0049",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-28T07:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00049",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0050",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-28T10:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00050",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0051",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-28T13:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00051",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0052",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-28T16:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00052",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0053",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-28T19:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00053",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0054",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-28T22:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00054",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0055",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-29T01:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00055",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0056",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-29T04:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00056",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0057",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-29T07:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00057",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0058",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-29T10:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00058",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0059",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-29T13:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00059",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0060",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-29T16:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00060",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0061",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-29T19:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00061",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0062",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-29T22:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00062",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0063",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-30T01:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00063",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0064",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-30T04:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00064",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0065",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-30T07:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00065",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0066",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-30T10:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00066",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0067",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-30T13:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00067",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0068",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-30T16:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00068",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0069",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-30T19:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00069",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0070",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-30T22:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00070",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0071",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-31T01:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00071",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0072",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-31T04:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00072",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0073",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-31T07:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00073",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0074",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-31T10:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00074",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0075",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-31T13:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00075",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0076",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-31T16:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00076",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0077",
+    "account_id": "3789",
+    "alert_timestamp": "2026-08-31T19:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00077",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0078",
+    "account_id": "103792",
+    "alert_timestamp": "2026-08-31T22:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00078",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0079",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-01T01:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00079",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0080",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-01T04:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00080",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0081",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-01T07:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00081",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0082",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-01T10:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00082",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0083",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-01T13:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00083",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0084",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-01T16:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00084",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0085",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-01T19:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00085",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0086",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-01T22:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00086",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0087",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-02T01:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00087",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0088",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-02T04:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00088",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0089",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-02T07:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00089",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0090",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-02T10:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00090",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0091",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-02T13:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00091",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0092",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-02T16:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00092",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0093",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-02T19:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00093",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0094",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-02T22:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00094",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0095",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-03T01:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00095",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0096",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-03T04:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00096",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0097",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-03T07:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00097",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0098",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-03T10:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00098",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0099",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-03T13:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00099",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0100",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-03T16:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00100",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0101",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-03T19:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00101",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0102",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-03T22:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00102",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0103",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-04T01:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00103",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0104",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-04T04:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00104",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0105",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-04T07:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00105",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0106",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-04T10:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00106",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0107",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-04T13:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00107",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0108",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-04T16:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00108",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0109",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-04T19:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00109",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0110",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-04T22:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00110",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0111",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-05T01:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00111",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0112",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-05T04:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00112",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0113",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-05T07:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00113",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0114",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-05T10:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00114",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0115",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-05T13:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00115",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0116",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-05T16:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00116",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0117",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-05T19:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00117",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0118",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-05T22:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00118",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0119",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-06T01:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00119",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0120",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-06T04:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00120",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0121",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-06T07:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00121",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0122",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-06T10:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00122",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0123",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-06T13:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00123",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0124",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-06T16:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00124",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0125",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-06T19:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00125",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0126",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-06T22:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00126",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0127",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-07T01:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00127",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0128",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-07T04:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00128",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0129",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-07T07:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00129",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0130",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-07T10:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00130",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "STRUCTURING",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0131",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-07T13:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00131",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0132",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-07T16:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00132",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0133",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-07T19:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00133",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0134",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-07T22:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00134",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0135",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-08T01:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00135",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0136",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-08T04:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00136",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0137",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-08T07:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00137",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0138",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-08T10:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00138",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0139",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-08T13:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00139",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0140",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-08T16:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00140",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0141",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-08T19:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00141",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0142",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-08T22:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00142",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0143",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-09T01:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00143",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0144",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-09T04:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00144",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "STRUCTURING",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0145",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-09T07:30:00Z",
+    "alert_category": "RAPID_IN_OUT_LAYERING",
+    "transaction_reference": "CBS-S36-00145",
+    "reported_reason": "Unusual activity detected: rapid in out layering.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0146",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-09T10:30:00Z",
+    "alert_category": "STRUCTURING",
+    "transaction_reference": "CBS-S36-00146",
+    "reported_reason": "Unusual activity detected: structuring.",
+    "risk_indicator": "LARGE_CASH",
+    "status": "UNDER_REVIEW"
+  },
+  {
+    "alert_id": "FIU-S36-0147",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-09T13:30:00Z",
+    "alert_category": "ROUND_TRIPPING",
+    "transaction_reference": "CBS-S36-00147",
+    "reported_reason": "Unusual activity detected: round tripping.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0148",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-09T16:30:00Z",
+    "alert_category": "MULTIPLE_CASH_DEPOSITS",
+    "transaction_reference": "CBS-S36-00148",
+    "reported_reason": "Unusual activity detected: multiple cash deposits.",
+    "risk_indicator": "HIGH_VELOCITY_MOVEMENT",
+    "status": "OPEN"
+  },
+  {
+    "alert_id": "FIU-S36-0149",
+    "account_id": "3789",
+    "alert_timestamp": "2026-09-09T19:30:00Z",
+    "alert_category": "LARGE_AMOUNT_TRANSFER",
+    "transaction_reference": "CBS-S36-00149",
+    "reported_reason": "Unusual activity detected: large amount transfer.",
+    "risk_indicator": "STRUCTURING",
+    "status": "CLOSED"
+  },
+  {
+    "alert_id": "FIU-S36-0150",
+    "account_id": "103792",
+    "alert_timestamp": "2026-09-09T22:30:00Z",
+    "alert_category": "DORMANT_ACCOUNT_ACTIVITY",
+    "transaction_reference": "CBS-S36-00150",
+    "reported_reason": "Unusual activity detected: dormant account activity.",
+    "risk_indicator": "ROUND_TRIP",
+    "status": "UNDER_REVIEW"
+  }
+]

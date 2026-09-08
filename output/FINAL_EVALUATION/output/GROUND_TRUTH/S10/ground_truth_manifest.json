@@ -1,0 +1,403 @@
+{
+  "scenario_id": "S10",
+  "scenario_name": "False-Positive Discrimination (Taxi Driver vs Criminal)",
+  "scenario_type": "FALSE_POSITIVE_DISCRIMINATION",
+  "master_timeline": [
+    {
+      "step": 1,
+      "event_id": "EVT-S10-001",
+      "timestamp": "2026-08-10T09:00:00Z",
+      "event_type": "BURNER_ACTIVATION",
+      "description": "Priya Bhatia activates burner SIM.",
+      "entity_ids": [
+        "PER-S10-000",
+        "PHN-S10-000"
+      ],
+      "location_id": "LOC-S10-000",
+      "supporting_evidence_records": [
+        "CAF-S10-0001"
+      ]
+    },
+    {
+      "step": 2,
+      "event_id": "EVT-S10-002",
+      "timestamp": "2026-08-10T09:30:00Z",
+      "event_type": "TAXI_HIRED_COLOCATION_1",
+      "description": "Mastermind hires taxi driver Lata Mukherjee at Connaught Place Outer Circle.",
+      "entity_ids": [
+        "PER-S10-000",
+        "PER-S10-003",
+        "VEH-S10-003"
+      ],
+      "location_id": "LOC-S10-000",
+      "supporting_evidence_records": [
+        "TDUMP-S10-0001",
+        "ANPR-S10-00001"
+      ]
+    },
+    {
+      "step": 3,
+      "event_id": "EVT-S10-003",
+      "timestamp": "2026-08-10T10:30:00Z",
+      "event_type": "SUSPECT_CALLS_SPOTTER",
+      "description": "Priya Bhatia calls spotter Rohit Choudhury mid-journey.",
+      "entity_ids": [
+        "PER-S10-000",
+        "PER-S10-001"
+      ],
+      "location_id": "LOC-S10-000",
+      "supporting_evidence_records": [
+        "CDR-S10-00001"
+      ]
+    },
+    {
+      "step": 4,
+      "event_id": "EVT-S10-004",
+      "timestamp": "2026-08-10T11:00:00Z",
+      "event_type": "TAXI_COLOCATION_2",
+      "description": "Taxi drops mastermind at Kherki Daula Toll Plaza (toll). Both phones in same tower.",
+      "entity_ids": [
+        "PER-S10-000",
+        "PER-S10-003"
+      ],
+      "location_id": "LOC-S10-001",
+      "supporting_evidence_records": [
+        "ANPR-S10-00002",
+        "TDUMP-S10-0002"
+      ]
+    },
+    {
+      "step": 5,
+      "event_id": "EVT-S10-005",
+      "timestamp": "2026-08-10T11:45:00Z",
+      "event_type": "TAXI_CONTINUES_ROUTE",
+      "description": "Taxi driver Lata Mukherjee continues to next customer — alibi.",
+      "entity_ids": [
+        "PER-S10-003",
+        "VEH-S10-003"
+      ],
+      "location_id": "LOC-S10-002",
+      "supporting_evidence_records": [
+        "ANPR-S10-00003"
+      ]
+    },
+    {
+      "step": 6,
+      "event_id": "EVT-S10-006",
+      "timestamp": "2026-08-10T14:00:00Z",
+      "event_type": "CYBER_EXTORTION",
+      "description": "Extortion committed. Spotter Rohit Choudhury spotted near scene.",
+      "entity_ids": [
+        "PER-S10-000",
+        "PER-S10-001"
+      ],
+      "location_id": "LOC-S10-003",
+      "supporting_evidence_records": [
+        "FIR-S10-001",
+        "TDUMP-S10-0003",
+        "FNOTE-S10-0001"
+      ]
+    },
+    {
+      "step": 7,
+      "event_id": "EVT-S10-007",
+      "timestamp": "2026-08-10T14:30:00Z",
+      "event_type": "FUND_TRANSFER",
+      "description": "Extorted funds transferred to mule Dhruv Bansal.",
+      "entity_ids": [
+        "PER-S10-000",
+        "PER-S10-002",
+        "ACC-S10-000",
+        "ACC-S10-002"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S10-00001",
+        "CBS-S10-00002",
+        "FIU-S10-0001"
+      ]
+    },
+    {
+      "step": 8,
+      "event_id": "EVT-S10-008",
+      "timestamp": "2026-08-10T15:00:00Z",
+      "event_type": "TAXI_NORMAL_FARE",
+      "description": "Taxi driver completes 3 more commercial fares (digital wallet receipts).",
+      "entity_ids": [
+        "PER-S10-003"
+      ],
+      "location_id": "LOC-S10-004",
+      "supporting_evidence_records": [
+        "CBS-S10-00010",
+        "CBS-S10-00011",
+        "CBS-S10-00012"
+      ]
+    },
+    {
+      "step": 9,
+      "event_id": "EVT-S10-009",
+      "timestamp": "2026-08-10T16:00:00Z",
+      "event_type": "FIELD_INTELLIGENCE",
+      "description": "Field unit: taxi driver has 12 commercial fares today, all digital.",
+      "entity_ids": [
+        "PER-S10-003"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "FNOTE-S10-0002"
+      ]
+    },
+    {
+      "step": 10,
+      "event_id": "EVT-S10-010",
+      "timestamp": "2026-08-10T17:00:00Z",
+      "event_type": "BENIGN_BANK_TRANSFER",
+      "description": "Benign banker Vikram Rao — coincidental high-value transfer (salary).",
+      "entity_ids": [
+        "PER-S10-004",
+        "ACC-S10-004"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S10-00020"
+      ]
+    }
+  ],
+  "ground_truth_entities": [
+    {
+      "canonical_id": "PER-S10-000",
+      "role_in_scenario": "MASTERMIND",
+      "real_name": "Priya Bhatia",
+      "associated_sources": [
+        "telecom_caf_kyc.json",
+        "telecom_cdr_logs.csv",
+        "cbs_bank_transactions.csv",
+        "toll_anpr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S10-001",
+      "role_in_scenario": "SPOTTER",
+      "real_name": "Rohit Choudhury",
+      "associated_sources": [
+        "cctns_fir_records.json",
+        "telecom_cdr_logs.csv",
+        "field_intelligence_notes.txt"
+      ]
+    },
+    {
+      "canonical_id": "PER-S10-002",
+      "role_in_scenario": "MULE",
+      "real_name": "Dhruv Bansal",
+      "associated_sources": [
+        "telecom_caf_kyc.json",
+        "cbs_bank_transactions.csv",
+        "fiu_str_alerts.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S10-003",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Lata Mukherjee",
+      "associated_sources": [
+        "telecom_caf_kyc.json",
+        "toll_anpr_logs.csv",
+        "cell_tower_dumps.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S10-004",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Vikram Rao",
+      "associated_sources": [
+        "cbs_bank_transactions.csv"
+      ]
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "edge_id": "S10-E001",
+      "source_entity": "PER-S10-000",
+      "target_entity": "PHN-S10-000",
+      "relationship_type": "OWNS_BURNER_PHONE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S10-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E002",
+      "source_entity": "PER-S10-000",
+      "target_entity": "PER-S10-001",
+      "relationship_type": "COMMUNICATES_SPOTTER",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S10-00001"
+        },
+        {
+          "source": "field_intelligence_notes.txt",
+          "record_id": "FNOTE-S10-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E003",
+      "source_entity": "PER-S10-000",
+      "target_entity": "PER-S10-002",
+      "relationship_type": "FINANCIAL_CONDUIT",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S10-00001"
+        },
+        {
+          "source": "fiu_str_alerts.json",
+          "record_id": "FIU-S10-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E004",
+      "source_entity": "PER-S10-001",
+      "target_entity": "LOC-S10-003",
+      "relationship_type": "PRESENT_AT_CRIME",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S10-001"
+        },
+        {
+          "source": "cell_tower_dumps.json",
+          "record_id": "TDUMP-S10-0003"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E005",
+      "source_entity": "PER-S10-000",
+      "target_entity": "ACC-S10-000",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S10-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E006",
+      "source_entity": "PER-S10-002",
+      "target_entity": "ACC-S10-002",
+      "relationship_type": "MULE_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S10-00001"
+        },
+        {
+          "source": "fiu_str_alerts.json",
+          "record_id": "FIU-S10-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E007",
+      "source_entity": "PER-S10-003",
+      "target_entity": "PER-S10-000",
+      "relationship_type": "COMMERCIAL_TAXI_HIRE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S10-00001"
+        },
+        {
+          "source": "cell_tower_dumps.json",
+          "record_id": "TDUMP-S10-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.12,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E008",
+      "source_entity": "PER-S10-003",
+      "target_entity": "LOC-S10-002",
+      "relationship_type": "CONTINUES_COMMERCIAL_ROUTE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S10-00003"
+        }
+      ],
+      "ground_truth_confidence": 0.02,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E009",
+      "source_entity": "PER-S10-004",
+      "target_entity": "ACC-S10-004",
+      "relationship_type": "BENIGN_HIGH_VALUE_TXN",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S10-00020"
+        }
+      ],
+      "ground_truth_confidence": 0.02,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S10-E010",
+      "source_entity": "PER-S10-000",
+      "target_entity": "LOC-S10-003",
+      "relationship_type": "PRESENT_AT_CRIME",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cell_tower_dumps.json",
+          "record_id": "TDUMP-S10-0003"
+        },
+        {
+          "source": "field_intelligence_notes.txt",
+          "record_id": "FNOTE-S10-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    }
+  ]
+}

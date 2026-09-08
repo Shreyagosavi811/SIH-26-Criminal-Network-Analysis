@@ -1,0 +1,1002 @@
+[
+  {
+    "history_record_id": "CRIM-S48-0001",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-857/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0002",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-600/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0003",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-159/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0004",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-055/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0005",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-710/2023/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0006",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-867/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0007",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-188/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0008",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-683/2025/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0009",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-010/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0010",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-041/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0011",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-486/2020/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0012",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-568/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0013",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-609/2021/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0014",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-758/2024/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0015",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-144/2025/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0016",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-827/2023/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0017",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-880/2023/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0018",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-172/2023/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0019",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-981/2025/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0020",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-200/2023/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0021",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-588/2020/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0022",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-831/2022/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0023",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-590/2020/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0024",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-768/2025/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0025",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-885/2024/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0026",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-915/2020/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0027",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-977/2023/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0028",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-244/2022/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0029",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-409/2024/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0030",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-541/2021/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0031",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-561/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0032",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-788/2024/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0033",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-172/2021/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0034",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-404/2022/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0035",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-207/2020/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0036",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-872/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0037",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-586/2021/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0038",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-390/2021/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0039",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-383/2022/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0040",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-245/2024/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0041",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-667/2025/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0042",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-249/2022/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0043",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-928/2025/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0044",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-855/2021/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0045",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-573/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0046",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-484/2025/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0047",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-694/2022/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0048",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-129/2022/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0049",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-402/2024/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0050",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-341/2023/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0051",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-122/2024/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0052",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-818/2020/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0053",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-897/2021/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0054",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-239/2025/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0055",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-208/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0056",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-401/2023/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0057",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-435/2020/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0058",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-719/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0059",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-489/2020/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0060",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-878/2023/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0061",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-593/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0062",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-714/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0063",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-849/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0064",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-861/2025/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0065",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-128/2021/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0066",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-805/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0067",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-530/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0068",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-081/2025/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0069",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-109/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0070",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-026/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0071",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-818/2024/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0072",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-199/2024/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0073",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-826/2024/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0074",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-127/2024/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0075",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-686/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0076",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-095/2021/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0077",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-983/2020/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0078",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-320/2020/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0079",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-705/2024/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0080",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-274/2023/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0081",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-299/2024/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0082",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-677/2024/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0083",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-306/2023/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0084",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-505/2020/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2021,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0085",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-366/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0086",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-950/2024/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0087",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-310/2023/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0088",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-226/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0089",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-348/2024/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0090",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-880/2024/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0091",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-246/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0092",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-638/2024/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0093",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-677/2024/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0094",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-066/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0095",
+    "person_reference": "Manoj Rao",
+    "case_reference": "FIR-986/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0096",
+    "person_reference": "Rajesh Bhatia",
+    "case_reference": "FIR-999/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S48-0097",
+    "person_reference": "Ravi Bhatia",
+    "case_reference": "FIR-475/2022/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0098",
+    "person_reference": "Arjun Choudhury",
+    "case_reference": "FIR-024/2020/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S48-0099",
+    "person_reference": "Rekha Bansal",
+    "case_reference": "FIR-789/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S48-0100",
+    "person_reference": "Amit Mukherjee",
+    "case_reference": "FIR-690/2024/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  }
+]

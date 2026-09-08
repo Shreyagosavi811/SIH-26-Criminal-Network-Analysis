@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+
+# Frontend / Node
+node_modules/
+build/
+dist/
+.next/
+out/
+
+# SIH Investigation Engine - Local Qdrant DB
+output/qdrant_storage/
+
+# SIH Investigation Engine - Large Corpora
+output/RAG_CORPUS/corpus_full.jsonl
+output/RAG_CORPUS/corpus_small.jsonl
+output/RAG_CORPUS/checkpoints_*
+
+# SIH Investigation Engine - Temp Caches
+output/RAG_EVALUATION/*.sqlite
+output/RAG_BENCHMARK/*.sqlite
+scratch/
+
+# SIH Investigation Engine - Trackable directories explicitly allowed (not ignored)
+!output/FINAL_EVALUATION/
+!output/RAG_BENCHMARK/
+!output/RAG_EVALUATION/
+!output/REPORTS/

@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S04-001",
+    "scenario_id": "S54",
+    "starting_entity": "ACC-S04-000",
+    "starting_entity_type": "ACCOUNT",
+    "time_window": {
+      "start": "2026-08-01T00:00:00Z",
+      "end": "2026-08-31T23:59:59Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Starting from flagged account 3589, trace all downstream fund movements. Identify ultimate beneficiary and all intermediary accounts.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "FINANCIAL_LAYERING"
+  }
+]

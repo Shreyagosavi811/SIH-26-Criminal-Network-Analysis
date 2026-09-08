@@ -1,0 +1,1002 @@
+[
+  {
+    "history_record_id": "CRIM-S92-0001",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-868/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0002",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-423/2025/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0003",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-497/2021/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0004",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-571/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0005",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-074/2020/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0006",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-080/2022/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0007",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-583/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0008",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-176/2022/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0009",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-327/2024/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0010",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-668/2020/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0011",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-082/2020/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0012",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-117/2021/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0013",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-842/2020/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0014",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-473/2023/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0015",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-934/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0016",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-279/2025/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0017",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-221/2020/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0018",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-556/2020/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0019",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-053/2024/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0020",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-642/2020/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0021",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-246/2022/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0022",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-692/2023/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0023",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-889/2020/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0024",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-279/2022/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0025",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-784/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0026",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-114/2022/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0027",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-857/2020/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0028",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-892/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0029",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-369/2024/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0030",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-560/2024/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0031",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-426/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0032",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-406/2020/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0033",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-217/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0034",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-244/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0035",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-716/2024/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0036",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-789/2023/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0037",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-929/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0038",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-370/2020/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0039",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-512/2023/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0040",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-044/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0041",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-919/2024/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0042",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-574/2020/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0043",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-264/2020/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0044",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-722/2025/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0045",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-037/2020/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0046",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-843/2024/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0047",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-776/2022/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2020,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0048",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-374/2024/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0049",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-029/2023/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0050",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-400/2022/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0051",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-864/2020/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0052",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-185/2024/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0053",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-303/2024/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0054",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-531/2021/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0055",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-944/2021/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0056",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-455/2025/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0057",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-104/2023/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0058",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-452/2020/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0059",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-760/2023/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0060",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-816/2023/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0061",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-336/2025/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0062",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-171/2024/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0063",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-683/2025/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0064",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-707/2025/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0065",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-275/2021/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0066",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-419/2020/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0067",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-170/2021/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0068",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-451/2025/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0069",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-791/2021/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0070",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-669/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0071",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-604/2022/GA",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2022,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0072",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-429/2020/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0073",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-286/2025/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0074",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-910/2023/GU",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0075",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-957/2022/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0076",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-320/2022/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0077",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-328/2020/GA",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0078",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-536/2024/NE",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0079",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-469/2021/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0080",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-207/2022/GU",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0081",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-635/2025/SO",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0082",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-364/2025/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2021,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0083",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-400/2020/GA",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0084",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-630/2020/NE",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0085",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-393/2020/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2025,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0086",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-745/2020/GU",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "Gurugram",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0087",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-221/2024/SO",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0088",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-681/2023/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2022,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0089",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-274/2024/GA",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2024,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0090",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-780/2025/NE",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "New Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0091",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-086/2024/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2024,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0092",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-381/2023/GU",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2022,
+    "district": "Gurugram",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0093",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-516/2022/SO",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0094",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-328/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2025,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0095",
+    "person_reference": "Ankit Sharma",
+    "case_reference": "FIR-113/2022/GA",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2023,
+    "district": "Gautam Buddha Nagar",
+    "disposal_status": "PENDING_TRIAL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0096",
+    "person_reference": "Ashok Mishra",
+    "case_reference": "FIR-776/2021/NE",
+    "offence_category": "Cheating / Extortion",
+    "court_status": "ON_BAIL",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ON_BAIL"
+  },
+  {
+    "history_record_id": "CRIM-S92-0097",
+    "person_reference": "Nikhil Reddy",
+    "case_reference": "FIR-549/2023/NE",
+    "offence_category": "Vehicle Theft",
+    "court_status": "ACQUITTED",
+    "case_year": 2023,
+    "district": "New Delhi",
+    "disposal_status": "ACQUITTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0098",
+    "person_reference": "Meena Pandey",
+    "case_reference": "FIR-549/2022/GU",
+    "offence_category": "Narcotics Possession",
+    "court_status": "CONVICTED",
+    "case_year": 2025,
+    "district": "Gurugram",
+    "disposal_status": "CONVICTED"
+  },
+  {
+    "history_record_id": "CRIM-S92-0099",
+    "person_reference": "Ramesh Singh",
+    "case_reference": "FIR-644/2020/SO",
+    "offence_category": "Financial Fraud",
+    "court_status": "ABSCONDING",
+    "case_year": 2023,
+    "district": "South West Delhi",
+    "disposal_status": "ABSCONDING"
+  },
+  {
+    "history_record_id": "CRIM-S92-0100",
+    "person_reference": "Karan Kapoor",
+    "case_reference": "FIR-192/2023/SO",
+    "offence_category": "Robbery",
+    "court_status": "PENDING_TRIAL",
+    "case_year": 2020,
+    "district": "South West Delhi",
+    "disposal_status": "PENDING_TRIAL"
+  }
+]

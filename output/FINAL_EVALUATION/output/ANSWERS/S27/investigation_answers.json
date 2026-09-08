@@ -1,0 +1,208 @@
+[
+  {
+    "query_id": "QRY-S07-001",
+    "scenario_id": "S27",
+    "target_entities": [
+      "PER-S07-000",
+      "PER-S07-001",
+      "PER-S07-002",
+      "PER-S07-003",
+      "PER-S07-004"
+    ],
+    "entity_chain": [
+      {
+        "canonical_id": "PER-S07-000",
+        "entity_type": "PERSON",
+        "role_or_label": "HOP0_ORIGIN",
+        "description": "Starting point: Vikram Reddy"
+      },
+      {
+        "canonical_id": "PER-S07-001",
+        "entity_type": "PERSON",
+        "role_or_label": "HOP1_CDR",
+        "description": "Connected via CDR call"
+      },
+      {
+        "canonical_id": "ACC-S07-002",
+        "entity_type": "ACCOUNT",
+        "role_or_label": "HOP2_BANK",
+        "description": "Connected via fund transfer"
+      },
+      {
+        "canonical_id": "PER-S07-003",
+        "entity_type": "PERSON",
+        "role_or_label": "HOP3_VEHICLE",
+        "description": "Connected via vehicle co-presence"
+      },
+      {
+        "canonical_id": "PER-S07-004",
+        "entity_type": "PERSON",
+        "role_or_label": "HOP4_TERMINAL",
+        "description": "Terminal entity: Geeta Sharma"
+      }
+    ],
+    "relationship_graph": [
+      {
+        "edge_id": "S07-E002",
+        "source_entity": "PER-S07-000",
+        "target_entity": "PER-S07-001",
+        "relationship_type": "CALLS_HOP1",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S07-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S07-E004",
+        "source_entity": "ACC-S07-001",
+        "target_entity": "ACC-S07-002",
+        "relationship_type": "TRANSFERS_HOP2",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S07-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S07-E007",
+        "source_entity": "VEH-S07-002",
+        "target_entity": "PER-S07-003",
+        "relationship_type": "CO_PASSENGER_HOP3",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "toll_anpr_logs.csv",
+            "record_id": "ANPR-S07-00001"
+          },
+          {
+            "source": "field_intelligence_notes.txt",
+            "record_id": "FNOTE-S07-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S07-E008",
+        "source_entity": "PER-S07-003",
+        "target_entity": "PER-S07-004",
+        "relationship_type": "CALLS_HOP4",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S07-00002"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      }
+    ],
+    "supporting_evidence": [
+      {
+        "source": "telecom_cdr_logs.csv",
+        "record_id": "CDR-S07-00001"
+      },
+      {
+        "source": "cbs_bank_transactions.csv",
+        "record_id": "CBS-S07-00001"
+      },
+      {
+        "source": "toll_anpr_logs.csv",
+        "record_id": "ANPR-S07-00001"
+      },
+      {
+        "source": "telecom_cdr_logs.csv",
+        "record_id": "CDR-S07-00002"
+      }
+    ],
+    "timeline": [
+      {
+        "step": 1,
+        "event_id": "EVT-S07-001",
+        "timestamp": "2026-08-05T09:00:00Z",
+        "event_type": "HOP1_A_CALLS_B",
+        "description": "Vikram Reddy calls Deepak Pandey (1-hop).",
+        "entity_ids": [
+          "PER-S07-000",
+          "PER-S07-001"
+        ],
+        "location_id": "LOC-S07-000",
+        "supporting_evidence_records": [
+          "CDR-S07-00001"
+        ]
+      },
+      {
+        "step": 2,
+        "event_id": "EVT-S07-002",
+        "timestamp": "2026-08-06T10:00:00Z",
+        "event_type": "HOP2_B_TRANSFERS_TO_C_ACC",
+        "description": "Deepak Pandey transfers to Neha Singh account (2-hop).",
+        "entity_ids": [
+          "PER-S07-001",
+          "PER-S07-002",
+          "ACC-S07-001",
+          "ACC-S07-002"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CBS-S07-00001"
+        ]
+      },
+      {
+        "step": 3,
+        "event_id": "EVT-S07-003",
+        "timestamp": "2026-08-08T11:00:00Z",
+        "event_type": "HOP3_C_VEHICLE_WITH_D",
+        "description": "Neha Singh's vehicle seen with Pradeep Kapoor at toll (3-hop).",
+        "entity_ids": [
+          "PER-S07-002",
+          "PER-S07-003",
+          "VEH-S07-002"
+        ],
+        "location_id": "LOC-S07-001",
+        "supporting_evidence_records": [
+          "ANPR-S07-00001"
+        ]
+      },
+      {
+        "step": 4,
+        "event_id": "EVT-S07-004",
+        "timestamp": "2026-08-10T14:00:00Z",
+        "event_type": "HOP4_D_CALLS_E",
+        "description": "Pradeep Kapoor calls Geeta Sharma to coordinate (4-hop).",
+        "entity_ids": [
+          "PER-S07-003",
+          "PER-S07-004"
+        ],
+        "location_id": "LOC-S07-002",
+        "supporting_evidence_records": [
+          "CDR-S07-00002"
+        ]
+      }
+    ],
+    "reasoning_summary": "4-hop chain: Vikram Reddy→(CDR)→Deepak Pandey→(Bank)→Neha Singh→(Vehicle ANPR)→Pradeep Kapoor→(CDR)→Geeta Sharma. No single record shows full chain. Distractor path pX→pY uses similar source types but is disconnected.",
+    "confidence": 0.88,
+    "alternative_hypotheses": [
+      "Distractor path Suresh Mishra→Sanjay Chatterjee could appear to extend the true chain if graph traversal is not source-diverse."
+    ],
+    "false_positive_candidates": [
+      "PER-S07-005",
+      "PER-S07-006"
+    ],
+    "ground_truth_match": true
+  }
+]

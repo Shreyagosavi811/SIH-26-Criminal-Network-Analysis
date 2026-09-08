@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S01-001",
+    "scenario_id": "S21",
+    "starting_entity": "PER-S01-000",
+    "starting_entity_type": "PERSON",
+    "time_window": {
+      "start": "2026-08-15T00:00:00Z",
+      "end": "2026-08-17T23:59:59Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Starting from known individual Nikhil Bhattacharya, map all connected entities (phones, accounts, vehicles, associates) and determine criminal network structure.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "NETWORK_DISCOVERY"
+  }
+]

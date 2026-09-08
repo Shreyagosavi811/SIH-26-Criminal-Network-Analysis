@@ -1,0 +1,22 @@
+[
+  {
+    "negative_id": "HN-S07-001",
+    "record_a_id": "PER-S07-000",
+    "record_b_id": "PER-S07-005",
+    "shared_features": [
+      "same_call_pattern",
+      "same_network_operator"
+    ],
+    "true_label": false
+  },
+  {
+    "negative_id": "HN-S07-002",
+    "record_a_id": "PER-S07-004",
+    "record_b_id": "PER-S07-006",
+    "shared_features": [
+      "same_district",
+      "similar_transaction_volume"
+    ],
+    "true_label": false
+  }
+]

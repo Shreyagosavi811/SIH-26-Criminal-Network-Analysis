@@ -1,0 +1,10 @@
+[
+  {
+    "hypothesis_id": "AH-S04-001",
+    "description": "Distractor Vijay Sharma is part of layering chain",
+    "supporting_features": [
+      "similar_transaction_volume"
+    ],
+    "why_weaker": "Distractor account shows no time-correlated transfers with the main chain. No CDR link to other suspects."
+  }
+]

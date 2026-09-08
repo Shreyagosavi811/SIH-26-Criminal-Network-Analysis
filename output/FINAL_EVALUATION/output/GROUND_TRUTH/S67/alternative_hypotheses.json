@@ -1,0 +1,11 @@
+[
+  {
+    "hypothesis_id": "AH-S07-001",
+    "description": "Distractor Suresh Joshi is a 5th network member",
+    "supporting_features": [
+      "similar_call_patterns",
+      "same_district"
+    ],
+    "why_weaker": "Distractor has no account transfer link, no vehicle co-presence, and CDR timing does not correlate with true chain events."
+  }
+]

@@ -1,0 +1,296 @@
+{
+  "scenario_id": "S68",
+  "scenario_name": "Cross-Case Linkage (3 FIRs)",
+  "scenario_type": "CROSS_CASE_LINKAGE",
+  "master_timeline": [
+    {
+      "step": 1,
+      "event_id": "EVT-S08-001",
+      "timestamp": "2026-07-10T14:00:00Z",
+      "event_type": "FIR_001",
+      "description": "Case 1: Fraud by 'Ravi Reddy' in New Delhi.",
+      "entity_ids": [
+        "PER-S08-000",
+        "PER-S08-001"
+      ],
+      "location_id": "LOC-S08-000",
+      "supporting_evidence_records": [
+        "FIR-S08-001"
+      ]
+    },
+    {
+      "step": 2,
+      "event_id": "EVT-S08-002",
+      "timestamp": "2026-07-10T16:00:00Z",
+      "event_type": "VEHICLE_SIGHTING_CASE1",
+      "description": "Vehicle DL08WT6967 seen at Case-1 location.",
+      "entity_ids": [
+        "PER-S08-000",
+        "VEH-S08-000"
+      ],
+      "location_id": "LOC-S08-000",
+      "supporting_evidence_records": [
+        "ANPR-S08-00001"
+      ]
+    },
+    {
+      "step": 3,
+      "event_id": "EVT-S08-003",
+      "timestamp": "2026-07-25T10:00:00Z",
+      "event_type": "FIR_002",
+      "description": "Case 2: Extortion by 'R. Reddy' in South West Delhi.",
+      "entity_ids": [
+        "PER-S08-000",
+        "PER-S08-002"
+      ],
+      "location_id": "LOC-S08-002",
+      "supporting_evidence_records": [
+        "FIR-S08-002"
+      ]
+    },
+    {
+      "step": 4,
+      "event_id": "EVT-S08-004",
+      "timestamp": "2026-07-25T11:30:00Z",
+      "event_type": "PHONE_TRACE_CASE2",
+      "description": "Phone +91-9827000293 traced near Case-2 scene.",
+      "entity_ids": [
+        "PER-S08-000",
+        "PHN-S08-000"
+      ],
+      "location_id": "LOC-S08-002",
+      "supporting_evidence_records": [
+        "CDR-S08-00001",
+        "TDUMP-S08-0001"
+      ]
+    },
+    {
+      "step": 5,
+      "event_id": "EVT-S08-005",
+      "timestamp": "2026-08-15T13:00:00Z",
+      "event_type": "FIR_003",
+      "description": "Case 3: Robbery by 'Ravi Red.' in Gautam Buddha Nagar.",
+      "entity_ids": [
+        "PER-S08-000",
+        "PER-S08-003"
+      ],
+      "location_id": "LOC-S08-004",
+      "supporting_evidence_records": [
+        "FIR-S08-003"
+      ]
+    },
+    {
+      "step": 6,
+      "event_id": "EVT-S08-006",
+      "timestamp": "2026-08-15T14:00:00Z",
+      "event_type": "VEHICLE_SIGHTING_CASE3",
+      "description": "Same vehicle DL08WT6967 at Case-3 location.",
+      "entity_ids": [
+        "PER-S08-000",
+        "VEH-S08-000"
+      ],
+      "location_id": "LOC-S08-004",
+      "supporting_evidence_records": [
+        "ANPR-S08-00002"
+      ]
+    }
+  ],
+  "ground_truth_entities": [
+    {
+      "canonical_id": "PER-S08-000",
+      "role_in_scenario": "MASTERMIND",
+      "real_name": "Ravi Reddy",
+      "associated_sources": [
+        "cctns_fir_records.json",
+        "telecom_caf_kyc.json",
+        "toll_anpr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S08-001",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Arjun Pandey",
+      "associated_sources": [
+        "cctns_fir_records.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S08-002",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Rekha Singh",
+      "associated_sources": [
+        "cctns_fir_records.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S08-003",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Amit Kapoor",
+      "associated_sources": [
+        "cctns_fir_records.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S08-004",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Manoj Sharma",
+      "associated_sources": [
+        "cctns_fir_records.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S08-005",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Rajesh Reddy",
+      "associated_sources": [
+        "cctns_fir_records.json"
+      ]
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "edge_id": "S08-E001",
+      "source_entity": "PER-S08-000",
+      "target_entity": "FIR-S08-001",
+      "relationship_type": "ACCUSED_IN",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S08-001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S08-E002",
+      "source_entity": "PER-S08-000",
+      "target_entity": "FIR-S08-002",
+      "relationship_type": "ACCUSED_IN",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S08-002"
+        },
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S08-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S08-E003",
+      "source_entity": "PER-S08-000",
+      "target_entity": "FIR-S08-003",
+      "relationship_type": "ACCUSED_IN",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S08-003"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S08-E004",
+      "source_entity": "PER-S08-000",
+      "target_entity": "PHN-S08-000",
+      "relationship_type": "OWNS_PHONE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S08-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S08-E005",
+      "source_entity": "PER-S08-000",
+      "target_entity": "VEH-S08-000",
+      "relationship_type": "OWNS_VEHICLE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S08-00001"
+        },
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S08-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S08-E006",
+      "source_entity": "FIR-S08-001",
+      "target_entity": "FIR-S08-002",
+      "relationship_type": "CROSS_CASE_VEHICLE_LINK",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S08-00001"
+        },
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S08-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.85,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S08-E007",
+      "source_entity": "FIR-S08-002",
+      "target_entity": "FIR-S08-003",
+      "relationship_type": "CROSS_CASE_VEHICLE_LINK",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S08-00002"
+        },
+        {
+          "source": "cell_tower_dumps.json",
+          "record_id": "TDUMP-S08-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.85,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S08-E008",
+      "source_entity": "PER-S08-005",
+      "target_entity": "FIR-S08-001",
+      "relationship_type": "WITNESS_IN",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S08-001"
+        }
+      ],
+      "ground_truth_confidence": 0.05,
+      "temporal_start": null,
+      "temporal_end": null
+    }
+  ]
+}

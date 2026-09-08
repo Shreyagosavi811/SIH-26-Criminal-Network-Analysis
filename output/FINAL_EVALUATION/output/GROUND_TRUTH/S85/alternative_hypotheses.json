@@ -1,0 +1,10 @@
+[
+  {
+    "hypothesis_id": "AH-S05-001",
+    "description": "Legitimate owner Manoj Bhattacharya committed crime using own vehicle",
+    "supporting_features": [
+      "same_plate"
+    ],
+    "why_weaker": "Alibi confirmed. Legitimate vehicle sighted in New Delhi at same timestamp as crime in Gurugram — physically impossible."
+  }
+]

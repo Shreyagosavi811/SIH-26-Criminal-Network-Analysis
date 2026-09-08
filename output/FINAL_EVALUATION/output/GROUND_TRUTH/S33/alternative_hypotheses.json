@@ -1,0 +1,10 @@
+[
+  {
+    "hypothesis_id": "AH-S03-001",
+    "description": "Historical 2025 activity (Vikram Bhattacharya) merged with 2026 suspect activity",
+    "supporting_features": [
+      "same_msisdn"
+    ],
+    "why_weaker": "CAF records show distinct IMEI change and different address at activation. Temporal boundary at 31-May-2026."
+  }
+]

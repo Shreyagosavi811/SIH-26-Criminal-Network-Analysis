@@ -1,0 +1,11 @@
+[
+  {
+    "hypothesis_id": "AH-S01-001",
+    "description": "Distractor Nikhil Shah mistaken for target due to name similarity",
+    "supporting_features": [
+      "same_first_name",
+      "same_district"
+    ],
+    "why_weaker": "Distractor has no CDR calls to associates, no suspicious transactions, no ANPR sightings at crime locations."
+  }
+]

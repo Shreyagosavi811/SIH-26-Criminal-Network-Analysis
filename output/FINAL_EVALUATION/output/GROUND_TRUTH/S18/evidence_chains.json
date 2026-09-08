@@ -1,0 +1,20 @@
+[
+  {
+    "chain_id": "EC-S08-001",
+    "claim": "FIR-001 and FIR-002 linked via Geeta Bhatia",
+    "gt_edge_id": "S08-E006",
+    "supporting_record_ids": [
+      "FIR-S08-001",
+      "FIR-S08-002",
+      "ANPR-S08-00001",
+      "CDR-S08-00001"
+    ],
+    "source_types": [
+      "cctns_fir_records.json",
+      "cctns_fir_records.json",
+      "toll_anpr_logs.csv",
+      "telecom_cdr_logs.csv"
+    ],
+    "source_diversity": 3
+  }
+]

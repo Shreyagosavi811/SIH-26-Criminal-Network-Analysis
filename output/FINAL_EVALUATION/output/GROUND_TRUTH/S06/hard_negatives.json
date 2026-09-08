@@ -1,0 +1,22 @@
+[
+  {
+    "negative_id": "HN-S06-001",
+    "record_a_id": "+91-9843838893",
+    "record_b_id": "PER-S06-003",
+    "shared_features": [
+      "same_tower",
+      "same_time_window"
+    ],
+    "true_label": false
+  },
+  {
+    "negative_id": "HN-S06-002",
+    "record_a_id": "PER-S06-001",
+    "record_b_id": "PER-S06-004",
+    "shared_features": [
+      "same_tower",
+      "same_time_window"
+    ],
+    "true_label": false
+  }
+]

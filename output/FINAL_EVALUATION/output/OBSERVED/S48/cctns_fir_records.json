@@ -1,0 +1,4202 @@
+[
+  {
+    "fir_no": "FIR-100/2026/NE",
+    "police_station": "New Delhi PS",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-01T00:00:00Z",
+    "registration_datetime": "2026-07-01T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Rajesh Bhatia",
+      "phone": "+91-9800265828"
+    },
+    "accused_persons": [
+      {
+        "name": "Ravi Bhati",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Connaught Place Outer Circle",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4000)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-101/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-02T00:00:00Z",
+    "registration_datetime": "2026-07-02T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-2",
+      "phone": "+91-9824845099"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-2, South Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4001)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-102/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-03T00:00:00Z",
+    "registration_datetime": "2026-07-03T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-3",
+      "phone": "+91-9817272843"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-3, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4002)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-103/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-04T00:00:00Z",
+    "registration_datetime": "2026-07-04T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-4",
+      "phone": "+91-9818889232"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-4, New Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4003)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-104/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-05T00:00:00Z",
+    "registration_datetime": "2026-07-05T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-5",
+      "phone": "+91-9836301745"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-5, West Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4004)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-105/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-06T00:00:00Z",
+    "registration_datetime": "2026-07-06T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-6",
+      "phone": "+91-9863545826"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-6, Gurugram",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4005)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-106/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-07T00:00:00Z",
+    "registration_datetime": "2026-07-07T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-7",
+      "phone": "+91-9893455247"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-7, Gurugram",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4006)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-107/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-08T00:00:00Z",
+    "registration_datetime": "2026-07-08T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-8",
+      "phone": "+91-9841131317"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-8, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4007)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-108/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-09T00:00:00Z",
+    "registration_datetime": "2026-07-09T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-9",
+      "phone": "+91-9856444824"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-9, Noida",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4008)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-109/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-10T00:00:00Z",
+    "registration_datetime": "2026-07-10T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-10",
+      "phone": "+91-9821435439"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-10, East Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4009)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-110/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-11T00:00:00Z",
+    "registration_datetime": "2026-07-11T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-11",
+      "phone": "+91-9849906677"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-11, Noida",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4010)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-111/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-12T00:00:00Z",
+    "registration_datetime": "2026-07-12T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-12",
+      "phone": "+91-9891885695"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-12, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4011)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-112/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-13T00:00:00Z",
+    "registration_datetime": "2026-07-13T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-13",
+      "phone": "+91-9864893847"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-13, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4012)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-113/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-14T00:00:00Z",
+    "registration_datetime": "2026-07-14T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-14",
+      "phone": "+91-9869205887"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-14, New Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4013)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-114/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-15T00:00:00Z",
+    "registration_datetime": "2026-07-15T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-15",
+      "phone": "+91-9893422151"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-15, East Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4014)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-115/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-16T00:00:00Z",
+    "registration_datetime": "2026-07-16T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-16",
+      "phone": "+91-9881885270"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-16, West Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4015)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-116/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-17T00:00:00Z",
+    "registration_datetime": "2026-07-17T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-17",
+      "phone": "+91-9887956558"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-17, Noida",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4016)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-117/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-18T00:00:00Z",
+    "registration_datetime": "2026-07-18T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-18",
+      "phone": "+91-9877823276"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-18, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4017)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-118/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-19T00:00:00Z",
+    "registration_datetime": "2026-07-19T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-19",
+      "phone": "+91-9886969222"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-19, East Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4018)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-119/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-20T00:00:00Z",
+    "registration_datetime": "2026-07-20T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-20",
+      "phone": "+91-9886673635"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-20, West Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4019)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-120/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-21T00:00:00Z",
+    "registration_datetime": "2026-07-21T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-21",
+      "phone": "+91-9835033768"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-21, West Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4020)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-121/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-22T00:00:00Z",
+    "registration_datetime": "2026-07-22T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-22",
+      "phone": "+91-9858492041"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-22, East Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4021)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-122/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-23T00:00:00Z",
+    "registration_datetime": "2026-07-23T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-23",
+      "phone": "+91-9846709959"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-23, Noida",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4022)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-123/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-24T00:00:00Z",
+    "registration_datetime": "2026-07-24T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-24",
+      "phone": "+91-9881062501"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-24, Noida",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4023)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-124/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-25T00:00:00Z",
+    "registration_datetime": "2026-07-25T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-25",
+      "phone": "+91-9821174439"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-25, Noida",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4024)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-125/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-26T00:00:00Z",
+    "registration_datetime": "2026-07-26T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-26",
+      "phone": "+91-9822936764"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-26, East Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4025)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-126/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-27T00:00:00Z",
+    "registration_datetime": "2026-07-27T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-27",
+      "phone": "+91-9838813220"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-27, South Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4026)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-127/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-28T00:00:00Z",
+    "registration_datetime": "2026-07-28T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-28",
+      "phone": "+91-9813678932"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-28, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4027)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-128/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-29T00:00:00Z",
+    "registration_datetime": "2026-07-29T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-29",
+      "phone": "+91-9854885219"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-29, South Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4028)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-129/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-30T00:00:00Z",
+    "registration_datetime": "2026-07-30T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-30",
+      "phone": "+91-9855872365"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-30, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4029)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-130/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-07-31T00:00:00Z",
+    "registration_datetime": "2026-07-31T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-31",
+      "phone": "+91-9813691714"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-31, Noida",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4030)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-131/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-01T00:00:00Z",
+    "registration_datetime": "2026-08-01T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-32",
+      "phone": "+91-9827168703"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-32, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4031)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-132/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-02T00:00:00Z",
+    "registration_datetime": "2026-08-02T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-33",
+      "phone": "+91-9898988782"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-33, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4032)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-133/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-03T00:00:00Z",
+    "registration_datetime": "2026-08-03T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-34",
+      "phone": "+91-9875638830"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-34, South Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4033)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-134/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-04T00:00:00Z",
+    "registration_datetime": "2026-08-04T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-35",
+      "phone": "+91-9851731277"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-35, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4034)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-135/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-05T00:00:00Z",
+    "registration_datetime": "2026-08-05T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-36",
+      "phone": "+91-9876204999"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-36, South Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4035)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-136/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-06T00:00:00Z",
+    "registration_datetime": "2026-08-06T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-37",
+      "phone": "+91-9877939114"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-37, South Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4036)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-137/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-07T00:00:00Z",
+    "registration_datetime": "2026-08-07T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-38",
+      "phone": "+91-9823641049"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-38, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4037)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-138/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-08T00:00:00Z",
+    "registration_datetime": "2026-08-08T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-39",
+      "phone": "+91-9860619024"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-39, Gurugram",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4038)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-139/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-09T00:00:00Z",
+    "registration_datetime": "2026-08-09T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-40",
+      "phone": "+91-9830541246"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-40, New Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4039)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-140/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-10T00:00:00Z",
+    "registration_datetime": "2026-08-10T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-41",
+      "phone": "+91-9868748093"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-41, New Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4040)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-141/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-11T00:00:00Z",
+    "registration_datetime": "2026-08-11T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-42",
+      "phone": "+91-9885746015"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-42, West Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4041)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-142/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-12T00:00:00Z",
+    "registration_datetime": "2026-08-12T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-43",
+      "phone": "+91-9820728078"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-43, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4042)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-143/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-13T00:00:00Z",
+    "registration_datetime": "2026-08-13T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-44",
+      "phone": "+91-9872237046"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-44, New Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4043)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-144/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-14T00:00:00Z",
+    "registration_datetime": "2026-08-14T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-45",
+      "phone": "+91-9884196853"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-45, New Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4044)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-145/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-15T00:00:00Z",
+    "registration_datetime": "2026-08-15T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-46",
+      "phone": "+91-9836477694"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-46, Gurugram",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4045)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-146/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-16T00:00:00Z",
+    "registration_datetime": "2026-08-16T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-47",
+      "phone": "+91-9835696214"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-47, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4046)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-147/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-17T00:00:00Z",
+    "registration_datetime": "2026-08-17T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-48",
+      "phone": "+91-9886043860"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-48, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4047)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-148/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-18T00:00:00Z",
+    "registration_datetime": "2026-08-18T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-49",
+      "phone": "+91-9892471624"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-49, West Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4048)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-149/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-19T00:00:00Z",
+    "registration_datetime": "2026-08-19T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-50",
+      "phone": "+91-9879872439"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-50, West Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4049)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-150/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-20T00:00:00Z",
+    "registration_datetime": "2026-08-20T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-51",
+      "phone": "+91-9856624684"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-51, Gurugram",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4050)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-151/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-21T00:00:00Z",
+    "registration_datetime": "2026-08-21T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-52",
+      "phone": "+91-9848805589"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-52, South Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4051)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-152/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-22T00:00:00Z",
+    "registration_datetime": "2026-08-22T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-53",
+      "phone": "+91-9829892326"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-53, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4052)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-153/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-23T00:00:00Z",
+    "registration_datetime": "2026-08-23T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-54",
+      "phone": "+91-9875537948"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-54, West Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4053)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-154/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-24T00:00:00Z",
+    "registration_datetime": "2026-08-24T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-55",
+      "phone": "+91-9831612028"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-55, Noida",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4054)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-155/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-25T00:00:00Z",
+    "registration_datetime": "2026-08-25T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-56",
+      "phone": "+91-9867753618"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-56, New Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4055)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-156/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-26T00:00:00Z",
+    "registration_datetime": "2026-08-26T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-57",
+      "phone": "+91-9875476179"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-57, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4056)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-157/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-27T00:00:00Z",
+    "registration_datetime": "2026-08-27T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-58",
+      "phone": "+91-9887382645"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-58, Gurugram",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4057)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-158/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-28T00:00:00Z",
+    "registration_datetime": "2026-08-28T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-59",
+      "phone": "+91-9884976414"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-59, Noida",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4058)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-159/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-29T00:00:00Z",
+    "registration_datetime": "2026-08-29T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-60",
+      "phone": "+91-9890920818"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-60, Noida",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4059)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-160/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-30T00:00:00Z",
+    "registration_datetime": "2026-08-30T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-61",
+      "phone": "+91-9893210744"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-61, New Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4060)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-161/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-08-31T00:00:00Z",
+    "registration_datetime": "2026-08-31T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-62",
+      "phone": "+91-9822528625"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-62, Noida",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4061)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-162/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-01T00:00:00Z",
+    "registration_datetime": "2026-09-01T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-63",
+      "phone": "+91-9855061736"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-63, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4062)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-163/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-02T00:00:00Z",
+    "registration_datetime": "2026-09-02T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-64",
+      "phone": "+91-9897617854"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-64, Gurugram",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4063)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-164/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-03T00:00:00Z",
+    "registration_datetime": "2026-09-03T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-65",
+      "phone": "+91-9821321685"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-65, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4064)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-165/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-04T00:00:00Z",
+    "registration_datetime": "2026-09-04T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-66",
+      "phone": "+91-9818242679"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-66, West Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4065)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-166/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-05T00:00:00Z",
+    "registration_datetime": "2026-09-05T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-67",
+      "phone": "+91-9854886897"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-67, Gurugram",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4066)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-167/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-06T00:00:00Z",
+    "registration_datetime": "2026-09-06T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-68",
+      "phone": "+91-9824099530"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-68, East Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4067)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-168/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-07T00:00:00Z",
+    "registration_datetime": "2026-09-07T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-69",
+      "phone": "+91-9882120969"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-69, West Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4068)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-169/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-08T00:00:00Z",
+    "registration_datetime": "2026-09-08T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-70",
+      "phone": "+91-9824750250"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-70, Gurugram",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4069)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-170/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-09T00:00:00Z",
+    "registration_datetime": "2026-09-09T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-71",
+      "phone": "+91-9837725642"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-71, West Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4070)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-171/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-10T00:00:00Z",
+    "registration_datetime": "2026-09-10T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-72",
+      "phone": "+91-9881610709"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-72, West Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4071)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-172/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-11T00:00:00Z",
+    "registration_datetime": "2026-09-11T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-73",
+      "phone": "+91-9860470830"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-73, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4072)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-173/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-12T00:00:00Z",
+    "registration_datetime": "2026-09-12T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-74",
+      "phone": "+91-9881919790"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-74, New Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4073)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-174/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-13T00:00:00Z",
+    "registration_datetime": "2026-09-13T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-75",
+      "phone": "+91-9841230764"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-75, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4074)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-175/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-14T00:00:00Z",
+    "registration_datetime": "2026-09-14T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-76",
+      "phone": "+91-9844974582"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-76, East Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4075)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-176/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-15T00:00:00Z",
+    "registration_datetime": "2026-09-15T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-77",
+      "phone": "+91-9880860426"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-77, Gurugram",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4076)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-177/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-16T00:00:00Z",
+    "registration_datetime": "2026-09-16T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-78",
+      "phone": "+91-9884849064"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-78, East Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4077)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-178/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-17T00:00:00Z",
+    "registration_datetime": "2026-09-17T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-79",
+      "phone": "+91-9899473058"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-79, Gurugram",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4078)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-179/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-18T00:00:00Z",
+    "registration_datetime": "2026-09-18T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-80",
+      "phone": "+91-9816701930"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-80, Noida",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4079)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-180/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-19T00:00:00Z",
+    "registration_datetime": "2026-09-19T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-81",
+      "phone": "+91-9839201783"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-81, West Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4080)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-181/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-20T00:00:00Z",
+    "registration_datetime": "2026-09-20T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-82",
+      "phone": "+91-9866262423"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-82, West Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4081)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-182/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-21T00:00:00Z",
+    "registration_datetime": "2026-09-21T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-83",
+      "phone": "+91-9856646540"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-83, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4082)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-183/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-22T00:00:00Z",
+    "registration_datetime": "2026-09-22T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-84",
+      "phone": "+91-9887016081"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-84, Gurugram",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4083)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-184/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-23T00:00:00Z",
+    "registration_datetime": "2026-09-23T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-85",
+      "phone": "+91-9882194538"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-85, East Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4084)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-185/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-24T00:00:00Z",
+    "registration_datetime": "2026-09-24T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-86",
+      "phone": "+91-9858005669"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-86, New Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4085)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-186/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-25T00:00:00Z",
+    "registration_datetime": "2026-09-25T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-87",
+      "phone": "+91-9877049454"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-87, West Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4086)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-187/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-26T00:00:00Z",
+    "registration_datetime": "2026-09-26T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-88",
+      "phone": "+91-9846250781"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-88, Noida",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4087)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-188/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-27T00:00:00Z",
+    "registration_datetime": "2026-09-27T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-89",
+      "phone": "+91-9868557899"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-89, West Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4088)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-189/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-28T00:00:00Z",
+    "registration_datetime": "2026-09-28T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-90",
+      "phone": "+91-9844497044"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-90, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4089)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-190/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-29T00:00:00Z",
+    "registration_datetime": "2026-09-29T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-91",
+      "phone": "+91-9852827261"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-91, Gurugram",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4090)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-191/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-09-30T00:00:00Z",
+    "registration_datetime": "2026-09-30T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-92",
+      "phone": "+91-9821989894"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-92, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4091)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-192/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-01T00:00:00Z",
+    "registration_datetime": "2026-10-01T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-93",
+      "phone": "+91-9832165737"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-93, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4092)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-193/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-02T00:00:00Z",
+    "registration_datetime": "2026-10-02T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-94",
+      "phone": "+91-9843319840"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-94, West Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4093)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-194/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-03T00:00:00Z",
+    "registration_datetime": "2026-10-03T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-95",
+      "phone": "+91-9849890321"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-95, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4094)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-195/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-04T00:00:00Z",
+    "registration_datetime": "2026-10-04T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-96",
+      "phone": "+91-9859780763"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-96, Noida",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4095)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-196/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-05T00:00:00Z",
+    "registration_datetime": "2026-10-05T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-97",
+      "phone": "+91-9834524224"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-97, Noida",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4096)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-197/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-06T00:00:00Z",
+    "registration_datetime": "2026-10-06T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-98",
+      "phone": "+91-9857492500"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-98, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4097)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-198/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-07T00:00:00Z",
+    "registration_datetime": "2026-10-07T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-99",
+      "phone": "+91-9881566005"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-99, Gurugram",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4098)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-199/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-08T00:00:00Z",
+    "registration_datetime": "2026-10-08T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-100",
+      "phone": "+91-9856978799"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-100, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4099)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-200/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-09T00:00:00Z",
+    "registration_datetime": "2026-10-09T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-101",
+      "phone": "+91-9815647128"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-101, New Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4100)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-201/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-10T00:00:00Z",
+    "registration_datetime": "2026-10-10T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-102",
+      "phone": "+91-9858838367"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-102, Gurugram",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4101)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-202/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-11T00:00:00Z",
+    "registration_datetime": "2026-10-11T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-103",
+      "phone": "+91-9894026834"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-103, East Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4102)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-203/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-12T00:00:00Z",
+    "registration_datetime": "2026-10-12T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-104",
+      "phone": "+91-9816584541"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-104, East Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4103)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-204/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-13T00:00:00Z",
+    "registration_datetime": "2026-10-13T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-105",
+      "phone": "+91-9899089719"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-105, East Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4104)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-205/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-14T00:00:00Z",
+    "registration_datetime": "2026-10-14T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-106",
+      "phone": "+91-9860010156"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-106, South Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4105)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-206/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-15T00:00:00Z",
+    "registration_datetime": "2026-10-15T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-107",
+      "phone": "+91-9850362524"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-107, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4106)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-207/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-16T00:00:00Z",
+    "registration_datetime": "2026-10-16T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-108",
+      "phone": "+91-9845624386"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-108, New Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4107)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-208/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-17T00:00:00Z",
+    "registration_datetime": "2026-10-17T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-109",
+      "phone": "+91-9892121267"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-109, West Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4108)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-209/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-18T00:00:00Z",
+    "registration_datetime": "2026-10-18T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-110",
+      "phone": "+91-9868770306"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-110, Gurugram",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4109)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-210/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-19T00:00:00Z",
+    "registration_datetime": "2026-10-19T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-111",
+      "phone": "+91-9898792250"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-111, Noida",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4110)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-211/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-20T00:00:00Z",
+    "registration_datetime": "2026-10-20T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-112",
+      "phone": "+91-9834593945"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-112, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4111)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-212/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-21T00:00:00Z",
+    "registration_datetime": "2026-10-21T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-113",
+      "phone": "+91-9861888635"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-113, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4112)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-213/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-22T00:00:00Z",
+    "registration_datetime": "2026-10-22T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-114",
+      "phone": "+91-9814721469"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-114, South Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4113)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-214/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-23T00:00:00Z",
+    "registration_datetime": "2026-10-23T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-115",
+      "phone": "+91-9824742282"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-115, Gurugram",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4114)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-215/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-24T00:00:00Z",
+    "registration_datetime": "2026-10-24T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-116",
+      "phone": "+91-9868868979"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-116, East Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4115)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-216/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-25T00:00:00Z",
+    "registration_datetime": "2026-10-25T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-117",
+      "phone": "+91-9876735510"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-117, Noida",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4116)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-217/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-26T00:00:00Z",
+    "registration_datetime": "2026-10-26T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-118",
+      "phone": "+91-9817415230"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-118, South Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4117)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-218/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-27T00:00:00Z",
+    "registration_datetime": "2026-10-27T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-119",
+      "phone": "+91-9865060195"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-119, South Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4118)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-219/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-28T00:00:00Z",
+    "registration_datetime": "2026-10-28T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-120",
+      "phone": "+91-9874458520"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-120, West Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4119)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-220/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-29T00:00:00Z",
+    "registration_datetime": "2026-10-29T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-121",
+      "phone": "+91-9853836715"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-121, New Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4120)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-221/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-30T00:00:00Z",
+    "registration_datetime": "2026-10-30T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-122",
+      "phone": "+91-9865516276"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-122, Gurugram",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4121)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-222/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-10-31T00:00:00Z",
+    "registration_datetime": "2026-10-31T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-123",
+      "phone": "+91-9897140722"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-123, New Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4122)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-223/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-01T00:00:00Z",
+    "registration_datetime": "2026-11-01T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-124",
+      "phone": "+91-9858439210"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-124, East Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4123)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-224/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-02T00:00:00Z",
+    "registration_datetime": "2026-11-02T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-125",
+      "phone": "+91-9863201666"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-125, New Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4124)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-225/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-03T00:00:00Z",
+    "registration_datetime": "2026-11-03T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-126",
+      "phone": "+91-9815345986"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-126, West Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4125)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-226/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-04T00:00:00Z",
+    "registration_datetime": "2026-11-04T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-127",
+      "phone": "+91-9857541891"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-127, South Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4126)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-227/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "Gurugram",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-05T00:00:00Z",
+    "registration_datetime": "2026-11-05T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-128",
+      "phone": "+91-9846027332"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-128, East Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4127)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-228/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-06T00:00:00Z",
+    "registration_datetime": "2026-11-06T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-129",
+      "phone": "+91-9873355119"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-129, East Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4128)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-229/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-07T00:00:00Z",
+    "registration_datetime": "2026-11-07T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-130",
+      "phone": "+91-9819046117"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-130, South Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4129)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-230/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-08T00:00:00Z",
+    "registration_datetime": "2026-11-08T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-131",
+      "phone": "+91-9872202736"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-131, South Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4130)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-231/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-09T00:00:00Z",
+    "registration_datetime": "2026-11-09T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-132",
+      "phone": "+91-9898379083"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-132, West Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4131)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-232/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-10T00:00:00Z",
+    "registration_datetime": "2026-11-10T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-133",
+      "phone": "+91-9851702472"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-133, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4132)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-233/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-11T00:00:00Z",
+    "registration_datetime": "2026-11-11T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-134",
+      "phone": "+91-9870332355"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-134, South Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4133)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-234/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-12T00:00:00Z",
+    "registration_datetime": "2026-11-12T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-135",
+      "phone": "+91-9819716808"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-135, East Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4134)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-235/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-13T00:00:00Z",
+    "registration_datetime": "2026-11-13T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-136",
+      "phone": "+91-9882584971"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-136, New Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4135)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-236/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-14T00:00:00Z",
+    "registration_datetime": "2026-11-14T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-137",
+      "phone": "+91-9872736620"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-137, Noida",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4136)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-237/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-15T00:00:00Z",
+    "registration_datetime": "2026-11-15T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-138",
+      "phone": "+91-9860181555"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-138, Noida",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4137)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-238/2026/NE",
+    "police_station": "PS-South Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-16T00:00:00Z",
+    "registration_datetime": "2026-11-16T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-139",
+      "phone": "+91-9860777104"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-139, West Delhi",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4138)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-239/2026/NE",
+    "police_station": "PS-New Delhi",
+    "district": "South Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-17T00:00:00Z",
+    "registration_datetime": "2026-11-17T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-140",
+      "phone": "+91-9828552144"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-140, Gurugram",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4139)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-240/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-18T00:00:00Z",
+    "registration_datetime": "2026-11-18T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-141",
+      "phone": "+91-9872603017"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-141, South Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4140)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-241/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-19T00:00:00Z",
+    "registration_datetime": "2026-11-19T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-142",
+      "phone": "+91-9814383477"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-142, Gurugram",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4141)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-242/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-20T00:00:00Z",
+    "registration_datetime": "2026-11-20T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-143",
+      "phone": "+91-9858775163"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-143, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4142)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-243/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "Noida",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-21T00:00:00Z",
+    "registration_datetime": "2026-11-21T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-144",
+      "phone": "+91-9811175889"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-144, Gurugram",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4143)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CHARGE_SHEETED"
+  },
+  {
+    "fir_no": "FIR-244/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "East Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-22T00:00:00Z",
+    "registration_datetime": "2026-11-22T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 384",
+      "IT Act Sec 66D"
+    ],
+    "complainant": {
+      "name": "Complainant-145",
+      "phone": "+91-9860913142"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in cyber fraud case."
+      }
+    ],
+    "incident_location": "Location-145, East Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4144)",
+    "complaint_summary": "Complainant reported receiving fraudulent call posing as bank official. Transferred funds under duress. Matter under investigation.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-245/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-23T00:00:00Z",
+    "registration_datetime": "2026-11-23T03:00:00Z",
+    "ipc_sections": [
+      "IPC 384",
+      "IPC 385",
+      "IPC 386"
+    ],
+    "complainant": {
+      "name": "Complainant-146",
+      "phone": "+91-9861541491"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in extortion case."
+      }
+    ],
+    "incident_location": "Location-146, South Delhi",
+    "investigating_officer": "Insp. Anil Kumar (Badge-4145)",
+    "complaint_summary": "Complainant reported receiving threatening messages demanding money. Partial payment made. Accused not yet identified.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-246/2026/NE",
+    "police_station": "PS-Noida",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-24T00:00:00Z",
+    "registration_datetime": "2026-11-24T03:00:00Z",
+    "ipc_sections": [
+      "IPC 392",
+      "IPC 394",
+      "IPC 397"
+    ],
+    "complainant": {
+      "name": "Complainant-147",
+      "phone": "+91-9833788202"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in robbery case."
+      }
+    ],
+    "incident_location": "Location-147, New Delhi",
+    "investigating_officer": "Insp. Pradeep Singh (Badge-4146)",
+    "complaint_summary": "Complainant's vehicle stopped by unidentified persons. Valuables taken at knifepoint. Witnesses being traced.",
+    "status": "CLOSED_NO_CLUE"
+  },
+  {
+    "fir_no": "FIR-247/2026/NE",
+    "police_station": "PS-Gurugram",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-25T00:00:00Z",
+    "registration_datetime": "2026-11-25T03:00:00Z",
+    "ipc_sections": [
+      "NDPS Act Sec 15",
+      "NDPS Act Sec 20",
+      "NDPS Act Sec 29"
+    ],
+    "complainant": {
+      "name": "Complainant-148",
+      "phone": "+91-9867460931"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in narcotics case."
+      }
+    ],
+    "incident_location": "Location-148, West Delhi",
+    "investigating_officer": "Insp. Sunita Verma (Badge-4147)",
+    "complaint_summary": "Contraband substance recovered during routine vehicle check. Sample sent for forensic analysis.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-248/2026/NE",
+    "police_station": "PS-East Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-26T00:00:00Z",
+    "registration_datetime": "2026-11-26T03:00:00Z",
+    "ipc_sections": [
+      "IPC 420",
+      "IPC 409",
+      "IPC 467"
+    ],
+    "complainant": {
+      "name": "Complainant-149",
+      "phone": "+91-9899684068"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in financial fraud case."
+      }
+    ],
+    "incident_location": "Location-149, Noida",
+    "investigating_officer": "Insp. Rajiv Sharma (Badge-4148)",
+    "complaint_summary": "Complainant reports unauthorized withdrawals from bank account. KYC data suspected to be compromised.",
+    "status": "UNDER_INVESTIGATION"
+  },
+  {
+    "fir_no": "FIR-249/2026/NE",
+    "police_station": "PS-West Delhi",
+    "district": "West Delhi",
+    "state": "Delhi",
+    "incident_datetime": "2026-11-27T00:00:00Z",
+    "registration_datetime": "2026-11-27T03:00:00Z",
+    "ipc_sections": [
+      "IPC 379",
+      "IPC 411",
+      "MV Act Sec 184"
+    ],
+    "complainant": {
+      "name": "Complainant-150",
+      "phone": "+91-9825817890"
+    },
+    "accused_persons": [
+      {
+        "name": "Unidentified Person",
+        "alias": "Unknown",
+        "description": "Person of interest in vehicle theft case."
+      }
+    ],
+    "incident_location": "Location-150, East Delhi",
+    "investigating_officer": "Insp. Meena Gupta (Badge-4149)",
+    "complaint_summary": "Complainant's vehicle found missing from designated parking. CCTV footage being reviewed.",
+    "status": "CHARGE_SHEETED"
+  }
+]

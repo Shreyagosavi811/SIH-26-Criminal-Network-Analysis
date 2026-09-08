@@ -1,0 +1,13 @@
+[
+  {
+    "negative_id": "HN-S02-001",
+    "record_a_id": "VEH-S02-001",
+    "record_b_id": "VEH-S02-002",
+    "shared_features": [
+      "same_make_model",
+      "same_color",
+      "same_area"
+    ],
+    "true_label": false
+  }
+]

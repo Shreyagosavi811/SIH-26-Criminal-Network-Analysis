@@ -1,0 +1,10 @@
+[
+  {
+    "hypothesis_id": "AH-S09-001",
+    "description": "Distractor Nikhil Shah is a co-conspirator",
+    "supporting_features": [
+      "same_toll_at_similar_time"
+    ],
+    "why_weaker": "No CDR calls to suspects. No financial link. Toll presence 1h before crime — not co-incident in time or location with crime event."
+  }
+]

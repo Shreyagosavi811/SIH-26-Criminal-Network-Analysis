@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SIH26189 Canonical Entity Schemas",
+  "type": "object",
+  "definitions": {
+    "PERSON": {
+      "type": "object",
+      "required": ["entity_id", "full_name", "dob", "gender"],
+      "properties": {
+        "entity_id": { "type": "string", "pattern": "^ENT_PER_[A-Z0-9]{6}$" },
+        "full_name": { "type": "string" },
+        "alias_names": { "type": "array", "items": { "type": "string" } },
+        "dob": { "type": "string", "format": "date" },
+        "gender": { "type": "string", "enum": ["M", "F", "Other"] },
+        "father_name": { "type": "string" },
+        "aadhaar_hash": { "type": "string" },
+        "pan_number": { "type": "string" },
+        "primary_address": { "type": "string" }
+      }
+    },
+    "FIR_CASE": {
+      "type": "object",
+      "required": ["entity_id", "fir_number", "police_station", "district", "state", "acts_and_sections"],
+      "properties": {
+        "entity_id": { "type": "string", "pattern": "^ENT_FIR_[A-Z0-9]{6}$" },
+        "fir_number": { "type": "string" },
+        "police_station": { "type": "string" },
+        "district": { "type": "string" },
+        "state": { "type": "string" },
+        "date_of_incident": { "type": "string", "format": "date-time" },
+        "acts_and_sections": { "type": "array", "items": { "type": "string" } },
+        "complaint_summary": { "type": "string" }
+      }
+    },
+    "PHONE": {
+      "type": "object",
+      "required": ["entity_id", "msisdn", "imei", "service_provider"],
+      "properties": {
+        "entity_id": { "type": "string", "pattern": "^ENT_PHN_[A-Z0-9]{6}$" },
+        "msisdn": { "type": "string", "pattern": "^\\+91-[0-9]{10}$" },
+        "imei": { "type": "string", "pattern": "^[0-9]{15}$" },
+        "service_provider": { "type": "string" }
+      }
+    },
+    "VEHICLE": {
+      "type": "object",
+      "required": ["entity_id", "registration_number", "make_model"],
+      "properties": {
+        "entity_id": { "type": "string", "pattern": "^ENT_VEH_[A-Z0-9]{6}$" },
+        "registration_number": { "type": "string" },
+        "make_model": { "type": "string" },
+        "color": { "type": "string" }
+      }
+    },
+    "ACCOUNT": {
+      "type": "object",
+      "required": ["entity_id", "account_number", "bank_name", "ifsc_code"],
+      "properties": {
+        "entity_id": { "type": "string", "pattern": "^ENT_ACC_[A-Z0-9]{6}$" },
+        "account_number": { "type": "string" },
+        "bank_name": { "type": "string" },
+        "ifsc_code": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S05-001",
+    "scenario_id": "S05",
+    "starting_entity": "DL09XQ6067",
+    "starting_entity_type": "VEHICLE",
+    "time_window": {
+      "start": "2026-08-18T00:00:00Z",
+      "end": "2026-08-18T23:59:59Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Plate DL09XQ6067 appears at two locations 35km apart within 10 minutes. Determine if this is a cloned plate, identify the criminal vehicle, and clear the legitimate vehicle owner.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "ANOMALY_DETECTION"
+  }
+]

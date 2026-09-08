@@ -1,0 +1,21 @@
+[
+  {
+    "hypothesis_id": "AH-S10-001",
+    "description": "Taxi driver Karan Jha is an intentional accomplice",
+    "supporting_features": [
+      "co_located_3_times",
+      "same_tower",
+      "same_movement_route"
+    ],
+    "why_weaker": "Zero CDR calls to any syndicate member. Zero suspicious financial activity. 12 verifiable commercial fares (digital wallet). No criminal history. Alibi confirmed by field note FNOTE-S10-0002."
+  },
+  {
+    "hypothesis_id": "AH-S10-002",
+    "description": "Banker Ankit Shah launders funds",
+    "supporting_features": [
+      "high_value_transfer",
+      "same_day"
+    ],
+    "why_weaker": "Transfer timestamp precedes crime by 5 hours. Transaction is salary credit — regular monthly pattern, not an anomaly."
+  }
+]

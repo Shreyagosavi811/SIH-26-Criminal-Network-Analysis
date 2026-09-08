@@ -1,0 +1,12 @@
+[
+  {
+    "negative_id": "HN-S09-001",
+    "record_a_id": "PER-S09-000",
+    "record_b_id": "PER-S09-004",
+    "shared_features": [
+      "same_toll",
+      "similar_time_window"
+    ],
+    "true_label": false
+  }
+]

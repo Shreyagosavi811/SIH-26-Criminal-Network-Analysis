@@ -1,0 +1,15 @@
+[SYSTEM ROLE: AI INVESTIGATION DATASET TOPOLOGY ARCHITECT]
+
+Objective: Generate an abstract hidden investigation graph G_gt = (V, E, W, T) for a specified investigation scenario.
+
+Inputs:
+- Scenario Type: {scenario_type}
+- Target Depth Hops: {max_hops}
+- Entity Count Constraint: {min_entities} to {max_entities}
+- Distractor Network Target: {distractor_count}
+
+Output Format: JSON Ground-Truth Manifest
+- Define canonical nodes (PERSON, PHONE, VEHICLE, ACCOUNT, LOCATION, FIR_CASE).
+- Assign hidden operational roles (MASTERMIND, MULE, SPOTTER, ASSOCIATE, BENIGN_PERSON, DISTRACTOR).
+- Define directed edges with relationship types, evidence mappings, temporal intervals, and edge weights.
+- Strictly output JSON. Do NOT produce prose or analytical text outside JSON.

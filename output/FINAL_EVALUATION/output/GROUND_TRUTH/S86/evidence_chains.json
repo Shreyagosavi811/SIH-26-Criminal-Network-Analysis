@@ -1,0 +1,20 @@
+[
+  {
+    "chain_id": "EC-S06-001",
+    "claim": "Nikhil Bhatia is relevant to FIR-S06-001",
+    "gt_edge_id": "S06-E003",
+    "supporting_record_ids": [
+      "TDUMP-S06-0001",
+      "CDR-S06-00001",
+      "FIR-S06-001",
+      "CBS-S06-00001"
+    ],
+    "source_types": [
+      "cell_tower_dumps.json",
+      "telecom_cdr_logs.csv",
+      "cctns_fir_records.json",
+      "cbs_bank_transactions.csv"
+    ],
+    "source_diversity": 4
+  }
+]

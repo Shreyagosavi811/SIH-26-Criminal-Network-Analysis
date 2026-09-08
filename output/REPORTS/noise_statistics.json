@@ -1,0 +1,11 @@
+{
+  "noise_level": 3,
+  "target_noise_ratio": 0.6,
+  "spatial_overlap_added": 24,
+  "identity_collisions_added": 5,
+  "ocr_typos_added": 2,
+  "recycled_sims_added": 3,
+  "benign_financials_added": 10,
+  "distractor_nodes_added": 1,
+  "total_noise_records_injected": 45
+}

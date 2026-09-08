@@ -1,0 +1,90 @@
+{
+  "scenario_id": "S56",
+  "passed": true,
+  "failed_rules": [],
+  "warnings": [],
+  "error_count": 0,
+  "audits": {
+    "leakage:cctns_fir_records.json": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:criminal_history_db.json": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:telecom_cdr_logs.csv": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:telecom_caf_kyc.json": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:cbs_bank_transactions.csv": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:fiu_str_alerts.json": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:toll_anpr_logs.csv": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:cell_tower_dumps.json": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:osint_social_posts.json": {
+      "passed": true,
+      "detail": null
+    },
+    "leakage:field_intelligence_notes.txt": {
+      "passed": true,
+      "detail": null
+    },
+    "financial": {
+      "passed": true,
+      "detail": null
+    },
+    "spatial": {
+      "passed": true,
+      "detail": "insufficient ANPR coordinate data"
+    },
+    "temporal_ordering": {
+      "passed": true,
+      "detail": null
+    },
+    "temporal_window": {
+      "passed": true,
+      "detail": null
+    },
+    "identity": {
+      "passed": true,
+      "detail": {
+        "phone_ownership": {
+          "passed": true,
+          "errors": []
+        },
+        "account_ownership": {
+          "passed": true,
+          "errors": []
+        },
+        "vehicle_ownership": {
+          "passed": true,
+          "errors": []
+        },
+        "no_contradictory_identity": {
+          "passed": true,
+          "errors": []
+        }
+      }
+    },
+    "evidence_reachability": {
+      "passed": true,
+      "detail": null
+    }
+  }
+}

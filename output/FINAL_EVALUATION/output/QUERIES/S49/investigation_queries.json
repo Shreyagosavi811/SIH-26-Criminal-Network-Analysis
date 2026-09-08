@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S09-001",
+    "scenario_id": "S49",
+    "starting_entity": "PER-S09-000",
+    "starting_entity_type": "PERSON",
+    "time_window": {
+      "start": "2026-08-19T00:00:00Z",
+      "end": "2026-08-22T06:00:00Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Reconstruct a complete chronological timeline of all events involving Vijay Reddy and associates over the 72-hour window. Identify temporal dependencies and causal ordering.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "TEMPORAL_REASONING"
+  }
+]

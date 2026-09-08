@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S08-001",
+    "scenario_id": "S08",
+    "starting_entity": "FIR-S08-001",
+    "starting_entity_type": "FIR_CASE",
+    "time_window": {
+      "start": "2026-07-01T00:00:00Z",
+      "end": "2026-08-31T23:59:59Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "FIR-001, FIR-002, and FIR-003 in different districts all mention a person with surname 'Reddy'. Determine if these cases are linked by a common person and identify their true identity.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "ENTITY_RESOLUTION"
+  }
+]

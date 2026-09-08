@@ -1,0 +1,322 @@
+[
+  {
+    "query_id": "QRY-S01-001",
+    "scenario_id": "S61",
+    "target_entities": [
+      "PER-S01-000",
+      "PER-S01-001",
+      "PER-S01-002"
+    ],
+    "entity_chain": [
+      {
+        "canonical_id": "PER-S01-000",
+        "entity_type": "PERSON",
+        "role_or_label": "PRIMARY_SUSPECT",
+        "description": "Target person"
+      },
+      {
+        "canonical_id": "PER-S01-001",
+        "entity_type": "PERSON",
+        "role_or_label": "ASSOCIATE",
+        "description": "Communicates with target"
+      },
+      {
+        "canonical_id": "PER-S01-002",
+        "entity_type": "PERSON",
+        "role_or_label": "FINANCIAL_MULE",
+        "description": "Receives layered funds"
+      }
+    ],
+    "relationship_graph": [
+      {
+        "edge_id": "S01-E001",
+        "source_entity": "PER-S01-000",
+        "target_entity": "PHN-S01-000",
+        "relationship_type": "OWNS_PHONE",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "telecom_caf_kyc.json",
+            "record_id": "CAF-S01-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E002",
+        "source_entity": "PER-S01-000",
+        "target_entity": "PER-S01-001",
+        "relationship_type": "COMMUNICATES_WITH",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S01-00001"
+          },
+          {
+            "source": "field_intelligence_notes.txt",
+            "record_id": "FNOTE-S01-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E003",
+        "source_entity": "PER-S01-000",
+        "target_entity": "VEH-S01-000",
+        "relationship_type": "OWNS_VEHICLE",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "toll_anpr_logs.csv",
+            "record_id": "ANPR-S01-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E004",
+        "source_entity": "PER-S01-000",
+        "target_entity": "ACC-S01-000",
+        "relationship_type": "OWNS_ACCOUNT",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S01-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E005",
+        "source_entity": "PER-S01-000",
+        "target_entity": "PER-S01-002",
+        "relationship_type": "FINANCIAL_CONDUIT",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S01-00002"
+          },
+          {
+            "source": "fiu_str_alerts.json",
+            "record_id": "FIU-S01-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E006",
+        "source_entity": "PER-S01-001",
+        "target_entity": "ACC-S01-001",
+        "relationship_type": "OWNS_ACCOUNT",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S01-00003"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E007",
+        "source_entity": "PER-S01-002",
+        "target_entity": "ACC-S01-002",
+        "relationship_type": "OWNS_ACCOUNT",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S01-00004"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E008",
+        "source_entity": "PER-S01-000",
+        "target_entity": "LOC-S01-002",
+        "relationship_type": "PRESENT_AT",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "cctns_fir_records.json",
+            "record_id": "FIR-S01-001"
+          },
+          {
+            "source": "cell_tower_dumps.json",
+            "record_id": "TDUMP-S01-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E009",
+        "source_entity": "PER-S01-000",
+        "target_entity": "LOC-S01-001",
+        "relationship_type": "OBSERVED_AT_TOLL",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "toll_anpr_logs.csv",
+            "record_id": "ANPR-S01-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S01-E010",
+        "source_entity": "PER-S01-001",
+        "target_entity": "PER-S01-002",
+        "relationship_type": "ASSOCIATE_OF",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S01-00002"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      }
+    ],
+    "supporting_evidence": [
+      {
+        "source": "telecom_cdr_logs.csv",
+        "record_id": "CDR-S01-00001"
+      },
+      {
+        "source": "cbs_bank_transactions.csv",
+        "record_id": "CBS-S01-00002"
+      },
+      {
+        "source": "toll_anpr_logs.csv",
+        "record_id": "ANPR-S01-00001"
+      }
+    ],
+    "timeline": [
+      {
+        "step": 1,
+        "event_id": "EVT-S01-001",
+        "timestamp": "2026-08-15T08:00:00Z",
+        "event_type": "SUSPECT_ACTIVATES_BURNER",
+        "description": "Nikhil Reddy activates new SIM.",
+        "entity_ids": [
+          "PER-S01-000",
+          "PHN-S01-000"
+        ],
+        "location_id": "LOC-S01-000",
+        "supporting_evidence_records": [
+          "CAF-S01-0001"
+        ]
+      },
+      {
+        "step": 2,
+        "event_id": "EVT-S01-002",
+        "timestamp": "2026-08-15T10:30:00Z",
+        "event_type": "CALL_TO_ASSOCIATE",
+        "description": "Target calls associate Meena Pandey.",
+        "entity_ids": [
+          "PER-S01-000",
+          "PER-S01-001"
+        ],
+        "location_id": "LOC-S01-000",
+        "supporting_evidence_records": [
+          "CDR-S01-00001"
+        ]
+      },
+      {
+        "step": 3,
+        "event_id": "EVT-S01-003",
+        "timestamp": "2026-08-15T12:00:00Z",
+        "event_type": "VEHICLE_OBSERVED",
+        "description": "Target's vehicle DL14GR1567 seen at toll.",
+        "entity_ids": [
+          "PER-S01-000",
+          "VEH-S01-000"
+        ],
+        "location_id": "LOC-S01-001",
+        "supporting_evidence_records": [
+          "ANPR-S01-00001"
+        ]
+      },
+      {
+        "step": 4,
+        "event_id": "EVT-S01-004",
+        "timestamp": "2026-08-15T14:00:00Z",
+        "event_type": "FINANCIAL_LAYERING",
+        "description": "Funds transferred via Ramesh Singh's account.",
+        "entity_ids": [
+          "PER-S01-000",
+          "PER-S01-002",
+          "ACC-S01-002"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CBS-S01-00001",
+          "CBS-S01-00002",
+          "FIU-S01-0001"
+        ]
+      },
+      {
+        "step": 5,
+        "event_id": "EVT-S01-005",
+        "timestamp": "2026-08-15T16:00:00Z",
+        "event_type": "FIR_REGISTERED",
+        "description": "FIR registered at police station.",
+        "entity_ids": [
+          "PER-S01-000",
+          "PER-S01-003"
+        ],
+        "location_id": "LOC-S01-002",
+        "supporting_evidence_records": [
+          "FIR-S01-001"
+        ]
+      },
+      {
+        "step": 6,
+        "event_id": "EVT-S01-006",
+        "timestamp": "2026-08-16T09:00:00Z",
+        "event_type": "SOCIAL_OSINT",
+        "description": "Target's alias posts coded message on Telegram.",
+        "entity_ids": [
+          "PER-S01-000"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "OSINT-S01-0001"
+        ]
+      }
+    ],
+    "reasoning_summary": "Nikhil Reddy uses burner phone, communicates with Meena Pandey, routes funds through Ramesh Singh. Nikhil Sharma is a same-surname distractor with no criminal links.",
+    "confidence": 0.93,
+    "alternative_hypotheses": [
+      "The similar-named person (distractor) may be confused with the target due to same district and partial name match."
+    ],
+    "false_positive_candidates": [
+      "PER-S01-004"
+    ],
+    "ground_truth_match": true
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "chain_id": "EC-S07-001",
+    "claim": "2-hop: Vikram Bhatia→Deepak Choudhury→Neha Bansal",
+    "gt_edge_id": "S07-E004",
+    "supporting_record_ids": [
+      "CDR-S07-00001",
+      "CBS-S07-00001"
+    ],
+    "source_types": [
+      "telecom_cdr_logs.csv",
+      "cbs_bank_transactions.csv"
+    ],
+    "source_diversity": 2
+  },
+  {
+    "chain_id": "EC-S07-002",
+    "claim": "4-hop: full chain Vikram Bhatia→Geeta Rao",
+    "gt_edge_id": "S07-E009",
+    "supporting_record_ids": [
+      "CDR-S07-00001",
+      "CBS-S07-00001",
+      "ANPR-S07-00001",
+      "CDR-S07-00002"
+    ],
+    "source_types": [
+      "telecom_cdr_logs.csv",
+      "cbs_bank_transactions.csv",
+      "toll_anpr_logs.csv",
+      "telecom_cdr_logs.csv"
+    ],
+    "source_diversity": 3
+  }
+]

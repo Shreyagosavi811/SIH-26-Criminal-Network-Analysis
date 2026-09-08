@@ -1,0 +1,57 @@
+{
+  "scenario_id": "SCN-2026-SCN10-001",
+  "passed": true,
+  "failed_rules": [],
+  "warnings": [],
+  "error_count": 0,
+  "audits": {
+    "leakage_audit_cctns_fir_records.json": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_criminal_history_db.json": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_telecom_cdr_logs.csv": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_telecom_caf_kyc.json": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_cbs_bank_transactions.csv": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_fiu_str_alerts.json": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_toll_anpr_logs.csv": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_cell_tower_dumps.json": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_osint_social_posts.json": {
+      "passed": true,
+      "errors": []
+    },
+    "leakage_audit_field_intelligence_notes.txt": {
+      "passed": true,
+      "errors": []
+    },
+    "financial_audit": {
+      "passed": true,
+      "errors": []
+    },
+    "spatial_speed_audit": {
+      "passed": true,
+      "message": "Valid travel: 14.0 km/h"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "negative_id": "HN-S01-001",
+    "record_a_id": "PER-S01-000",
+    "record_b_id": "PER-S01-004",
+    "shared_features": [
+      "same_first_name",
+      "same_district",
+      "similar_address"
+    ],
+    "true_label": false
+  }
+]

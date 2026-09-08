@@ -1,0 +1,345 @@
+{
+  "scenario_id": "S57",
+  "scenario_name": "Four-Hop Criminal Network Discovery",
+  "scenario_type": "FOUR_HOP_NETWORK",
+  "master_timeline": [
+    {
+      "step": 1,
+      "event_id": "EVT-S07-001",
+      "timestamp": "2026-08-05T09:00:00Z",
+      "event_type": "HOP1_A_CALLS_B",
+      "description": "Ankit Reddy calls Ashok Pandey (1-hop).",
+      "entity_ids": [
+        "PER-S07-000",
+        "PER-S07-001"
+      ],
+      "location_id": "LOC-S07-000",
+      "supporting_evidence_records": [
+        "CDR-S07-00001"
+      ]
+    },
+    {
+      "step": 2,
+      "event_id": "EVT-S07-002",
+      "timestamp": "2026-08-06T10:00:00Z",
+      "event_type": "HOP2_B_TRANSFERS_TO_C_ACC",
+      "description": "Ashok Pandey transfers to Ajay Singh account (2-hop).",
+      "entity_ids": [
+        "PER-S07-001",
+        "PER-S07-002",
+        "ACC-S07-001",
+        "ACC-S07-002"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S07-00001"
+      ]
+    },
+    {
+      "step": 3,
+      "event_id": "EVT-S07-003",
+      "timestamp": "2026-08-08T11:00:00Z",
+      "event_type": "HOP3_C_VEHICLE_WITH_D",
+      "description": "Ajay Singh's vehicle seen with Sunita Kapoor at toll (3-hop).",
+      "entity_ids": [
+        "PER-S07-002",
+        "PER-S07-003",
+        "VEH-S07-002"
+      ],
+      "location_id": "LOC-S07-001",
+      "supporting_evidence_records": [
+        "ANPR-S07-00001"
+      ]
+    },
+    {
+      "step": 4,
+      "event_id": "EVT-S07-004",
+      "timestamp": "2026-08-10T14:00:00Z",
+      "event_type": "HOP4_D_CALLS_E",
+      "description": "Sunita Kapoor calls Ravi Sharma to coordinate (4-hop).",
+      "entity_ids": [
+        "PER-S07-003",
+        "PER-S07-004"
+      ],
+      "location_id": "LOC-S07-002",
+      "supporting_evidence_records": [
+        "CDR-S07-00002"
+      ]
+    },
+    {
+      "step": 5,
+      "event_id": "EVT-S07-005",
+      "timestamp": "2026-08-12T09:00:00Z",
+      "event_type": "DISTRACTOR_PATH",
+      "description": "Distractor Arjun Mishra calls Rekha Chatterjee — no connection to true chain.",
+      "entity_ids": [
+        "PER-S07-005",
+        "PER-S07-006"
+      ],
+      "location_id": "LOC-S07-003",
+      "supporting_evidence_records": [
+        "CDR-S07-00010"
+      ]
+    },
+    {
+      "step": 6,
+      "event_id": "EVT-S07-006",
+      "timestamp": "2026-08-15T10:00:00Z",
+      "event_type": "FINAL_MULE_ACTIVITY",
+      "description": "Mule Ravi Sharma receives final funds.",
+      "entity_ids": [
+        "PER-S07-004",
+        "ACC-S07-003"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S07-00002"
+      ]
+    }
+  ],
+  "ground_truth_entities": [
+    {
+      "canonical_id": "PER-S07-000",
+      "role_in_scenario": "MASTERMIND",
+      "real_name": "Ankit Reddy",
+      "associated_sources": [
+        "telecom_cdr_logs.csv",
+        "telecom_caf_kyc.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S07-001",
+      "role_in_scenario": "ASSOCIATE",
+      "real_name": "Ashok Pandey",
+      "associated_sources": [
+        "telecom_cdr_logs.csv",
+        "cbs_bank_transactions.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S07-002",
+      "role_in_scenario": "ASSOCIATE",
+      "real_name": "Ajay Singh",
+      "associated_sources": [
+        "cbs_bank_transactions.csv",
+        "toll_anpr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S07-003",
+      "role_in_scenario": "ASSOCIATE",
+      "real_name": "Sunita Kapoor",
+      "associated_sources": [
+        "toll_anpr_logs.csv",
+        "telecom_cdr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S07-004",
+      "role_in_scenario": "MULE",
+      "real_name": "Ravi Sharma",
+      "associated_sources": [
+        "telecom_cdr_logs.csv",
+        "cbs_bank_transactions.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S07-005",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Arjun Mishra",
+      "associated_sources": [
+        "telecom_cdr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S07-006",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Rekha Chatterjee",
+      "associated_sources": [
+        "telecom_cdr_logs.csv"
+      ]
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "edge_id": "S07-E001",
+      "source_entity": "PER-S07-000",
+      "target_entity": "PHN-S07-000",
+      "relationship_type": "OWNS_PHONE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S07-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E002",
+      "source_entity": "PER-S07-000",
+      "target_entity": "PER-S07-001",
+      "relationship_type": "CALLS_HOP1",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S07-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E003",
+      "source_entity": "PER-S07-001",
+      "target_entity": "ACC-S07-001",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S07-0002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E004",
+      "source_entity": "ACC-S07-001",
+      "target_entity": "ACC-S07-002",
+      "relationship_type": "TRANSFERS_HOP2",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S07-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E005",
+      "source_entity": "PER-S07-002",
+      "target_entity": "ACC-S07-002",
+      "relationship_type": "RECEIVES_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S07-0003"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E006",
+      "source_entity": "PER-S07-002",
+      "target_entity": "VEH-S07-002",
+      "relationship_type": "OWNS_VEHICLE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S07-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E007",
+      "source_entity": "VEH-S07-002",
+      "target_entity": "PER-S07-003",
+      "relationship_type": "CO_PASSENGER_HOP3",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S07-00001"
+        },
+        {
+          "source": "field_intelligence_notes.txt",
+          "record_id": "FNOTE-S07-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E008",
+      "source_entity": "PER-S07-003",
+      "target_entity": "PER-S07-004",
+      "relationship_type": "CALLS_HOP4",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S07-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E009",
+      "source_entity": "PER-S07-004",
+      "target_entity": "ACC-S07-003",
+      "relationship_type": "RECEIVES_FUNDS_HOP4",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S07-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E010",
+      "source_entity": "PER-S07-005",
+      "target_entity": "PER-S07-006",
+      "relationship_type": "DISTRACTOR_CALL",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S07-00010"
+        }
+      ],
+      "ground_truth_confidence": 0.05,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S07-E011",
+      "source_entity": "PER-S07-005",
+      "target_entity": "ACC-S07-005",
+      "relationship_type": "DISTRACTOR_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S07-00010"
+        }
+      ],
+      "ground_truth_confidence": 0.05,
+      "temporal_start": null,
+      "temporal_end": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "noise_level": 3,
+  "target_noise_ratio": 0.6,
+  "measured_noise_ratio": 0.6001,
+  "ratio_formula": "new_noise_records / total_observed_records",
+  "total_observed_records": 11390,
+  "clean_records": 4555,
+  "noise_records_inter": 6835,
+  "noise_records_intra": 4500,
+  "mechanisms": {
+    "spatial_overlap_msisdns_added": 4500,
+    "identity_collisions_new_records": 1708,
+    "ocr_typos_modified_records": 308,
+    "recycled_sim_records": 1708,
+    "benign_financial_records": 3416,
+    "distractor_subgraph_records": 3
+  }
+}

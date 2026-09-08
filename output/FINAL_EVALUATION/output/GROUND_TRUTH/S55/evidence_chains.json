@@ -1,0 +1,16 @@
+[
+  {
+    "chain_id": "EC-S05-001",
+    "claim": "Plate DL02ST3067 is cloned",
+    "gt_edge_id": "S05-E003",
+    "supporting_record_ids": [
+      "ANPR-S05-00001",
+      "ANPR-S05-00002"
+    ],
+    "source_types": [
+      "toll_anpr_logs.csv",
+      "toll_anpr_logs.csv"
+    ],
+    "source_diversity": 1
+  }
+]

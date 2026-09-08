@@ -1,0 +1,20 @@
+[
+  {
+    "chain_id": "EC-S04-001",
+    "claim": "5-hop financial chain from source to mastermind",
+    "gt_edge_id": "S04-E004",
+    "supporting_record_ids": [
+      "CBS-S04-00001",
+      "CBS-S04-00003",
+      "CBS-S04-00004",
+      "CBS-S04-00005"
+    ],
+    "source_types": [
+      "cbs_bank_transactions.csv",
+      "cbs_bank_transactions.csv",
+      "cbs_bank_transactions.csv",
+      "cbs_bank_transactions.csv"
+    ],
+    "source_diversity": 1
+  }
+]

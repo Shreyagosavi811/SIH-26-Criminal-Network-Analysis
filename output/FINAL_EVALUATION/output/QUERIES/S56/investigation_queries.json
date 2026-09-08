@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S06-001",
+    "scenario_id": "S56",
+    "starting_entity": "LOC-S06-000",
+    "starting_entity_type": "LOCATION",
+    "time_window": {
+      "start": "2026-08-22T07:00:00Z",
+      "end": "2026-08-22T11:00:00Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Tower dump at Connaught Place Outer Circle shows 122 MSISDNs present during 07:00–11:00 on 22-Aug-2026. A crime occurred in this area at 09:00. Filter to identify which MSISDNs are relevant to the crime.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "CO_LOCATION"
+  }
+]

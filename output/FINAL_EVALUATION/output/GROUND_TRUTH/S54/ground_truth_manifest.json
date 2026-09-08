@@ -1,0 +1,337 @@
+{
+  "scenario_id": "S54",
+  "scenario_name": "Financial Multi-Hop Layering",
+  "scenario_type": "FINANCIAL_MULTI_HOP",
+  "master_timeline": [
+    {
+      "step": 1,
+      "event_id": "EVT-S04-001",
+      "timestamp": "2026-08-05T10:00:00Z",
+      "event_type": "INITIAL_TRANSFER",
+      "description": "Funds leave Ravi Reddy account (coerced).",
+      "entity_ids": [
+        "PER-S04-000",
+        "ACC-S04-000"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S04-00001"
+      ]
+    },
+    {
+      "step": 2,
+      "event_id": "EVT-S04-002",
+      "timestamp": "2026-08-05T10:15:00Z",
+      "event_type": "HOP_1",
+      "description": "Acc-A → Acc-B (Mule 1: Arjun Pandey)",
+      "entity_ids": [
+        "PER-S04-001",
+        "ACC-S04-001"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S04-00002",
+        "FIU-S04-0001"
+      ]
+    },
+    {
+      "step": 3,
+      "event_id": "EVT-S04-003",
+      "timestamp": "2026-08-05T10:45:00Z",
+      "event_type": "HOP_2",
+      "description": "Acc-B → Shell Account (no registered owner).",
+      "entity_ids": [
+        "ACC-S04-099"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S04-00003"
+      ]
+    },
+    {
+      "step": 4,
+      "event_id": "EVT-S04-004",
+      "timestamp": "2026-08-05T11:30:00Z",
+      "event_type": "HOP_3",
+      "description": "Shell → Acc-C (Mule 2: Rekha Singh)",
+      "entity_ids": [
+        "PER-S04-002",
+        "ACC-S04-002"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S04-00004",
+        "FIU-S04-0002"
+      ]
+    },
+    {
+      "step": 5,
+      "event_id": "EVT-S04-005",
+      "timestamp": "2026-08-05T13:00:00Z",
+      "event_type": "HOP_4",
+      "description": "Acc-C → Acc-D (Amit Kapoor final destination)",
+      "entity_ids": [
+        "PER-S04-003",
+        "ACC-S04-003"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S04-00005"
+      ]
+    },
+    {
+      "step": 6,
+      "event_id": "EVT-S04-006",
+      "timestamp": "2026-08-06T09:00:00Z",
+      "event_type": "COORDINATION_CALL",
+      "description": "Mastermind Amit Kapoor calls Mule 1 post-transfer.",
+      "entity_ids": [
+        "PER-S04-003",
+        "PER-S04-001"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CDR-S04-00001"
+      ]
+    }
+  ],
+  "ground_truth_entities": [
+    {
+      "canonical_id": "PER-S04-000",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Ravi Reddy",
+      "associated_sources": [
+        "cbs_bank_transactions.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S04-001",
+      "role_in_scenario": "MULE",
+      "real_name": "Arjun Pandey",
+      "associated_sources": [
+        "cbs_bank_transactions.csv",
+        "fiu_str_alerts.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S04-002",
+      "role_in_scenario": "MULE",
+      "real_name": "Rekha Singh",
+      "associated_sources": [
+        "cbs_bank_transactions.csv",
+        "fiu_str_alerts.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S04-003",
+      "role_in_scenario": "MASTERMIND",
+      "real_name": "Amit Kapoor",
+      "associated_sources": [
+        "cbs_bank_transactions.csv",
+        "telecom_cdr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S04-004",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Manoj Sharma",
+      "associated_sources": [
+        "cbs_bank_transactions.csv"
+      ]
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "edge_id": "S04-E001",
+      "source_entity": "ACC-S04-000",
+      "target_entity": "ACC-S04-001",
+      "relationship_type": "TRANSFERS_TO",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S04-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.99,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E002",
+      "source_entity": "ACC-S04-001",
+      "target_entity": "ACC-S04-099",
+      "relationship_type": "TRANSFERS_TO",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S04-00003"
+        }
+      ],
+      "ground_truth_confidence": 0.99,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E003",
+      "source_entity": "ACC-S04-099",
+      "target_entity": "ACC-S04-002",
+      "relationship_type": "TRANSFERS_TO",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S04-00004"
+        }
+      ],
+      "ground_truth_confidence": 0.99,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E004",
+      "source_entity": "ACC-S04-002",
+      "target_entity": "ACC-S04-003",
+      "relationship_type": "TRANSFERS_TO",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S04-00005"
+        }
+      ],
+      "ground_truth_confidence": 0.99,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E005",
+      "source_entity": "PER-S04-000",
+      "target_entity": "ACC-S04-000",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S04-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E006",
+      "source_entity": "PER-S04-001",
+      "target_entity": "ACC-S04-001",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S04-0002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E007",
+      "source_entity": "PER-S04-002",
+      "target_entity": "ACC-S04-002",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S04-0003"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E008",
+      "source_entity": "PER-S04-003",
+      "target_entity": "ACC-S04-003",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S04-0004"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E009",
+      "source_entity": "PER-S04-003",
+      "target_entity": "PER-S04-001",
+      "relationship_type": "COORDINATES",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S04-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E010",
+      "source_entity": "ACC-S04-001",
+      "target_entity": "FIU-ALERT",
+      "relationship_type": "STR_FLAGGED",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "fiu_str_alerts.json",
+          "record_id": "FIU-S04-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E011",
+      "source_entity": "ACC-S04-002",
+      "target_entity": "FIU-ALERT",
+      "relationship_type": "STR_FLAGGED",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "fiu_str_alerts.json",
+          "record_id": "FIU-S04-0002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S04-E012",
+      "source_entity": "PER-S04-004",
+      "target_entity": "ACC-S04-004",
+      "relationship_type": "OWNS_ACCOUNT_BENIGN",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S04-00010"
+        }
+      ],
+      "ground_truth_confidence": 0.05,
+      "temporal_start": null,
+      "temporal_end": null
+    }
+  ]
+}

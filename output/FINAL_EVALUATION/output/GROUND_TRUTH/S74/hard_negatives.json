@@ -1,0 +1,13 @@
+[
+  {
+    "negative_id": "HN-S04-001",
+    "record_a_id": "ACC-S04-003",
+    "record_b_id": "ACC-S04-004",
+    "shared_features": [
+      "similar_transaction_volume",
+      "same_bank",
+      "same_district"
+    ],
+    "true_label": false
+  }
+]

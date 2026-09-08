@@ -1,0 +1,13 @@
+[
+  {
+    "negative_id": "HN-S03-001",
+    "record_a_id": "PER-S03-000",
+    "record_b_id": "PER-S03-001",
+    "shared_features": [
+      "same_msisdn",
+      "similar_call_patterns",
+      "same_network"
+    ],
+    "true_label": false
+  }
+]

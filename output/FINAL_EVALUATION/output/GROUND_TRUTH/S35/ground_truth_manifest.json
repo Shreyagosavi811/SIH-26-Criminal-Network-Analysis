@@ -1,0 +1,260 @@
+{
+  "scenario_id": "S35",
+  "scenario_name": "Vehicle Tracking and Cloned Plate Detection",
+  "scenario_type": "VEHICLE_CLONE_DETECTION",
+  "master_timeline": [
+    {
+      "step": 1,
+      "event_id": "EVT-S05-001",
+      "timestamp": "2026-08-18T09:00:00Z",
+      "event_type": "LEGITIMATE_VEHICLE_SIGHTING",
+      "description": "Legitimate vehicle DL03AH6067 seen at Connaught Place toll.",
+      "entity_ids": [
+        "PER-S05-000",
+        "VEH-S05-000"
+      ],
+      "location_id": "LOC-S05-000",
+      "supporting_evidence_records": [
+        "ANPR-S05-00001"
+      ]
+    },
+    {
+      "step": 2,
+      "event_id": "EVT-S05-002",
+      "timestamp": "2026-08-18T09:10:00Z",
+      "event_type": "CLONED_PLATE_SIGHTING",
+      "description": "SAME plate DL03AH6067 seen at Gurugram toll 35km away (10 min gap = impossible).",
+      "entity_ids": [
+        "PER-S05-001",
+        "VEH-S05-099"
+      ],
+      "location_id": "LOC-S05-001",
+      "supporting_evidence_records": [
+        "ANPR-S05-00002"
+      ]
+    },
+    {
+      "step": 3,
+      "event_id": "EVT-S05-003",
+      "timestamp": "2026-08-18T09:30:00Z",
+      "event_type": "CRIME_EVENT",
+      "description": "Robbery reported near Gurugram. Suspect vehicle plate: DL03AH6067.",
+      "entity_ids": [
+        "PER-S05-001"
+      ],
+      "location_id": "LOC-S05-001",
+      "supporting_evidence_records": [
+        "FIR-S05-001"
+      ]
+    },
+    {
+      "step": 4,
+      "event_id": "EVT-S05-004",
+      "timestamp": "2026-08-18T10:00:00Z",
+      "event_type": "OCR_NOISE_SIGHTING",
+      "description": "Plate DL03AH6076 (OCR error of DL03AH6067) seen at Faridabad.",
+      "entity_ids": [
+        "PER-S05-003"
+      ],
+      "location_id": "LOC-S05-003",
+      "supporting_evidence_records": [
+        "ANPR-S05-00003"
+      ]
+    },
+    {
+      "step": 5,
+      "event_id": "EVT-S05-005",
+      "timestamp": "2026-08-18T11:00:00Z",
+      "event_type": "SUBSEQUENT_SIGHTING_CRIMINAL",
+      "description": "Clone vehicle DL03AH6067 seen again at Manesar after crime.",
+      "entity_ids": [
+        "PER-S05-001",
+        "VEH-S05-099"
+      ],
+      "location_id": "LOC-S05-004",
+      "supporting_evidence_records": [
+        "ANPR-S05-00004"
+      ]
+    },
+    {
+      "step": 6,
+      "event_id": "EVT-S05-006",
+      "timestamp": "2026-08-18T12:00:00Z",
+      "event_type": "LEGITIMATE_OWNER_ALIBI",
+      "description": "Legitimate owner Vijay Reddy confirms continuous presence at work in New Delhi.",
+      "entity_ids": [
+        "PER-S05-000"
+      ],
+      "location_id": "LOC-S05-000",
+      "supporting_evidence_records": [
+        "FNOTE-S05-0001"
+      ]
+    }
+  ],
+  "ground_truth_entities": [
+    {
+      "canonical_id": "PER-S05-000",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Vijay Reddy",
+      "associated_sources": [
+        "toll_anpr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S05-001",
+      "role_in_scenario": "MASTERMIND",
+      "real_name": "Rajesh Pandey",
+      "associated_sources": [
+        "cctns_fir_records.json",
+        "toll_anpr_logs.csv",
+        "telecom_cdr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S05-002",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Anil Singh",
+      "associated_sources": [
+        "cctns_fir_records.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S05-003",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Kavya Kapoor",
+      "associated_sources": [
+        "toll_anpr_logs.csv"
+      ]
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "edge_id": "S05-E001",
+      "source_entity": "PER-S05-000",
+      "target_entity": "VEH-S05-000",
+      "relationship_type": "LEGALLY_OWNS",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00001"
+        }
+      ],
+      "ground_truth_confidence": 1.0,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S05-E002",
+      "source_entity": "PER-S05-001",
+      "target_entity": "VEH-S05-099",
+      "relationship_type": "OPERATES_CLONE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00002"
+        },
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S05-001"
+        }
+      ],
+      "ground_truth_confidence": 0.93,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S05-E003",
+      "source_entity": "VEH-S05-000",
+      "target_entity": "VEH-S05-099",
+      "relationship_type": "PLATE_CLONED_FROM",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00001"
+        },
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.96,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S05-E004",
+      "source_entity": "PER-S05-001",
+      "target_entity": "LOC-S05-001",
+      "relationship_type": "PRESENT_AT_CRIME",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S05-001"
+        },
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S05-E005",
+      "source_entity": "PER-S05-000",
+      "target_entity": "LOC-S05-000",
+      "relationship_type": "ALIBI_CONFIRMED",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "field_intelligence_notes.txt",
+          "record_id": "FNOTE-S05-0001"
+        }
+      ],
+      "ground_truth_confidence": 1.0,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S05-E006",
+      "source_entity": "PER-S05-003",
+      "target_entity": "LOC-S05-003",
+      "relationship_type": "BENIGN_TRAVEL",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00003"
+        }
+      ],
+      "ground_truth_confidence": 0.05,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S05-E007",
+      "source_entity": "VEH-S05-000",
+      "target_entity": "LOC-S05-001",
+      "relationship_type": "IMPOSSIBLE_MOVEMENT_ANOMALY",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00001"
+        },
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S05-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.0,
+      "temporal_start": null,
+      "temporal_end": null
+    }
+  ]
+}

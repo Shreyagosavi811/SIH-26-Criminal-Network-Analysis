@@ -1,0 +1,36 @@
+[
+  {
+    "chain_id": "EC-S10-001",
+    "claim": "Priya Bhattacharya criminally linked to Rohit Chauhan",
+    "gt_edge_id": "S10-E002",
+    "supporting_record_ids": [
+      "CDR-S10-00001",
+      "FIR-S10-001",
+      "FNOTE-S10-0001"
+    ],
+    "source_types": [
+      "telecom_cdr_logs.csv",
+      "cctns_fir_records.json",
+      "field_intelligence_notes.txt"
+    ],
+    "source_diversity": 3
+  },
+  {
+    "chain_id": "EC-S10-002",
+    "claim": "Taxi driver Lata Jha is benign",
+    "gt_edge_id": "S10-E007",
+    "supporting_record_ids": [
+      "ANPR-S10-00001",
+      "ANPR-S10-00003",
+      "CBS-S10-00010",
+      "FNOTE-S10-0002"
+    ],
+    "source_types": [
+      "toll_anpr_logs.csv",
+      "toll_anpr_logs.csv",
+      "cbs_bank_transactions.csv",
+      "field_intelligence_notes.txt"
+    ],
+    "source_diversity": 3
+  }
+]

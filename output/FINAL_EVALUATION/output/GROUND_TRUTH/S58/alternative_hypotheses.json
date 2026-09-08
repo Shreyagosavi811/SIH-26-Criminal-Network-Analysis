@@ -1,0 +1,11 @@
+[
+  {
+    "hypothesis_id": "AH-S08-001",
+    "description": "'Rajesh Bhattacharya' is the cross-case suspect",
+    "supporting_features": [
+      "same_surname",
+      "appeared_in_FIR_001"
+    ],
+    "why_weaker": "pHardNeg is listed as a witness in FIR-001, not accused. Vehicle not linked. Phone not traced to Case-2 or Case-3 scenes."
+  }
+]

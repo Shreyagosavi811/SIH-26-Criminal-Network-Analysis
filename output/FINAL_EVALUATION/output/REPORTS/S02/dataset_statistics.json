@@ -1,0 +1,34 @@
+{
+  "scenario_id": "S02",
+  "scenario_type": "FIR_CENTRIC",
+  "seed": 26189,
+  "scale": "final",
+  "gt_entities": 6,
+  "gt_edges": 10,
+  "gt_timeline_steps": 6,
+  "observed_files": 10,
+  "total_observed_records": 11391,
+  "hard_negatives": 1,
+  "evidence_chains": 1,
+  "alternative_hypotheses": 1,
+  "noise_statistics": {
+    "noise_level": 3,
+    "target_noise_ratio": 0.6,
+    "measured_noise_ratio": 0.6,
+    "ratio_formula": "new_noise_records / total_observed_records",
+    "total_observed_records": 11391,
+    "clean_records": 4556,
+    "noise_records_inter": 6835,
+    "noise_records_intra": 4500,
+    "mechanisms": {
+      "spatial_overlap_msisdns_added": 4500,
+      "identity_collisions_new_records": 1708,
+      "ocr_typos_modified_records": 277,
+      "recycled_sim_records": 1708,
+      "benign_financial_records": 3416,
+      "distractor_subgraph_records": 3
+    }
+  },
+  "audit_passed": true,
+  "audit_warnings": 0
+}

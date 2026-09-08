@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SIH26189 Fragmented Source Record Schemas",
+  "type": "object",
+  "definitions": {
+    "cctns_fir_record": {
+      "type": "object",
+      "required": ["fir_no", "police_station", "district", "state", "incident_datetime", "ipc_sections", "complaint_summary"],
+      "properties": {
+        "fir_no": { "type": "string" },
+        "police_station": { "type": "string" },
+        "district": { "type": "string" },
+        "state": { "type": "string" },
+        "incident_datetime": { "type": "string", "format": "date-time" },
+        "registration_datetime": { "type": "string", "format": "date-time" },
+        "ipc_sections": { "type": "array", "items": { "type": "string" } },
+        "complainant": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "phone": { "type": "string" }
+          }
+        },
+        "accused_mentioned": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "alias": { "type": "string" },
+              "description": { "type": "string" }
+            }
+          }
+        },
+        "complaint_summary": { "type": "string" }
+      }
+    },
+    "telecom_cdr_log": {
+      "type": "object",
+      "required": ["calling_no", "called_no", "timestamp", "duration_sec", "cell_id"],
+      "properties": {
+        "calling_no": { "type": "string" },
+        "called_no": { "type": "string" },
+        "imei": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "duration_sec": { "type": "integer" },
+        "call_type": { "type": "string", "enum": ["VOICE_IN", "VOICE_OUT", "SMS", "DATA"] },
+        "cell_id": { "type": "string" }
+      }
+    },
+    "cbs_bank_transaction": {
+      "type": "object",
+      "required": ["transaction_id", "txn_date", "debit_acc", "credit_acc", "amount", "utr_no"],
+      "properties": {
+        "transaction_id": { "type": "string" },
+        "txn_date": { "type": "string", "format": "date-time" },
+        "debit_acc": { "type": "string" },
+        "credit_acc": { "type": "string" },
+        "amount": { "type": "number" },
+        "mode": { "type": "string", "enum": ["UPI", "NEFT", "RTGS", "IMPS", "ATM"] },
+        "utr_no": { "type": "string" },
+        "remarks": { "type": "string" }
+      }
+    },
+    "toll_anpr_log": {
+      "type": "object",
+      "required": ["log_id", "toll_plaza_id", "vehicle_reg_no", "timestamp"],
+      "properties": {
+        "log_id": { "type": "string" },
+        "toll_plaza_id": { "type": "string" },
+        "vehicle_reg_no": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "lane": { "type": "integer" },
+        "camera_conf": { "type": "number", "minimum": 0.0, "maximum": 1.0 }
+      }
+    }
+  }
+}

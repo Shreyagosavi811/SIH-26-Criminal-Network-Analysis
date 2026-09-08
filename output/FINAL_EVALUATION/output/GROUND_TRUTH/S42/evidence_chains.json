@@ -1,0 +1,16 @@
+[
+  {
+    "chain_id": "EC-S02-001",
+    "claim": "Rohit Choudhury perpetrated FIR-S02-001",
+    "gt_edge_id": "S02-E001",
+    "supporting_record_ids": [
+      "FIR-S02-001",
+      "ANPR-S02-00001"
+    ],
+    "source_types": [
+      "cctns_fir_records.json",
+      "toll_anpr_logs.csv"
+    ],
+    "source_diversity": 2
+  }
+]

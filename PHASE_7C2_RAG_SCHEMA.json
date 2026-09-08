@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Phase 7C.2 Normalized RAG Document Schema",
+  "description": "Schema for the ingestion of OBSERVED investigative records into the future Phase 8 RAG database.",
+  "type": "object",
+  "properties": {
+    "document_id": {
+      "type": "string",
+      "description": "Deterministic globally unique ID: {scenario_instance_id}::{source_type}::{source_record_id}"
+    },
+    "scenario_instance_id": {
+      "type": "string",
+      "description": "The specific scenario instance directory (e.g., S11)."
+    },
+    "scenario_family": {
+      "type": "string",
+      "description": "The topological family (e.g., S01). Derived during ingestion."
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "cbs_bank_transactions",
+        "cctns_fir_records",
+        "cell_tower_dumps",
+        "criminal_history_db",
+        "field_intelligence_notes",
+        "fiu_str_alerts",
+        "osint_social_posts",
+        "telecom_caf_kyc",
+        "telecom_cdr_logs",
+        "toll_anpr_logs"
+      ]
+    },
+    "source_record_id": {
+      "type": "string",
+      "description": "The raw ID extracted from the file (e.g., FIR-100/2026/NE)."
+    },
+    "timestamp": {
+      "type": ["string", "null"],
+      "format": "date-time",
+      "description": "ISO-8601 timestamp extracted from the record. Null if genuinely absent."
+    },
+    "raw_content": {
+      "type": "object",
+      "description": "The untouched JSON object or parsed CSV dictionary of the original record.",
+      "additionalProperties": true
+    },
+    "normalized_text": {
+      "type": "string",
+      "description": "Human/LLM-readable text representation of the raw record to be embedded."
+    },
+    "entity_refs": {
+      "type": "array",
+      "description": "Lexical extraction of raw surface entities (phones, names, accounts). NO GROUND TRUTH LABELS.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "location_refs": {
+      "type": "array",
+      "description": "Extracted location constraints (districts, tower IDs).",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "source_path": {
+          "type": "string"
+        },
+        "ingestion_version": {
+          "type": "string"
+        }
+      },
+      "required": ["source_path"]
+    }
+  },
+  "required": [
+    "document_id",
+    "scenario_instance_id",
+    "source_type",
+    "raw_content",
+    "normalized_text",
+    "provenance"
+  ]
+}

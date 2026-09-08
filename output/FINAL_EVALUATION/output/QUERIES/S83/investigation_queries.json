@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S03-001",
+    "scenario_id": "S83",
+    "starting_entity": "+91-9846386793",
+    "starting_entity_type": "PHONE",
+    "time_window": {
+      "start": "2026-01-01T00:00:00Z",
+      "end": "2026-08-31T23:59:59Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Phone +91-9846386793 appears in both historical CDRs (2025) and recent suspicious activity (2026). Determine whether this represents the same person or a recycled SIM reassignment.",
+    "difficulty_level": "HARD",
+    "expected_reasoning_type": "ENTITY_RESOLUTION"
+  }
+]

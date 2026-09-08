@@ -1,0 +1,252 @@
+{
+  "S01": {
+    "scenario_id": "S01",
+    "gt_entities": 5,
+    "gt_edges": 11,
+    "entity_types": {
+      "PER": 5
+    },
+    "edge_types": {
+      "OWNS_PHONE": 1,
+      "COMMUNICATES_WITH": 1,
+      "OWNS_VEHICLE": 1,
+      "OWNS_ACCOUNT": 3,
+      "FINANCIAL_CONDUIT": 1,
+      "PRESENT_AT": 1,
+      "OBSERVED_AT_TOLL": 1,
+      "ASSOCIATE_OF": 1,
+      "RESIDES_NEAR": 1
+    },
+    "hard_negatives": 1,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 2,
+    "source_diversity": {
+      "EC-S01-001": 2,
+      "EC-S01-002": 2
+    },
+    "minimum_hop_depth": 2
+  },
+  "S02": {
+    "scenario_id": "S02",
+    "gt_entities": 6,
+    "gt_edges": 10,
+    "entity_types": {
+      "PER": 6
+    },
+    "edge_types": {
+      "PERPETRATOR_OF": 1,
+      "DRIVES": 1,
+      "COMMUNICATES_WITH": 1,
+      "OWNS_ACCOUNT": 1,
+      "RECEIVES_FUNDS": 1,
+      "WITNESS_AT": 2,
+      "NEARBY_BENIGN": 1,
+      "PRESENT_AT_SCENE": 1,
+      "VICTIM_ACCOUNT": 1
+    },
+    "hard_negatives": 1,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 1,
+    "source_diversity": {
+      "EC-S02-001": 2
+    },
+    "minimum_hop_depth": 2
+  },
+  "S03": {
+    "scenario_id": "S03",
+    "gt_entities": 4,
+    "gt_edges": 9,
+    "entity_types": {
+      "PER": 4
+    },
+    "edge_types": {
+      "HISTORICALLY_OWNED": 1,
+      "CURRENTLY_OWNS": 1,
+      "COMMUNICATES_WITH": 1,
+      "OWNS_ACCOUNT": 2,
+      "TRANSFERS_TO": 1,
+      "SIM_RECYCLED_NOT_SAME_PERSON": 1,
+      "CO_LOCATED_BENIGN": 1,
+      "PRESENT_AT": 1
+    },
+    "hard_negatives": 1,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 1,
+    "source_diversity": {
+      "EC-S03-001": 2
+    },
+    "minimum_hop_depth": 2
+  },
+  "S04": {
+    "scenario_id": "S04",
+    "gt_entities": 5,
+    "gt_edges": 12,
+    "entity_types": {
+      "PER": 5
+    },
+    "edge_types": {
+      "TRANSFERS_TO": 4,
+      "OWNS_ACCOUNT": 4,
+      "COORDINATES": 1,
+      "STR_FLAGGED": 2,
+      "OWNS_ACCOUNT_BENIGN": 1
+    },
+    "hard_negatives": 1,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 1,
+    "source_diversity": {
+      "EC-S04-001": 1
+    },
+    "minimum_hop_depth": 4
+  },
+  "S05": {
+    "scenario_id": "S05",
+    "gt_entities": 4,
+    "gt_edges": 7,
+    "entity_types": {
+      "PER": 4
+    },
+    "edge_types": {
+      "LEGALLY_OWNS": 1,
+      "OPERATES_CLONE": 1,
+      "PLATE_CLONED_FROM": 1,
+      "PRESENT_AT_CRIME": 1,
+      "ALIBI_CONFIRMED": 1,
+      "BENIGN_TRAVEL": 1,
+      "IMPOSSIBLE_MOVEMENT_ANOMALY": 1
+    },
+    "hard_negatives": 2,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 1,
+    "source_diversity": {
+      "EC-S05-001": 1
+    },
+    "minimum_hop_depth": 2
+  },
+  "S06": {
+    "scenario_id": "S06",
+    "gt_entities": 5,
+    "gt_edges": 9,
+    "entity_types": {
+      "PER": 5
+    },
+    "edge_types": {
+      "COMMUNICATES_WITH": 1,
+      "MEETS_AT_TOWER": 1,
+      "PRESENT_AT": 3,
+      "OWNS_ACCOUNT": 1,
+      "TRANSFERS_FUNDS": 1,
+      "CO_LOCATED_ONLY": 2
+    },
+    "hard_negatives": 2,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 1,
+    "source_diversity": {
+      "EC-S06-001": 4
+    },
+    "minimum_hop_depth": 1
+  },
+  "S07": {
+    "scenario_id": "S07",
+    "gt_entities": 7,
+    "gt_edges": 11,
+    "entity_types": {
+      "PER": 7
+    },
+    "edge_types": {
+      "OWNS_PHONE": 1,
+      "CALLS_HOP1": 1,
+      "OWNS_ACCOUNT": 1,
+      "TRANSFERS_HOP2": 1,
+      "RECEIVES_ACCOUNT": 1,
+      "OWNS_VEHICLE": 1,
+      "CO_PASSENGER_HOP3": 1,
+      "CALLS_HOP4": 1,
+      "RECEIVES_FUNDS_HOP4": 1,
+      "DISTRACTOR_CALL": 1,
+      "DISTRACTOR_ACCOUNT": 1
+    },
+    "hard_negatives": 2,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 2,
+    "source_diversity": {
+      "EC-S07-001": 2,
+      "EC-S07-002": 3
+    },
+    "minimum_hop_depth": 3
+  },
+  "S08": {
+    "scenario_id": "S08",
+    "gt_entities": 6,
+    "gt_edges": 8,
+    "entity_types": {
+      "PER": 6
+    },
+    "edge_types": {
+      "ACCUSED_IN": 3,
+      "OWNS_PHONE": 1,
+      "OWNS_VEHICLE": 1,
+      "CROSS_CASE_VEHICLE_LINK": 2,
+      "WITNESS_IN": 1
+    },
+    "hard_negatives": 1,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 1,
+    "source_diversity": {
+      "EC-S08-001": 3
+    },
+    "minimum_hop_depth": 1
+  },
+  "S09": {
+    "scenario_id": "S09",
+    "gt_entities": 5,
+    "gt_edges": 8,
+    "entity_types": {
+      "PER": 5
+    },
+    "edge_types": {
+      "CALLS_PLANNING": 1,
+      "MEETS": 1,
+      "DEFRAUDS": 1,
+      "FUNDS_RECEIVED": 1,
+      "LAYERED_TO": 1,
+      "USES_VEHICLE": 1,
+      "SIGNALS_VIA_OSINT": 1,
+      "CO_LOCATED_ONLY": 1
+    },
+    "hard_negatives": 1,
+    "alternative_hypotheses": 1,
+    "evidence_chains": 1,
+    "source_diversity": {
+      "EC-S09-001": 2
+    },
+    "minimum_hop_depth": 2
+  },
+  "S10": {
+    "scenario_id": "S10",
+    "gt_entities": 5,
+    "gt_edges": 10,
+    "entity_types": {
+      "PER": 5
+    },
+    "edge_types": {
+      "OWNS_BURNER_PHONE": 1,
+      "COMMUNICATES_SPOTTER": 1,
+      "FINANCIAL_CONDUIT": 1,
+      "PRESENT_AT_CRIME": 2,
+      "OWNS_ACCOUNT": 1,
+      "MULE_ACCOUNT": 1,
+      "COMMERCIAL_TAXI_HIRE": 1,
+      "CONTINUES_COMMERCIAL_ROUTE": 1,
+      "BENIGN_HIGH_VALUE_TXN": 1
+    },
+    "hard_negatives": 2,
+    "alternative_hypotheses": 2,
+    "evidence_chains": 2,
+    "source_diversity": {
+      "EC-S10-001": 3,
+      "EC-S10-002": 3
+    },
+    "minimum_hop_depth": 2
+  }
+}

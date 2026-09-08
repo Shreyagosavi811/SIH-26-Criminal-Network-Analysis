@@ -1,0 +1,156 @@
+{
+  "audit_version": "v1.1",
+  "audit_date": "2026-09-02",
+  "audited_version": "v1.0",
+  "findings": [
+    {
+      "id": "AUDIT-001",
+      "severity": "CRITICAL",
+      "component": "noise_engine / dataset_statistics",
+      "title": "Fake Noise Ratio Reporting",
+      "detail": "v1.0 reports target_noise_ratio=0.60 (Level 3) but generated 45 noise records vs 37 total observed records. Actual noise ratio = 45/(37+45) = 0.549 if noise records are counted separately, or 45/37 = 1.22 (>100%) if the ratio is noise/clean. The statistical claim of '60% noise' is mathematically unsubstantiated. The noise engine counts MSISDN entries inside tower dump lists (24) as noise records, but these do not represent independent database records.",
+      "recommendation": "Define noise_ratio = noise_records / total_observed_records clearly. Separate intra-record noise (extra MSISDNs inside a tower dump JSON) from inter-record noise (entire new records added). Report both. Never claim a target noise ratio without a matching measured ratio."
+    },
+    {
+      "id": "AUDIT-002",
+      "severity": "CRITICAL",
+      "component": "generator/serializers.py",
+      "title": "Hardcoded Static Serializers — Zero Record Volume Scalability",
+      "detail": "All 10 serializers return hardcoded fixed lists (1 FIR, 1 criminal history, 2 CDRs, 4 CAF records, 2 transactions, 1 FIU alert, 3 ANPR entries, 3 tower dumps, 1 OSINT post, 1 field note). Total clean signal records: 18. This is hardcoded to Scenario 10 only and produces the same output regardless of the scenario, seed, entity graph, or scale setting. Any call to generate Scenarios 1-9 will produce Scenario 10 records.",
+      "recommendation": "Rewrite serializers as data-driven functions that accept a ScenarioContext with resolved entity attributes and dynamically generate realistic record volumes based on the density profile and scenario timeline."
+    },
+    {
+      "id": "AUDIT-003",
+      "severity": "CRITICAL",
+      "component": "generator/topology.py",
+      "title": "Only Scenario 10 Implemented",
+      "detail": "The run_engine.py CLI states it can accept --scenario 1 through 10 but falls back to Scenario 10 for all values != 10. Scenarios 1-9 are not implemented at all, producing Scenario 10 data regardless of input.",
+      "recommendation": "Implement all 10 scenario topology builders. Do not expose CLI options that produce incorrect output silently."
+    },
+    {
+      "id": "AUDIT-004",
+      "severity": "CRITICAL",
+      "component": "generator/attributes.py",
+      "title": "Broken generate_name Method (Syntax Error Fixed in Runtime But Incorrect Logic)",
+      "detail": "The generate_name method previously had a syntax error (`def generate_name(() -> str:`). While fixed in run, the method uses `self.rng.choice(FIRST_NAMES)` correctly, but does NOT guarantee uniqueness of generated names. The same seed will always produce the same sequence, meaning if called 10 times for 10 persons, the same 2-3 names may repeat. For collision-testing scenarios, this is actually useful, but for distinct person generation it produces unrealistic homogeneity.",
+      "recommendation": "Add a name counter/index offset so different entity calls get deterministically different but varied names. Keep same seed for reproducibility."
+    },
+    {
+      "id": "AUDIT-005",
+      "severity": "HIGH",
+      "component": "validation/audit_runner.py",
+      "title": "Temporal Validator Not Called From Audit Runner",
+      "detail": "The AuditRunner imports and uses LeakageValidator, FinancialValidator, and SpatialValidator. However, temporal_validator.py (MasterTimelineManager) is never invoked from AuditRunner. Temporal causality (call before SIM activation, transaction before account opening) is only tested manually in test_models.py but not enforced in pipeline runs.",
+      "recommendation": "Integrate MasterTimelineManager into AuditRunner. Run temporal validation on every scenario's master_timeline before export."
+    },
+    {
+      "id": "AUDIT-006",
+      "severity": "HIGH",
+      "component": "validation/",
+      "title": "Evidence Reachability Validator Is a Stub",
+      "detail": "evidence_validator.py is mentioned in architecture documents but does NOT exist as a module in the validation/ directory. The audit_runner.py does not validate that every edge in investigation_answers.json has a corresponding record_id in the observed dataset files.",
+      "recommendation": "Implement evidence_validator.py. For every EvidenceMapping in answer.supporting_evidence and answer.relationship_graph, verify the record_id exists in the corresponding source file within output/OBSERVED/."
+    },
+    {
+      "id": "AUDIT-007",
+      "severity": "HIGH",
+      "component": "validation/",
+      "title": "Identity Validator Is a Stub",
+      "detail": "identity_validator.py is mentioned in architecture documents but does NOT exist. Recycled SIM handling is injected as noise but never validated (e.g., that a call using recycled_no at timestamp 2025-02-14 is correctly distinguished from the same number after reactivation in 2026).",
+      "recommendation": "Implement identity_validator.py. Track phone_number -> (activation_date, deactivation_date, owner_id) mappings. Flag any CDR records that occur after deactivation date."
+    },
+    {
+      "id": "AUDIT-008",
+      "severity": "HIGH",
+      "component": "confidence/model.py",
+      "title": "Confidence Model Does Not Penalize Single-Source Duplication",
+      "detail": "The current confidence formula: avg_weight * source_diversity_factor * temporal * identity - contradiction. If 10 CDR records all point to the same relationship, source_diversity_factor would be min(1.0, 0.7 + 1*0.10) = 0.80 (only 1 unique source). However, the avg_weight of 10 CDR records = 0.95 still. The model correctly applies source diversity, but does NOT normalize for the number of records from the same source. 1000 CDR records pointing to the same relationship would not increase the diversity factor.",
+      "recommendation": "This is partially correct behavior. Document it explicitly with a test. Add a test proving 10 duplicate records from 1 source < 3 independent records from 3 sources in confidence scoring."
+    },
+    {
+      "id": "AUDIT-009",
+      "severity": "HIGH",
+      "component": "generator/engine.py",
+      "title": "ScenarioContext Not Propagated to Serializers",
+      "detail": "The serializers receive a `synth_attrs` dict from the engine, but the SourceRecordSerializer ignores it for actual record generation (all records are hardcoded). The generated CAF records always show 'Vikram Choudhury', 'Rajesh Sharma', 'Amit Patel' regardless of what synth_attrs contains. Seeded demographic generation is present in attributes.py but never connected to the serializer output.",
+      "recommendation": "Create a ScenarioContext that binds canonical entity IDs to their generated attributes. Pass ScenarioContext to all serializers. Serializers should reference entity attributes from ScenarioContext rather than hardcoded strings."
+    },
+    {
+      "id": "AUDIT-010",
+      "severity": "HIGH",
+      "component": "output/ (dataset volume)",
+      "title": "Record Volume Far Below MVP Target",
+      "detail": "MVP target is ~2,000 meaningful observed records. Current generation produces 37 total records (18 clean + 19 noise-injected records that are complete records; 24 of the 45 'noise_records_injected' are MSISDNs appended inside tower dump lists, not standalone records). True record count: CCTNS=1, CrimHist=1, CDR=5, CAF=9, CBS=12, FIU=1, ANPR=3+OCR-modifications, TowerDump=3 (with inflated MSISDN lists), OSINT=1, FieldNotes=1 (TXT). This is insufficient for demonstrating any real investigative AI capability.",
+      "recommendation": "Implement density-profile-based record generation. For MVP scale with 5 scenarios: CDR=500 records, banking=500 records, ANPR=300 records, tower_dump=200 records, CAF=100 records, OSINT=100 records, FIR=20 records, CrimHist=10 records, FIU=20 records, FieldNotes=50 records = ~1800 records."
+    },
+    {
+      "id": "AUDIT-011",
+      "severity": "MEDIUM",
+      "component": "generator/noise.py",
+      "title": "Noise Level Not Connected to Record Volume",
+      "detail": "noise_level is stored but only controls which NOISE_RATIO_MAP value is selected. It does NOT control how many noise records are actually injected. inject_spatial_overlap always injects 5-15 per dump regardless of noise_level. inject_name_collisions always adds 5 records. inject_benign_financials always adds 10. The noise_level parameter is decorative — it doesn't change behavior.",
+      "recommendation": "Connect noise_level to all injector volumes. Level 1 should inject minimal noise; Level 5 should inject ~50x the signal volume."
+    },
+    {
+      "id": "AUDIT-012",
+      "severity": "MEDIUM",
+      "component": "generator/topology.py (Scenario 10)",
+      "title": "Scenario 10 Entity Graph Too Small for Realistic Investigation",
+      "detail": "5 entities and 4 edges produce a trivially small investigation graph. A real investigation involves dozens of CDR calls, multiple transaction hops, multiple vehicle sightings, and multiple field observations. The current graph cannot demonstrate multi-hop reasoning or false-positive discrimination at meaningful scale.",
+      "recommendation": "Expand Scenario 10 to 15-20 entities with 20+ edges, multiple CDR communication chains, 2-3 financial transaction layers, multiple ANPR sightings, and 5+ tower dump observations."
+    },
+    {
+      "id": "AUDIT-013",
+      "severity": "MEDIUM",
+      "component": "investigation queries and answers",
+      "title": "Query and Answer Not Validated for Evidence Reachability",
+      "detail": "The investigation_answers.json references record_ids (CDR-PHN-0001-0002-1, CBS-TXN-9901, FIR-2026-104-VK) but these are only string references. No code verifies that CDR-PHN-0001-0002-1 actually exists in telecom_cdr_logs.csv as an output record. The answer references FIR-2026-104-VK but the FIR file uses fir_no field value 'FIR-104/2026/VK' — these formats differ and a lookup would fail.",
+      "recommendation": "Implement a record registry that maps canonical record IDs to their source file locations. Validate every EvidenceMapping.record_id against the registry before declaring audit_passed=true."
+    },
+    {
+      "id": "AUDIT-014",
+      "severity": "MEDIUM",
+      "component": "tests/",
+      "title": "Only 8 Tests — All Basic Functionality",
+      "detail": "8 tests covering only: PersonEntity instantiation, Scenario 10 topology structure, pipeline execution, reproducibility, speed limit pass/fail, financial validator pass, and leakage validator. Missing: all other entity types, scenarios 1-9, noise level behavior, confidence model logic, temporal validator, identity validator, evidence validator, dataset split generation, benchmark answer traceability.",
+      "recommendation": "Expand to 30+ tests. Each validator, each scenario topology, each noise injector, and each benchmark component must have dedicated tests."
+    },
+    {
+      "id": "AUDIT-015",
+      "severity": "MEDIUM",
+      "component": "config/dataset_config.yaml",
+      "title": "Record Density Profile Missing From Config",
+      "detail": "dataset_config.yaml defines scale scenarios and noise levels but has no record_density profile. The serializers don't reference it anyway (all records are hardcoded). The config is not actually loaded or used by engine.py — the engine hardcodes seed=26189 and noise_level=3 defaults.",
+      "recommendation": "Load dataset_config.yaml in engine.py. Add record_density section. Use config values throughout the engine."
+    },
+    {
+      "id": "AUDIT-016",
+      "severity": "LOW",
+      "component": "generator/attributes.py",
+      "title": "Location Coordinates Use Hard-Coded List of 5 Locations",
+      "detail": "Only 5 synthetic locations are defined in CITIES_DISTRICTS. Scenario generation using index % 5 will cycle these same 5 locations repeatedly. For Scenario 6 (tower dump filtering) requiring distinct cell towers, this is insufficient.",
+      "recommendation": "Expand location pool to 30+ locations across Delhi NCR, Mumbai, Chennai, Bangalore, Hyderabad zones. Generate cell tower IDs programmatically."
+    },
+    {
+      "id": "AUDIT-017",
+      "severity": "LOW",
+      "component": "output/OBSERVED",
+      "title": "Field Notes Are a Single Text File — Not Structured as Records",
+      "detail": "field_intelligence_notes.txt is exported as a raw string. There is no record_id, officer_id, or date-indexed entry. The evidence_validator cannot look up FIELD-NOTE-001 as a record_id because the format has no structured ID field.",
+      "recommendation": "Structure field notes as dated, numbered diary entries with a record ID prefix (e.g., [FNOTE-2026-001]) that the evidence validator can parse."
+    }
+  ],
+  "summary": {
+    "CRITICAL": 3,
+    "HIGH": 6,
+    "MEDIUM": 5,
+    "LOW": 3,
+    "PASS": 4
+  },
+  "passing_aspects": [
+    "PASS: Zero label leakage in observed records",
+    "PASS: Pydantic v2 entity models are well-structured",
+    "PASS: Spatial speed validator (Haversine) is mathematically correct",
+    "PASS: Seed reproducibility is functional"
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "scenario_id": "S51",
+  "scenario_name": "Person-Centric Investigation",
+  "scenario_type": "PERSON_CENTRIC",
+  "master_timeline": [
+    {
+      "step": 1,
+      "event_id": "EVT-S01-001",
+      "timestamp": "2026-08-15T08:00:00Z",
+      "event_type": "SUSPECT_ACTIVATES_BURNER",
+      "description": "Priya Bhattacharya activates new SIM.",
+      "entity_ids": [
+        "PER-S01-000",
+        "PHN-S01-000"
+      ],
+      "location_id": "LOC-S01-000",
+      "supporting_evidence_records": [
+        "CAF-S01-0001"
+      ]
+    },
+    {
+      "step": 2,
+      "event_id": "EVT-S01-002",
+      "timestamp": "2026-08-15T10:30:00Z",
+      "event_type": "CALL_TO_ASSOCIATE",
+      "description": "Target calls associate Rohit Chauhan.",
+      "entity_ids": [
+        "PER-S01-000",
+        "PER-S01-001"
+      ],
+      "location_id": "LOC-S01-000",
+      "supporting_evidence_records": [
+        "CDR-S01-00001"
+      ]
+    },
+    {
+      "step": 3,
+      "event_id": "EVT-S01-003",
+      "timestamp": "2026-08-15T12:00:00Z",
+      "event_type": "VEHICLE_OBSERVED",
+      "description": "Target's vehicle DL03RW7567 seen at toll.",
+      "entity_ids": [
+        "PER-S01-000",
+        "VEH-S01-000"
+      ],
+      "location_id": "LOC-S01-001",
+      "supporting_evidence_records": [
+        "ANPR-S01-00001"
+      ]
+    },
+    {
+      "step": 4,
+      "event_id": "EVT-S01-004",
+      "timestamp": "2026-08-15T14:00:00Z",
+      "event_type": "FINANCIAL_LAYERING",
+      "description": "Funds transferred via Dhruv Dixit's account.",
+      "entity_ids": [
+        "PER-S01-000",
+        "PER-S01-002",
+        "ACC-S01-002"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "CBS-S01-00001",
+        "CBS-S01-00002",
+        "FIU-S01-0001"
+      ]
+    },
+    {
+      "step": 5,
+      "event_id": "EVT-S01-005",
+      "timestamp": "2026-08-15T16:00:00Z",
+      "event_type": "FIR_REGISTERED",
+      "description": "FIR registered at police station.",
+      "entity_ids": [
+        "PER-S01-000",
+        "PER-S01-003"
+      ],
+      "location_id": "LOC-S01-002",
+      "supporting_evidence_records": [
+        "FIR-S01-001"
+      ]
+    },
+    {
+      "step": 6,
+      "event_id": "EVT-S01-006",
+      "timestamp": "2026-08-16T09:00:00Z",
+      "event_type": "SOCIAL_OSINT",
+      "description": "Target's alias posts coded message on Telegram.",
+      "entity_ids": [
+        "PER-S01-000"
+      ],
+      "location_id": null,
+      "supporting_evidence_records": [
+        "OSINT-S01-0001"
+      ]
+    }
+  ],
+  "ground_truth_entities": [
+    {
+      "canonical_id": "PER-S01-000",
+      "role_in_scenario": "MASTERMIND",
+      "real_name": "Priya Bhattacharya",
+      "associated_sources": [
+        "cctns_fir_records.json",
+        "telecom_cdr_logs.csv",
+        "cbs_bank_transactions.csv",
+        "toll_anpr_logs.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S01-001",
+      "role_in_scenario": "ASSOCIATE",
+      "real_name": "Rohit Chauhan",
+      "associated_sources": [
+        "telecom_cdr_logs.csv",
+        "cbs_bank_transactions.csv"
+      ]
+    },
+    {
+      "canonical_id": "PER-S01-002",
+      "role_in_scenario": "MULE",
+      "real_name": "Dhruv Dixit",
+      "associated_sources": [
+        "cbs_bank_transactions.csv",
+        "fiu_str_alerts.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S01-003",
+      "role_in_scenario": "BENIGN_PERSON",
+      "real_name": "Lata Jha",
+      "associated_sources": [
+        "cctns_fir_records.json"
+      ]
+    },
+    {
+      "canonical_id": "PER-S01-004",
+      "role_in_scenario": "DISTRACTOR",
+      "real_name": "Priya Shah",
+      "associated_sources": [
+        "telecom_caf_kyc.json"
+      ]
+    }
+  ],
+  "ground_truth_relationships": [
+    {
+      "edge_id": "S01-E001",
+      "source_entity": "PER-S01-000",
+      "target_entity": "PHN-S01-000",
+      "relationship_type": "OWNS_PHONE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S01-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E002",
+      "source_entity": "PER-S01-000",
+      "target_entity": "PER-S01-001",
+      "relationship_type": "COMMUNICATES_WITH",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S01-00001"
+        },
+        {
+          "source": "field_intelligence_notes.txt",
+          "record_id": "FNOTE-S01-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E003",
+      "source_entity": "PER-S01-000",
+      "target_entity": "VEH-S01-000",
+      "relationship_type": "OWNS_VEHICLE",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S01-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E004",
+      "source_entity": "PER-S01-000",
+      "target_entity": "ACC-S01-000",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S01-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E005",
+      "source_entity": "PER-S01-000",
+      "target_entity": "PER-S01-002",
+      "relationship_type": "FINANCIAL_CONDUIT",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S01-00002"
+        },
+        {
+          "source": "fiu_str_alerts.json",
+          "record_id": "FIU-S01-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E006",
+      "source_entity": "PER-S01-001",
+      "target_entity": "ACC-S01-001",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S01-00003"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E007",
+      "source_entity": "PER-S01-002",
+      "target_entity": "ACC-S01-002",
+      "relationship_type": "OWNS_ACCOUNT",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "cbs_bank_transactions.csv",
+          "record_id": "CBS-S01-00004"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E008",
+      "source_entity": "PER-S01-000",
+      "target_entity": "LOC-S01-002",
+      "relationship_type": "PRESENT_AT",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "cctns_fir_records.json",
+          "record_id": "FIR-S01-001"
+        },
+        {
+          "source": "cell_tower_dumps.json",
+          "record_id": "TDUMP-S01-0001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E009",
+      "source_entity": "PER-S01-000",
+      "target_entity": "LOC-S01-001",
+      "relationship_type": "OBSERVED_AT_TOLL",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "toll_anpr_logs.csv",
+          "record_id": "ANPR-S01-00001"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E010",
+      "source_entity": "PER-S01-001",
+      "target_entity": "PER-S01-002",
+      "relationship_type": "ASSOCIATE_OF",
+      "is_direct_or_inferred": "INFERRED",
+      "evidence_path": [
+        {
+          "source": "telecom_cdr_logs.csv",
+          "record_id": "CDR-S01-00002"
+        }
+      ],
+      "ground_truth_confidence": 0.9,
+      "temporal_start": null,
+      "temporal_end": null
+    },
+    {
+      "edge_id": "S01-E011",
+      "source_entity": "PER-S01-004",
+      "target_entity": "LOC-S01-000",
+      "relationship_type": "RESIDES_NEAR",
+      "is_direct_or_inferred": "DIRECT",
+      "evidence_path": [
+        {
+          "source": "telecom_caf_kyc.json",
+          "record_id": "CAF-S01-0005"
+        }
+      ],
+      "ground_truth_confidence": 0.15,
+      "temporal_start": null,
+      "temporal_end": null
+    }
+  ]
+}

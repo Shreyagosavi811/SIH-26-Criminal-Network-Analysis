@@ -1,0 +1,11 @@
+[
+  {
+    "hypothesis_id": "AH-S06-001",
+    "description": "All 122 tower dump MSISDNs are suspects",
+    "supporting_features": [
+      "same_tower",
+      "same_time_window"
+    ],
+    "why_weaker": "117 of 122 MSISDNs have no CDR calls to each other, no suspicious financial activity, and no connection to FIR."
+  }
+]

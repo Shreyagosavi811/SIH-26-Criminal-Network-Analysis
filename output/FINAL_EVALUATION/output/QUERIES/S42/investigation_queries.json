@@ -1,0 +1,16 @@
+[
+  {
+    "query_id": "QRY-S02-001",
+    "scenario_id": "S42",
+    "starting_entity": "FIR-S02-001",
+    "starting_entity_type": "FIR_CASE",
+    "time_window": {
+      "start": "2026-08-20T00:00:00Z",
+      "end": "2026-08-22T23:59:59Z"
+    },
+    "geographic_constraints": {},
+    "query_text": "Starting from FIR-S02-001 (robbery), identify all suspects, vehicles, and associates. Distinguish true suspect from similar-vehicle distractor.",
+    "difficulty_level": "MEDIUM",
+    "expected_reasoning_type": "ENTITY_RESOLUTION"
+  }
+]

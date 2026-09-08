@@ -1,0 +1,23 @@
+[
+  {
+    "negative_id": "HN-S05-001",
+    "record_a_id": "VEH-S05-000",
+    "record_b_id": "VEH-S05-099",
+    "shared_features": [
+      "same_plate",
+      "similar_color_class",
+      "same_location_area"
+    ],
+    "true_label": false
+  },
+  {
+    "negative_id": "HN-S05-002",
+    "record_a_id": "DL06GB9067",
+    "record_b_id": "DL06GB9076",
+    "shared_features": [
+      "1_digit_transposition",
+      "same_rto_code"
+    ],
+    "true_label": false
+  }
+]

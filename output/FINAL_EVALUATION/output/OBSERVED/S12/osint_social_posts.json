@@ -1,0 +1,3502 @@
+[
+  {
+    "post_id": "OSINT-S12-0001",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38389",
+    "timestamp": "2026-08-20T00:09:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1991,
+      "shares": 144
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0002",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48388",
+    "timestamp": "2026-08-20T01:55:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1472,
+      "shares": 150
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0003",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58387",
+    "timestamp": "2026-08-20T03:09:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1810,
+      "shares": 127
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0004",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68386",
+    "timestamp": "2026-08-20T05:21:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3416,
+      "shares": 42
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0005",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78385",
+    "timestamp": "2026-08-20T06:16:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4030,
+      "shares": 153
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0006",
+    "platform": "Signal",
+    "synthetic_account": "@user_88384",
+    "timestamp": "2026-08-20T08:24:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 70,
+      "shares": 68
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0007",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98383",
+    "timestamp": "2026-08-20T09:53:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3066,
+      "shares": 66
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0008",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08382",
+    "timestamp": "2026-08-20T11:01:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2411,
+      "shares": 11
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0009",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18381",
+    "timestamp": "2026-08-20T12:27:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 865,
+      "shares": 86
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0010",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28380",
+    "timestamp": "2026-08-20T14:03:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1711,
+      "shares": 110
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0011",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38379",
+    "timestamp": "2026-08-20T15:30:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2438,
+      "shares": 89
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0012",
+    "platform": "Signal",
+    "synthetic_account": "@user_48378",
+    "timestamp": "2026-08-20T16:47:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2248,
+      "shares": 184
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0013",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58377",
+    "timestamp": "2026-08-20T18:12:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3105,
+      "shares": 55
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0014",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68376",
+    "timestamp": "2026-08-20T19:41:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2514,
+      "shares": 1
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0015",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78375",
+    "timestamp": "2026-08-20T21:36:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4476,
+      "shares": 138
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0016",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88374",
+    "timestamp": "2026-08-20T23:26:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4495,
+      "shares": 19
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0017",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98373",
+    "timestamp": "2026-08-21T00:29:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2182,
+      "shares": 145
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0018",
+    "platform": "Signal",
+    "synthetic_account": "@user_08372",
+    "timestamp": "2026-08-21T01:43:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3556,
+      "shares": 92
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0019",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18371",
+    "timestamp": "2026-08-21T03:38:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4370,
+      "shares": 173
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0020",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28370",
+    "timestamp": "2026-08-21T05:22:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4752,
+      "shares": 127
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0021",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38369",
+    "timestamp": "2026-08-21T06:10:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2258,
+      "shares": 121
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0022",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48368",
+    "timestamp": "2026-08-21T07:54:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2048,
+      "shares": 175
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0023",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58367",
+    "timestamp": "2026-08-21T09:01:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4192,
+      "shares": 141
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0024",
+    "platform": "Signal",
+    "synthetic_account": "@user_68366",
+    "timestamp": "2026-08-21T10:34:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3931,
+      "shares": 12
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0025",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78365",
+    "timestamp": "2026-08-21T12:35:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3429,
+      "shares": 26
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0026",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88364",
+    "timestamp": "2026-08-21T14:07:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1871,
+      "shares": 100
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0027",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98363",
+    "timestamp": "2026-08-21T16:00:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3435,
+      "shares": 16
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0028",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08362",
+    "timestamp": "2026-08-21T16:40:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2975,
+      "shares": 55
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0029",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18361",
+    "timestamp": "2026-08-21T18:01:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4475,
+      "shares": 68
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0030",
+    "platform": "Signal",
+    "synthetic_account": "@user_28360",
+    "timestamp": "2026-08-21T19:47:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3432,
+      "shares": 18
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0031",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38359",
+    "timestamp": "2026-08-21T21:35:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1988,
+      "shares": 181
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0032",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48358",
+    "timestamp": "2026-08-21T22:50:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2761,
+      "shares": 79
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0033",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58357",
+    "timestamp": "2026-08-22T00:42:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1869,
+      "shares": 54
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0034",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68356",
+    "timestamp": "2026-08-22T01:45:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3454,
+      "shares": 66
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0035",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78355",
+    "timestamp": "2026-08-22T03:33:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 190,
+      "shares": 173
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0036",
+    "platform": "Signal",
+    "synthetic_account": "@user_88354",
+    "timestamp": "2026-08-22T05:02:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1568,
+      "shares": 21
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0037",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98353",
+    "timestamp": "2026-08-22T06:07:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 348,
+      "shares": 93
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0038",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08352",
+    "timestamp": "2026-08-22T08:27:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4442,
+      "shares": 80
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0039",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18351",
+    "timestamp": "2026-08-22T09:16:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3238,
+      "shares": 193
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0040",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28350",
+    "timestamp": "2026-08-22T10:35:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4152,
+      "shares": 117
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0041",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38349",
+    "timestamp": "2026-08-22T12:33:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 791,
+      "shares": 163
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0042",
+    "platform": "Signal",
+    "synthetic_account": "@user_48348",
+    "timestamp": "2026-08-22T14:10:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2873,
+      "shares": 82
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0043",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58347",
+    "timestamp": "2026-08-22T15:07:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4842,
+      "shares": 155
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0044",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68346",
+    "timestamp": "2026-08-22T16:32:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1944,
+      "shares": 33
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0045",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78345",
+    "timestamp": "2026-08-22T18:07:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2162,
+      "shares": 45
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0046",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88344",
+    "timestamp": "2026-08-22T20:06:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4209,
+      "shares": 32
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0047",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98343",
+    "timestamp": "2026-08-22T21:20:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 353,
+      "shares": 121
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0048",
+    "platform": "Signal",
+    "synthetic_account": "@user_08342",
+    "timestamp": "2026-08-22T23:01:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3360,
+      "shares": 1
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0049",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18341",
+    "timestamp": "2026-08-23T00:34:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2950,
+      "shares": 21
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0050",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28340",
+    "timestamp": "2026-08-23T01:43:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 707,
+      "shares": 60
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0051",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38339",
+    "timestamp": "2026-08-23T03:07:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2027,
+      "shares": 172
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0052",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48338",
+    "timestamp": "2026-08-23T04:57:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2658,
+      "shares": 105
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0053",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58337",
+    "timestamp": "2026-08-23T06:09:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 141,
+      "shares": 103
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0054",
+    "platform": "Signal",
+    "synthetic_account": "@user_68336",
+    "timestamp": "2026-08-23T08:06:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2009,
+      "shares": 121
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0055",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78335",
+    "timestamp": "2026-08-23T09:40:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 923,
+      "shares": 161
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0056",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88334",
+    "timestamp": "2026-08-23T11:15:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3081,
+      "shares": 32
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0057",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98333",
+    "timestamp": "2026-08-23T12:06:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3652,
+      "shares": 28
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0058",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08332",
+    "timestamp": "2026-08-23T13:39:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4101,
+      "shares": 131
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0059",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18331",
+    "timestamp": "2026-08-23T15:55:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4878,
+      "shares": 169
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0060",
+    "platform": "Signal",
+    "synthetic_account": "@user_28330",
+    "timestamp": "2026-08-23T17:18:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1993,
+      "shares": 165
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0061",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38329",
+    "timestamp": "2026-08-23T18:19:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4951,
+      "shares": 198
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0062",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48328",
+    "timestamp": "2026-08-23T20:23:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2382,
+      "shares": 152
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0063",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58327",
+    "timestamp": "2026-08-23T21:35:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 826,
+      "shares": 177
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0064",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68326",
+    "timestamp": "2026-08-23T22:59:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3223,
+      "shares": 153
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0065",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78325",
+    "timestamp": "2026-08-24T00:53:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1401,
+      "shares": 144
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0066",
+    "platform": "Signal",
+    "synthetic_account": "@user_88324",
+    "timestamp": "2026-08-24T01:39:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1524,
+      "shares": 105
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0067",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98323",
+    "timestamp": "2026-08-24T03:22:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4540,
+      "shares": 48
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0068",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08322",
+    "timestamp": "2026-08-24T04:40:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1088,
+      "shares": 0
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0069",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18321",
+    "timestamp": "2026-08-24T06:15:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4944,
+      "shares": 95
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0070",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28320",
+    "timestamp": "2026-08-24T07:49:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1099,
+      "shares": 95
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0071",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38319",
+    "timestamp": "2026-08-24T09:37:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3976,
+      "shares": 164
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0072",
+    "platform": "Signal",
+    "synthetic_account": "@user_48318",
+    "timestamp": "2026-08-24T11:14:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4845,
+      "shares": 36
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0073",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58317",
+    "timestamp": "2026-08-24T12:52:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3160,
+      "shares": 166
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0074",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68316",
+    "timestamp": "2026-08-24T13:58:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1094,
+      "shares": 197
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0075",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78315",
+    "timestamp": "2026-08-24T15:55:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2061,
+      "shares": 74
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0076",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88314",
+    "timestamp": "2026-08-24T16:58:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 51,
+      "shares": 7
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0077",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98313",
+    "timestamp": "2026-08-24T18:47:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4207,
+      "shares": 198
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0078",
+    "platform": "Signal",
+    "synthetic_account": "@user_08312",
+    "timestamp": "2026-08-24T20:29:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2001,
+      "shares": 167
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0079",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18311",
+    "timestamp": "2026-08-24T21:17:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3853,
+      "shares": 65
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0080",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28310",
+    "timestamp": "2026-08-24T22:42:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 830,
+      "shares": 146
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0081",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38309",
+    "timestamp": "2026-08-25T00:28:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 60,
+      "shares": 54
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0082",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48308",
+    "timestamp": "2026-08-25T02:10:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 195,
+      "shares": 178
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0083",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58307",
+    "timestamp": "2026-08-25T03:37:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3032,
+      "shares": 123
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0084",
+    "platform": "Signal",
+    "synthetic_account": "@user_68306",
+    "timestamp": "2026-08-25T04:35:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3262,
+      "shares": 127
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0085",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78305",
+    "timestamp": "2026-08-25T06:53:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 572,
+      "shares": 199
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0086",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88304",
+    "timestamp": "2026-08-25T07:47:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 831,
+      "shares": 104
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0087",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98303",
+    "timestamp": "2026-08-25T09:11:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2275,
+      "shares": 124
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0088",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08302",
+    "timestamp": "2026-08-25T10:44:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2103,
+      "shares": 79
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0089",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18301",
+    "timestamp": "2026-08-25T12:42:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3572,
+      "shares": 165
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0090",
+    "platform": "Signal",
+    "synthetic_account": "@user_28300",
+    "timestamp": "2026-08-25T14:03:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4640,
+      "shares": 186
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0091",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38299",
+    "timestamp": "2026-08-25T15:25:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2290,
+      "shares": 1
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0092",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48298",
+    "timestamp": "2026-08-25T17:19:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3622,
+      "shares": 195
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0093",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58297",
+    "timestamp": "2026-08-25T18:33:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 662,
+      "shares": 95
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0094",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68296",
+    "timestamp": "2026-08-25T19:57:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1658,
+      "shares": 31
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0095",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78295",
+    "timestamp": "2026-08-25T21:29:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3212,
+      "shares": 2
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0096",
+    "platform": "Signal",
+    "synthetic_account": "@user_88294",
+    "timestamp": "2026-08-25T23:25:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1894,
+      "shares": 97
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0097",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98293",
+    "timestamp": "2026-08-26T00:00:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4533,
+      "shares": 75
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0098",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08292",
+    "timestamp": "2026-08-26T02:22:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4464,
+      "shares": 72
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0099",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18291",
+    "timestamp": "2026-08-26T03:10:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3484,
+      "shares": 101
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0100",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28290",
+    "timestamp": "2026-08-26T05:20:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4752,
+      "shares": 83
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0101",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38289",
+    "timestamp": "2026-08-26T06:10:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1806,
+      "shares": 84
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0102",
+    "platform": "Signal",
+    "synthetic_account": "@user_48288",
+    "timestamp": "2026-08-26T07:31:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2259,
+      "shares": 96
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0103",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58287",
+    "timestamp": "2026-08-26T09:58:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4565,
+      "shares": 83
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0104",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68286",
+    "timestamp": "2026-08-26T10:30:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 531,
+      "shares": 93
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0105",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78285",
+    "timestamp": "2026-08-26T12:27:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4038,
+      "shares": 35
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0106",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88284",
+    "timestamp": "2026-08-26T14:03:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1223,
+      "shares": 172
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0107",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98283",
+    "timestamp": "2026-08-26T15:12:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3133,
+      "shares": 193
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0108",
+    "platform": "Signal",
+    "synthetic_account": "@user_08282",
+    "timestamp": "2026-08-26T16:39:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1967,
+      "shares": 119
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0109",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18281",
+    "timestamp": "2026-08-26T18:24:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 131,
+      "shares": 73
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0110",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28280",
+    "timestamp": "2026-08-26T20:19:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1260,
+      "shares": 185
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0111",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38279",
+    "timestamp": "2026-08-26T21:24:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2859,
+      "shares": 88
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0112",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48278",
+    "timestamp": "2026-08-26T22:39:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 330,
+      "shares": 113
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0113",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58277",
+    "timestamp": "2026-08-27T00:30:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1197,
+      "shares": 84
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0114",
+    "platform": "Signal",
+    "synthetic_account": "@user_68276",
+    "timestamp": "2026-08-27T02:17:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4643,
+      "shares": 168
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0115",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78275",
+    "timestamp": "2026-08-27T03:16:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4870,
+      "shares": 169
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0116",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88274",
+    "timestamp": "2026-08-27T05:23:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1774,
+      "shares": 148
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0117",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98273",
+    "timestamp": "2026-08-27T06:25:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3247,
+      "shares": 194
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0118",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08272",
+    "timestamp": "2026-08-27T08:16:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3836,
+      "shares": 180
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0119",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18271",
+    "timestamp": "2026-08-27T09:39:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 347,
+      "shares": 20
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0120",
+    "platform": "Signal",
+    "synthetic_account": "@user_28270",
+    "timestamp": "2026-08-27T10:56:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1752,
+      "shares": 39
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0121",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38269",
+    "timestamp": "2026-08-27T12:26:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4395,
+      "shares": 90
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0122",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48268",
+    "timestamp": "2026-08-27T14:28:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3802,
+      "shares": 90
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0123",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58267",
+    "timestamp": "2026-08-27T15:39:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 584,
+      "shares": 196
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0124",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68266",
+    "timestamp": "2026-08-27T17:16:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2336,
+      "shares": 21
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0125",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78265",
+    "timestamp": "2026-08-27T18:52:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2495,
+      "shares": 63
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0126",
+    "platform": "Signal",
+    "synthetic_account": "@user_88264",
+    "timestamp": "2026-08-27T19:53:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2021,
+      "shares": 69
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0127",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98263",
+    "timestamp": "2026-08-27T21:33:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1642,
+      "shares": 70
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0128",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08262",
+    "timestamp": "2026-08-27T23:05:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2702,
+      "shares": 174
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0129",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18261",
+    "timestamp": "2026-08-28T00:50:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 777,
+      "shares": 108
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0130",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28260",
+    "timestamp": "2026-08-28T02:04:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 55,
+      "shares": 91
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0131",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38259",
+    "timestamp": "2026-08-28T03:48:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2430,
+      "shares": 54
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0132",
+    "platform": "Signal",
+    "synthetic_account": "@user_48258",
+    "timestamp": "2026-08-28T05:13:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2114,
+      "shares": 154
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0133",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58257",
+    "timestamp": "2026-08-28T06:21:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3328,
+      "shares": 118
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0134",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68256",
+    "timestamp": "2026-08-28T08:12:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4689,
+      "shares": 64
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0135",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78255",
+    "timestamp": "2026-08-28T09:02:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4905,
+      "shares": 184
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0136",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88254",
+    "timestamp": "2026-08-28T10:58:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1139,
+      "shares": 133
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0137",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98253",
+    "timestamp": "2026-08-28T12:35:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3757,
+      "shares": 154
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0138",
+    "platform": "Signal",
+    "synthetic_account": "@user_08252",
+    "timestamp": "2026-08-28T13:56:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2090,
+      "shares": 84
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0139",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18251",
+    "timestamp": "2026-08-28T15:57:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3064,
+      "shares": 99
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0140",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28250",
+    "timestamp": "2026-08-28T16:56:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4097,
+      "shares": 66
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0141",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38249",
+    "timestamp": "2026-08-28T18:22:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4637,
+      "shares": 135
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0142",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48248",
+    "timestamp": "2026-08-28T20:00:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3669,
+      "shares": 129
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0143",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58247",
+    "timestamp": "2026-08-28T21:06:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1417,
+      "shares": 26
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0144",
+    "platform": "Signal",
+    "synthetic_account": "@user_68246",
+    "timestamp": "2026-08-28T23:20:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 258,
+      "shares": 62
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0145",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78245",
+    "timestamp": "2026-08-29T00:12:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 655,
+      "shares": 55
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0146",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88244",
+    "timestamp": "2026-08-29T02:00:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4306,
+      "shares": 62
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0147",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98243",
+    "timestamp": "2026-08-29T03:05:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3320,
+      "shares": 106
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0148",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08242",
+    "timestamp": "2026-08-29T05:21:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 51,
+      "shares": 101
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0149",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18241",
+    "timestamp": "2026-08-29T06:27:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3685,
+      "shares": 150
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0150",
+    "platform": "Signal",
+    "synthetic_account": "@user_28240",
+    "timestamp": "2026-08-29T07:57:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1511,
+      "shares": 159
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0151",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38239",
+    "timestamp": "2026-08-29T09:39:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 768,
+      "shares": 63
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0152",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48238",
+    "timestamp": "2026-08-29T10:43:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 801,
+      "shares": 161
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0153",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58237",
+    "timestamp": "2026-08-29T12:28:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4326,
+      "shares": 93
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0154",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68236",
+    "timestamp": "2026-08-29T14:29:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1776,
+      "shares": 184
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0155",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78235",
+    "timestamp": "2026-08-29T15:01:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 214,
+      "shares": 38
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0156",
+    "platform": "Signal",
+    "synthetic_account": "@user_88234",
+    "timestamp": "2026-08-29T17:03:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2434,
+      "shares": 89
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0157",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98233",
+    "timestamp": "2026-08-29T18:31:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 196,
+      "shares": 21
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0158",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08232",
+    "timestamp": "2026-08-29T19:35:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1285,
+      "shares": 43
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0159",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18231",
+    "timestamp": "2026-08-29T21:01:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4381,
+      "shares": 120
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0160",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28230",
+    "timestamp": "2026-08-29T23:20:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1669,
+      "shares": 134
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0161",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38229",
+    "timestamp": "2026-08-30T00:09:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 895,
+      "shares": 105
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0162",
+    "platform": "Signal",
+    "synthetic_account": "@user_48228",
+    "timestamp": "2026-08-30T02:12:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1412,
+      "shares": 17
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0163",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58227",
+    "timestamp": "2026-08-30T03:17:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 981,
+      "shares": 173
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0164",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68226",
+    "timestamp": "2026-08-30T05:08:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4931,
+      "shares": 74
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0165",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78225",
+    "timestamp": "2026-08-30T06:17:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2463,
+      "shares": 58
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0166",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88224",
+    "timestamp": "2026-08-30T08:14:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 175,
+      "shares": 160
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0167",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98223",
+    "timestamp": "2026-08-30T09:21:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 310,
+      "shares": 150
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0168",
+    "platform": "Signal",
+    "synthetic_account": "@user_08222",
+    "timestamp": "2026-08-30T11:16:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1469,
+      "shares": 105
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0169",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18221",
+    "timestamp": "2026-08-30T12:21:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3196,
+      "shares": 192
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0170",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28220",
+    "timestamp": "2026-08-30T13:48:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3876,
+      "shares": 141
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0171",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38219",
+    "timestamp": "2026-08-30T15:13:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 84,
+      "shares": 161
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0172",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48218",
+    "timestamp": "2026-08-30T17:14:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3455,
+      "shares": 51
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0173",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58217",
+    "timestamp": "2026-08-30T18:06:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3843,
+      "shares": 133
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0174",
+    "platform": "Signal",
+    "synthetic_account": "@user_68216",
+    "timestamp": "2026-08-30T20:27:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1828,
+      "shares": 88
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0175",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78215",
+    "timestamp": "2026-08-30T21:13:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3771,
+      "shares": 164
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0176",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88214",
+    "timestamp": "2026-08-30T22:32:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 558,
+      "shares": 164
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0177",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98213",
+    "timestamp": "2026-08-31T00:03:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3741,
+      "shares": 155
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0178",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08212",
+    "timestamp": "2026-08-31T02:16:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2023,
+      "shares": 196
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0179",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18211",
+    "timestamp": "2026-08-31T03:30:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3099,
+      "shares": 20
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0180",
+    "platform": "Signal",
+    "synthetic_account": "@user_28210",
+    "timestamp": "2026-08-31T05:20:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2138,
+      "shares": 50
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0181",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38209",
+    "timestamp": "2026-08-31T06:26:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1511,
+      "shares": 44
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0182",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48208",
+    "timestamp": "2026-08-31T07:51:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 699,
+      "shares": 197
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0183",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58207",
+    "timestamp": "2026-08-31T09:55:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3447,
+      "shares": 77
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0184",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68206",
+    "timestamp": "2026-08-31T10:52:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3267,
+      "shares": 121
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0185",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78205",
+    "timestamp": "2026-08-31T12:13:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2748,
+      "shares": 4
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0186",
+    "platform": "Signal",
+    "synthetic_account": "@user_88204",
+    "timestamp": "2026-08-31T13:58:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4933,
+      "shares": 125
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0187",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98203",
+    "timestamp": "2026-08-31T15:51:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4853,
+      "shares": 53
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0188",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08202",
+    "timestamp": "2026-08-31T16:38:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 704,
+      "shares": 58
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0189",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18201",
+    "timestamp": "2026-08-31T18:55:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3833,
+      "shares": 126
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0190",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28200",
+    "timestamp": "2026-08-31T20:21:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4312,
+      "shares": 141
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0191",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38199",
+    "timestamp": "2026-08-31T21:31:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3908,
+      "shares": 15
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0192",
+    "platform": "Signal",
+    "synthetic_account": "@user_48198",
+    "timestamp": "2026-08-31T23:08:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3359,
+      "shares": 59
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0193",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58197",
+    "timestamp": "2026-09-01T00:16:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2371,
+      "shares": 37
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0194",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68196",
+    "timestamp": "2026-09-01T01:58:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4091,
+      "shares": 38
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0195",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78195",
+    "timestamp": "2026-09-01T03:30:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2006,
+      "shares": 54
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0196",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88194",
+    "timestamp": "2026-09-01T04:52:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 691,
+      "shares": 141
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0197",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98193",
+    "timestamp": "2026-09-01T06:42:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1742,
+      "shares": 141
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0198",
+    "platform": "Signal",
+    "synthetic_account": "@user_08192",
+    "timestamp": "2026-09-01T08:05:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 772,
+      "shares": 14
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0199",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18191",
+    "timestamp": "2026-09-01T09:20:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2199,
+      "shares": 33
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0200",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28190",
+    "timestamp": "2026-09-01T11:14:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1374,
+      "shares": 65
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0201",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38189",
+    "timestamp": "2026-09-01T12:53:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2698,
+      "shares": 22
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0202",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48188",
+    "timestamp": "2026-09-01T13:33:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1498,
+      "shares": 157
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0203",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58187",
+    "timestamp": "2026-09-01T15:35:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 410,
+      "shares": 50
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0204",
+    "platform": "Signal",
+    "synthetic_account": "@user_68186",
+    "timestamp": "2026-09-01T16:58:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 522,
+      "shares": 197
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0205",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78185",
+    "timestamp": "2026-09-01T18:01:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 444,
+      "shares": 39
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0206",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88184",
+    "timestamp": "2026-09-01T19:32:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3885,
+      "shares": 16
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0207",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98183",
+    "timestamp": "2026-09-01T21:21:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2658,
+      "shares": 64
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0208",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08182",
+    "timestamp": "2026-09-01T22:46:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2928,
+      "shares": 28
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0209",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18181",
+    "timestamp": "2026-09-02T00:28:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2913,
+      "shares": 45
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0210",
+    "platform": "Signal",
+    "synthetic_account": "@user_28180",
+    "timestamp": "2026-09-02T01:43:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4326,
+      "shares": 180
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0211",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38179",
+    "timestamp": "2026-09-02T03:55:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 305,
+      "shares": 51
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0212",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48178",
+    "timestamp": "2026-09-02T05:18:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1194,
+      "shares": 59
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0213",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58177",
+    "timestamp": "2026-09-02T06:25:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3401,
+      "shares": 36
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0214",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68176",
+    "timestamp": "2026-09-02T07:33:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2500,
+      "shares": 18
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0215",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78175",
+    "timestamp": "2026-09-02T09:50:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 813,
+      "shares": 84
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0216",
+    "platform": "Signal",
+    "synthetic_account": "@user_88174",
+    "timestamp": "2026-09-02T11:17:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 534,
+      "shares": 136
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0217",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98173",
+    "timestamp": "2026-09-02T12:03:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2707,
+      "shares": 175
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0218",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08172",
+    "timestamp": "2026-09-02T14:07:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2744,
+      "shares": 117
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0219",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18171",
+    "timestamp": "2026-09-02T15:54:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2015,
+      "shares": 130
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0220",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28170",
+    "timestamp": "2026-09-02T16:36:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 400,
+      "shares": 22
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0221",
+    "platform": "Facebook",
+    "synthetic_account": "@user_38169",
+    "timestamp": "2026-09-02T18:50:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4750,
+      "shares": 26
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0222",
+    "platform": "Signal",
+    "synthetic_account": "@user_48168",
+    "timestamp": "2026-09-02T20:25:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4284,
+      "shares": 99
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0223",
+    "platform": "Telegram",
+    "synthetic_account": "@user_58167",
+    "timestamp": "2026-09-02T21:28:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4596,
+      "shares": 187
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0224",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_68166",
+    "timestamp": "2026-09-02T23:12:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1352,
+      "shares": 148
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0225",
+    "platform": "Instagram",
+    "synthetic_account": "@user_78165",
+    "timestamp": "2026-09-03T00:54:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 632,
+      "shares": 194
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0226",
+    "platform": "Twitter",
+    "synthetic_account": "@user_88164",
+    "timestamp": "2026-09-03T02:18:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3389,
+      "shares": 45
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0227",
+    "platform": "Facebook",
+    "synthetic_account": "@user_98163",
+    "timestamp": "2026-09-03T03:26:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3527,
+      "shares": 103
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0228",
+    "platform": "Signal",
+    "synthetic_account": "@user_08162",
+    "timestamp": "2026-09-03T05:16:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2244,
+      "shares": 6
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0229",
+    "platform": "Telegram",
+    "synthetic_account": "@user_18161",
+    "timestamp": "2026-09-03T06:51:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4361,
+      "shares": 59
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0230",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_28160",
+    "timestamp": "2026-09-03T08:28:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1352,
+      "shares": 128
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0231",
+    "platform": "Instagram",
+    "synthetic_account": "@user_38159",
+    "timestamp": "2026-09-03T09:47:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3995,
+      "shares": 150
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0232",
+    "platform": "Twitter",
+    "synthetic_account": "@user_48158",
+    "timestamp": "2026-09-03T11:30:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 249,
+      "shares": 165
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0233",
+    "platform": "Facebook",
+    "synthetic_account": "@user_58157",
+    "timestamp": "2026-09-03T12:01:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 878,
+      "shares": 190
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0234",
+    "platform": "Signal",
+    "synthetic_account": "@user_68156",
+    "timestamp": "2026-09-03T14:04:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1334,
+      "shares": 155
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0235",
+    "platform": "Telegram",
+    "synthetic_account": "@user_78155",
+    "timestamp": "2026-09-03T15:57:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3307,
+      "shares": 76
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0236",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_88154",
+    "timestamp": "2026-09-03T17:21:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 2222,
+      "shares": 120
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0237",
+    "platform": "Instagram",
+    "synthetic_account": "@user_98153",
+    "timestamp": "2026-09-03T18:54:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1261,
+      "shares": 33
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0238",
+    "platform": "Twitter",
+    "synthetic_account": "@user_08152",
+    "timestamp": "2026-09-03T20:28:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4207,
+      "shares": 59
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0239",
+    "platform": "Facebook",
+    "synthetic_account": "@user_18151",
+    "timestamp": "2026-09-03T21:41:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 641,
+      "shares": 90
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0240",
+    "platform": "Signal",
+    "synthetic_account": "@user_28150",
+    "timestamp": "2026-09-03T22:37:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4925,
+      "shares": 18
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0241",
+    "platform": "Telegram",
+    "synthetic_account": "@user_38149",
+    "timestamp": "2026-09-04T00:19:00Z",
+    "text": "Looking for quick settlement for business matters. Inbox only.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3189,
+      "shares": 8
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0242",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_48148",
+    "timestamp": "2026-09-04T02:23:00Z",
+    "text": "Anyone need document processing fast? No questions. DM.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 771,
+      "shares": 67
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0243",
+    "platform": "Instagram",
+    "synthetic_account": "@user_58147",
+    "timestamp": "2026-09-04T03:22:00Z",
+    "text": "Found interesting item, will share with interested parties.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 380,
+      "shares": 171
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0244",
+    "platform": "Twitter",
+    "synthetic_account": "@user_68146",
+    "timestamp": "2026-09-04T04:56:00Z",
+    "text": "Meeting arranged for evening. Usual place.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3101,
+      "shares": 147
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0245",
+    "platform": "Facebook",
+    "synthetic_account": "@user_78145",
+    "timestamp": "2026-09-04T06:18:00Z",
+    "text": "Great meal at the new restaurant in Connaught Place!",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4135,
+      "shares": 115
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0246",
+    "platform": "Signal",
+    "synthetic_account": "@user_88144",
+    "timestamp": "2026-09-04T07:51:00Z",
+    "text": "Traffic jam near toll plaza today. 45 min delay.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4595,
+      "shares": 133
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0247",
+    "platform": "Telegram",
+    "synthetic_account": "@user_98143",
+    "timestamp": "2026-09-04T09:49:00Z",
+    "text": "Government tender open for applications. Deadline 30 Aug.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 1033,
+      "shares": 158
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0248",
+    "platform": "WhatsApp",
+    "synthetic_account": "@user_08142",
+    "timestamp": "2026-09-04T11:07:00Z",
+    "text": "Heavy rain expected in Delhi today. Stay safe.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 3524,
+      "shares": 39
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0249",
+    "platform": "Instagram",
+    "synthetic_account": "@user_18141",
+    "timestamp": "2026-09-04T12:57:00Z",
+    "text": "New smartphone deal — 40% off at Croma outlets.",
+    "mentioned_entities": [],
+    "location_hint": null,
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 4373,
+      "shares": 189
+    }
+  },
+  {
+    "post_id": "OSINT-S12-0250",
+    "platform": "Twitter",
+    "synthetic_account": "@user_28140",
+    "timestamp": "2026-09-04T14:25:00Z",
+    "text": "Yoga class tomorrow at 6AM in park.",
+    "mentioned_entities": [],
+    "location_hint": "Delhi NCR",
+    "media_reference": null,
+    "engagement_metadata": {
+      "views": 805,
+      "shares": 137
+    }
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "query_id": "QRY-S09-001",
+    "scenario_id": "S49",
+    "target_entities": [
+      "PER-S09-000",
+      "PER-S09-001",
+      "PER-S09-002"
+    ],
+    "entity_chain": [
+      {
+        "canonical_id": "PER-S09-000",
+        "entity_type": "PERSON",
+        "role_or_label": "PRIMARY",
+        "description": "Vijay Reddy — orchestrator"
+      },
+      {
+        "canonical_id": "PER-S09-001",
+        "entity_type": "PERSON",
+        "role_or_label": "LAYERER",
+        "description": "Receives and layers funds"
+      },
+      {
+        "canonical_id": "PER-S09-002",
+        "entity_type": "PERSON",
+        "role_or_label": "SIGNALER",
+        "description": "Posts coded OSINT signals"
+      }
+    ],
+    "relationship_graph": [
+      {
+        "edge_id": "S09-E001",
+        "source_entity": "PER-S09-000",
+        "target_entity": "PER-S09-001",
+        "relationship_type": "CALLS_PLANNING",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S09-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": "2026-08-19T06:00:00Z",
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S09-E002",
+        "source_entity": "PER-S09-000",
+        "target_entity": "PER-S09-002",
+        "relationship_type": "MEETS",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S09-00002"
+          },
+          {
+            "source": "cell_tower_dumps.json",
+            "record_id": "TDUMP-S09-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": "2026-08-19T10:05:00Z",
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S09-E003",
+        "source_entity": "PER-S09-000",
+        "target_entity": "PER-S09-003",
+        "relationship_type": "DEFRAUDS",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "cctns_fir_records.json",
+            "record_id": "FIR-S09-001"
+          },
+          {
+            "source": "telecom_cdr_logs.csv",
+            "record_id": "CDR-S09-00003"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": "2026-08-19T14:00:00Z",
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S09-E004",
+        "source_entity": "ACC-S09-003",
+        "target_entity": "ACC-S09-000",
+        "relationship_type": "FUNDS_RECEIVED",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S09-00001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": "2026-08-19T14:20:00Z",
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S09-E005",
+        "source_entity": "ACC-S09-000",
+        "target_entity": "ACC-S09-001",
+        "relationship_type": "LAYERED_TO",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "cbs_bank_transactions.csv",
+            "record_id": "CBS-S09-00002"
+          },
+          {
+            "source": "fiu_str_alerts.json",
+            "record_id": "FIU-S09-0001"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": "2026-08-19T18:00:00Z",
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S09-E006",
+        "source_entity": "PER-S09-000",
+        "target_entity": "VEH-S09-000",
+        "relationship_type": "USES_VEHICLE",
+        "is_direct_or_inferred": "DIRECT",
+        "evidence_path": [
+          {
+            "source": "toll_anpr_logs.csv",
+            "record_id": "ANPR-S09-00001"
+          },
+          {
+            "source": "toll_anpr_logs.csv",
+            "record_id": "ANPR-S09-00003"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      },
+      {
+        "edge_id": "S09-E007",
+        "source_entity": "PER-S09-002",
+        "target_entity": "OSINT-SIGNAL",
+        "relationship_type": "SIGNALS_VIA_OSINT",
+        "is_direct_or_inferred": "INFERRED",
+        "evidence_path": [
+          {
+            "source": "osint_social_posts.json",
+            "record_id": "OSINT-S09-0001"
+          },
+          {
+            "source": "osint_social_posts.json",
+            "record_id": "OSINT-S09-0002"
+          }
+        ],
+        "ground_truth_confidence": 0.9,
+        "temporal_start": null,
+        "temporal_end": null
+      }
+    ],
+    "supporting_evidence": [
+      {
+        "source": "telecom_cdr_logs.csv",
+        "record_id": "CDR-S09-00001"
+      },
+      {
+        "source": "cbs_bank_transactions.csv",
+        "record_id": "CBS-S09-00001"
+      },
+      {
+        "source": "cctns_fir_records.json",
+        "record_id": "FIR-S09-001"
+      },
+      {
+        "source": "fiu_str_alerts.json",
+        "record_id": "FIU-S09-0001"
+      }
+    ],
+    "timeline": [
+      {
+        "step": 1,
+        "event_id": "EVT-S09-001",
+        "timestamp": "2026-08-19T06:00:00Z",
+        "event_type": "PLANNING_CALL",
+        "description": "[H+00:00] Vijay Reddy calls Rajesh Pandey — pre-op planning.",
+        "entity_ids": [
+          "PER-S09-000",
+          "PER-S09-001"
+        ],
+        "location_id": "LOC-S09-000",
+        "supporting_evidence_records": [
+          "CDR-S09-00001"
+        ]
+      },
+      {
+        "step": 2,
+        "event_id": "EVT-S09-002",
+        "timestamp": "2026-08-19T07:12:00Z",
+        "event_type": "OSINT_SIGNAL",
+        "description": "[H+01:12] Coded message posted by Anil Singh.",
+        "entity_ids": [
+          "PER-S09-002"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "OSINT-S09-0001"
+        ]
+      },
+      {
+        "step": 3,
+        "event_id": "EVT-S09-003",
+        "timestamp": "2026-08-19T08:30:00Z",
+        "event_type": "VEHICLE_DEPARTS",
+        "description": "[H+02:30] DL02FJ4267 departs Connaught Place Outer Circle.",
+        "entity_ids": [
+          "PER-S09-000",
+          "VEH-S09-000"
+        ],
+        "location_id": "LOC-S09-000",
+        "supporting_evidence_records": [
+          "ANPR-S09-00001"
+        ]
+      },
+      {
+        "step": 4,
+        "event_id": "EVT-S09-004",
+        "timestamp": "2026-08-19T10:05:00Z",
+        "event_type": "FIRST_RENDEZVOUS",
+        "description": "[H+04:05] Vijay Reddy meets Anil Singh at Kherki Daula Toll Plaza.",
+        "entity_ids": [
+          "PER-S09-000",
+          "PER-S09-002"
+        ],
+        "location_id": "LOC-S09-001",
+        "supporting_evidence_records": [
+          "CDR-S09-00002",
+          "TDUMP-S09-0001"
+        ]
+      },
+      {
+        "step": 5,
+        "event_id": "EVT-S09-005",
+        "timestamp": "2026-08-19T11:00:00Z",
+        "event_type": "BENIGN_COMMUTER",
+        "description": "[H+05:00] Benign Nikhil Sharma passes same toll (distractor).",
+        "entity_ids": [
+          "PER-S09-004"
+        ],
+        "location_id": "LOC-S09-001",
+        "supporting_evidence_records": [
+          "ANPR-S09-00002"
+        ]
+      },
+      {
+        "step": 6,
+        "event_id": "EVT-S09-006",
+        "timestamp": "2026-08-19T12:45:00Z",
+        "event_type": "VICTIM_CONTACTED",
+        "description": "[H+06:45] Kavya Kapoor (victim) receives suspicious call.",
+        "entity_ids": [
+          "PER-S09-003",
+          "PER-S09-000"
+        ],
+        "location_id": "LOC-S09-002",
+        "supporting_evidence_records": [
+          "CDR-S09-00003"
+        ]
+      },
+      {
+        "step": 7,
+        "event_id": "EVT-S09-007",
+        "timestamp": "2026-08-19T14:00:00Z",
+        "event_type": "CRIME_EVENT",
+        "description": "[H+08:00] Fraud committed against Kavya Kapoor.",
+        "entity_ids": [
+          "PER-S09-000",
+          "PER-S09-003"
+        ],
+        "location_id": "LOC-S09-002",
+        "supporting_evidence_records": [
+          "FIR-S09-001",
+          "FNOTE-S09-0001"
+        ]
+      },
+      {
+        "step": 8,
+        "event_id": "EVT-S09-008",
+        "timestamp": "2026-08-19T14:20:00Z",
+        "event_type": "IMMEDIATE_TRANSFER",
+        "description": "[H+08:20] Funds transferred out of Kavya Kapoor account.",
+        "entity_ids": [
+          "PER-S09-003",
+          "PER-S09-000",
+          "ACC-S09-003",
+          "ACC-S09-000"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CBS-S09-00001"
+        ]
+      },
+      {
+        "step": 9,
+        "event_id": "EVT-S09-009",
+        "timestamp": "2026-08-19T15:00:00Z",
+        "event_type": "VEHICLE_RETURNS",
+        "description": "[H+09:00] DL02FJ4267 sighted returning.",
+        "entity_ids": [
+          "PER-S09-000",
+          "VEH-S09-000"
+        ],
+        "location_id": "LOC-S09-000",
+        "supporting_evidence_records": [
+          "ANPR-S09-00003"
+        ]
+      },
+      {
+        "step": 10,
+        "event_id": "EVT-S09-010",
+        "timestamp": "2026-08-19T18:00:00Z",
+        "event_type": "FIRST_LAYERING",
+        "description": "[H+12:00] Funds moved to Rajesh Pandey account.",
+        "entity_ids": [
+          "PER-S09-001",
+          "ACC-S09-001",
+          "ACC-S09-000"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CBS-S09-00002",
+          "FIU-S09-0001"
+        ]
+      },
+      {
+        "step": 11,
+        "event_id": "EVT-S09-011",
+        "timestamp": "2026-08-19T20:30:00Z",
+        "event_type": "SECOND_RENDEZVOUS",
+        "description": "[H+14:30] Vijay Reddy meets Rajesh Pandey.",
+        "entity_ids": [
+          "PER-S09-000",
+          "PER-S09-001"
+        ],
+        "location_id": "LOC-S09-003",
+        "supporting_evidence_records": [
+          "CDR-S09-00004",
+          "TDUMP-S09-0002"
+        ]
+      },
+      {
+        "step": 12,
+        "event_id": "EVT-S09-012",
+        "timestamp": "2026-08-20T00:00:00Z",
+        "event_type": "SOCIAL_CONFIRMATION",
+        "description": "[H+18:00] Coded confirmation post by Anil Singh.",
+        "entity_ids": [
+          "PER-S09-002"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "OSINT-S09-0002"
+        ]
+      },
+      {
+        "step": 13,
+        "event_id": "EVT-S09-013",
+        "timestamp": "2026-08-20T06:00:00Z",
+        "event_type": "QUIET_PERIOD",
+        "description": "[H+24:00] No significant activity.",
+        "entity_ids": [],
+        "location_id": null,
+        "supporting_evidence_records": []
+      },
+      {
+        "step": 14,
+        "event_id": "EVT-S09-014",
+        "timestamp": "2026-08-20T12:00:00Z",
+        "event_type": "SECONDARY_FRAUD",
+        "description": "[H+30:00] Second victim targeted.",
+        "entity_ids": [
+          "PER-S09-000"
+        ],
+        "location_id": "LOC-S09-004",
+        "supporting_evidence_records": [
+          "CDR-S09-00005"
+        ]
+      },
+      {
+        "step": 15,
+        "event_id": "EVT-S09-015",
+        "timestamp": "2026-08-20T18:15:00Z",
+        "event_type": "SECOND_LAYERING",
+        "description": "[H+36:15] Further funds layering.",
+        "entity_ids": [
+          "PER-S09-001",
+          "ACC-S09-001"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CBS-S09-00003",
+          "FIU-S09-0002"
+        ]
+      },
+      {
+        "step": 16,
+        "event_id": "EVT-S09-016",
+        "timestamp": "2026-08-21T06:00:00Z",
+        "event_type": "TRAVEL_TO_NEW_LOC",
+        "description": "[H+48:00] Suspect travels to Rajiv Chowk Metro.",
+        "entity_ids": [
+          "PER-S09-000",
+          "VEH-S09-000"
+        ],
+        "location_id": "LOC-S09-005",
+        "supporting_evidence_records": [
+          "ANPR-S09-00004"
+        ]
+      },
+      {
+        "step": 17,
+        "event_id": "EVT-S09-017",
+        "timestamp": "2026-08-21T10:30:00Z",
+        "event_type": "COORDINATION_CALL",
+        "description": "[H+52:30] Vijay Reddy coordinates with Anil Singh.",
+        "entity_ids": [
+          "PER-S09-000",
+          "PER-S09-002"
+        ],
+        "location_id": null,
+        "supporting_evidence_records": [
+          "CDR-S09-00006"
+        ]
+      },
+      {
+        "step": 18,
+        "event_id": "EVT-S09-018",
+        "timestamp": "2026-08-21T18:00:00Z",
+        "event_type": "FIR_REGISTERED",
+        "description": "[H+60:00] First victim Kavya Kapoor registers FIR.",
+        "entity_ids": [
+          "PER-S09-003"
+        ],
+        "location_id": "LOC-S09-002",
+        "supporting_evidence_records": [
+          "FIR-S09-001"
+        ]
+      },
+      {
+        "step": 19,
+        "event_id": "EVT-S09-019",
+        "timestamp": "2026-08-22T02:45:00Z",
+        "event_type": "SUSPECT_DETECTED",
+        "description": "[H+68:45] Intelligence unit traces phone.",
+        "entity_ids": [
+          "PER-S09-000",
+          "PHN-S09-000"
+        ],
+        "location_id": "LOC-S09-000",
+        "supporting_evidence_records": [
+          "FNOTE-S09-0002",
+          "TDUMP-S09-0003"
+        ]
+      },
+      {
+        "step": 20,
+        "event_id": "EVT-S09-020",
+        "timestamp": "2026-08-22T06:00:00Z",
+        "event_type": "WINDOW_CLOSE",
+        "description": "72-hour investigation window ends.",
+        "entity_ids": [],
+        "location_id": null,
+        "supporting_evidence_records": []
+      }
+    ],
+    "reasoning_summary": "20 events across 72h. Key causal chain: EVT1(planning call)→EVT4(rendezvous)→EVT7(crime)→EVT8(transfer)→EVT10(layering)→EVT18(FIR). OSINT signals at EVT2+EVT12 corroborate coordination. Distractor Nikhil Sharma appears at H+05:00 (benign commuter at same toll).",
+    "confidence": 0.91,
+    "alternative_hypotheses": [
+      "Distractor commuter at H+05:00 could be mistakenly linked due to same toll at similar time."
+    ],
+    "false_positive_candidates": [
+      "PER-S09-004"
+    ],
+    "ground_truth_match": true
+  }
+]
