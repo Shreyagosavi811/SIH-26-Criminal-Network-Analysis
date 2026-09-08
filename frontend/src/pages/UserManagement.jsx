@@ -119,7 +119,7 @@ export function UserManagement() {
       
       {/* 1. TOP KPI METRICS BAR */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-4">
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
           <div className="w-11 h-11 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-bold shrink-0">
             <Users className="w-5 h-5" />
           </div>
@@ -129,7 +129,7 @@ export function UserManagement() {
           </div>
         </div>
 
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
           <div className="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold shrink-0">
             <ShieldCheck className="w-5 h-5" />
           </div>
@@ -139,7 +139,7 @@ export function UserManagement() {
           </div>
         </div>
 
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
           <div className="w-11 h-11 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold shrink-0">
             <Clock className="w-5 h-5" />
           </div>
@@ -149,7 +149,7 @@ export function UserManagement() {
           </div>
         </div>
 
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
           <div className="w-11 h-11 rounded-xl bg-indigo-50 text-indigo-700 flex items-center justify-center font-bold shrink-0">
             <Laptop className="w-5 h-5" />
           </div>
@@ -161,7 +161,7 @@ export function UserManagement() {
       </div>
 
       {/* 2. TOP ACTION HEADER */}
-      <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-4">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
           <div>
             <div className="flex items-center space-x-2 text-xs text-slate-500 font-medium mb-1">
@@ -185,7 +185,7 @@ export function UserManagement() {
 
             <button 
               onClick={() => openModal('add-user')}
-              className="btn-primary"
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition-colors shadow-sm"
             >
               <UserPlus className="w-4 h-4" />
               <span>+ Register Officer</span>
@@ -209,7 +209,7 @@ export function UserManagement() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-4 py-2 rounded-full font-semibold text-xs flex items-center space-x-2 transition-all shrink-0 ${
                   isActive 
-                    ? 'bg-white text-slate-900 shadow-2xs font-bold' 
+                    ? 'bg-white text-slate-900 shadow-sm font-bold' 
                     : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
@@ -230,7 +230,7 @@ export function UserManagement() {
 
       {/* 3. TAB 1: USERS DIRECTORY */}
       {activeTab === 'users' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-5 shadow-xs">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-5 shadow-sm">
           {/* Filter and Search Bar */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
             <div className="relative flex-1 max-w-md">
@@ -345,7 +345,7 @@ export function UserManagement() {
 
       {/* 4. TAB 2: AUDIT LOGS */}
       {activeTab === 'logs' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-4 shadow-xs">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Cryptographic Audit Trail (CCTNS Compliance)</h3>
@@ -435,7 +435,7 @@ export function UserManagement() {
 
       {/* 5. TAB 3: SYSTEM & CORKBOARD HISTORY */}
       {activeTab === 'history' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-6 shadow-xs">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-6 shadow-sm">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Investigative Studio Version History & Auth Trail</h3>
@@ -498,7 +498,7 @@ export function UserManagement() {
 
       {/* 6. TAB 4: ROLE CAPABILITY MATRIX */}
       {activeTab === 'matrix' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-4">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
           <div className="border-b border-slate-100 pb-3">
             <h3 className="font-bold text-slate-900 text-base">Role-Based Access Control (RBAC) Permissions Matrix</h3>
             <p className="text-xs text-slate-500">Statutory authority and privilege bounds defined per Cr.P.C. / BNSS operational guidelines</p>

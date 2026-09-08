@@ -144,12 +144,12 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
   return (
     <div className="space-y-6 text-slate-800 dark:text-slate-200 font-sans">
       {/* Top Controls & FIR Case Selector */}
-      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 rounded-2xl shadow-sm font-mono text-xs flex flex-col md:flex-row md:items-center justify-between gap-4 transition-colors">
+      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 rounded-xl shadow-sm font-mono text-xs flex flex-col md:flex-row md:items-center justify-between gap-4 transition-colors">
         <div className="flex flex-wrap items-center gap-3">
           {onBack && (
             <button 
               onClick={onBack}
-              className="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold flex items-center space-x-1 transition-colors"
+              className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold flex items-center space-x-1 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
               <span>Back</span>
@@ -174,7 +174,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
 
         {/* Case Switcher & Action Tools */}
         <div className="flex flex-wrap items-center gap-2.5">
-          <div className="flex items-center space-x-1.5 bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 px-3 py-1.5 rounded-xl transition-colors">
+          <div className="flex items-center space-x-1.5 bg-slate-50 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 px-3 py-1.5 rounded-lg transition-colors">
             <span className="text-slate-500 font-bold">Select FIR:</span>
             <select 
               value={selectedFirId}
@@ -196,7 +196,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
           {/* Action: Edit FIR Button */}
           <button 
             onClick={() => openModal('edit-fir', { firId: firData.id, fir: firData })}
-            className="px-3.5 py-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold flex items-center space-x-1.5 shadow-sm transition-all"
+            className="px-3.5 py-2 rounded-lg bg-amber-600 hover:bg-amber-700 text-white font-bold flex items-center space-x-1.5 shadow-sm transition-all"
             title="Edit Official FIR Particulars, Accused & Addenda"
           >
             <Edit3 className="w-4 h-4 text-amber-200" />
@@ -206,7 +206,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
           {/* Action: Register New FIR Button */}
           <button 
             onClick={() => openModal('register-fir')}
-            className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-bold flex items-center space-x-1.5 shadow-sm transition-all"
+            className="px-3.5 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold flex items-center space-x-1.5 shadow-sm transition-all"
             title="Register New First Information Report"
           >
             <FilePlus className="w-4 h-4 text-cyan-300" />
@@ -215,7 +215,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
 
           <button 
             onClick={handlePrint}
-            className="px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold flex items-center space-x-1.5 shadow-sm transition-all"
+            className="px-3.5 py-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-white font-bold flex items-center space-x-1.5 shadow-sm transition-all"
             title="Print Official Form II Copy"
           >
             <Printer className="w-4 h-4 text-cyan-300" />
@@ -227,7 +227,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
               addToCanvas(firData.id + ': Official FIR Form II');
               showToast(`Added ${firData.id} FIR Document node to Canvas corkboard`, 'success');
             }}
-            className="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white border border-emerald-300 font-bold flex items-center space-x-1.5 shadow-sm transition-all"
+            className="px-3 py-2 rounded-lg bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white border border-emerald-300 font-bold flex items-center space-x-1.5 shadow-sm transition-all"
             title="Pin FIR Node to Drawing Corkboard"
           >
             <LayoutTemplate className="w-4 h-4" />
@@ -239,7 +239,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
               toggleFloatingAI();
               askAI(`Analyze official FIR allegations and statutory sections for ${firData.id} (${firData.district})`);
             }}
-            className="px-3 py-2 rounded-xl bg-indigo-50 hover:bg-indigo-600 text-indigo-700 hover:text-white border border-indigo-300 font-bold flex items-center space-x-1.5 shadow-sm transition-all"
+            className="px-3 py-2 rounded-lg bg-indigo-50 hover:bg-indigo-600 text-indigo-700 hover:text-white border border-indigo-300 font-bold flex items-center space-x-1.5 shadow-sm transition-all"
             title="Ask AI about FIR contents"
           >
             <Bot className="w-4 h-4" />
@@ -252,7 +252,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
       <div className="flex items-center space-x-2 border-b border-slate-200 dark:border-slate-800 overflow-x-auto font-mono text-xs pb-1 transition-colors">
         <button 
           onClick={() => setActiveDocTab('form2')}
-          className={`py-2.5 px-4 rounded-t-xl font-bold flex items-center space-x-2 border-t border-x transition-all ${
+          className={`py-2.5 px-4 rounded-t-lg font-bold flex items-center space-x-2 border-t border-x transition-all ${
             activeDocTab === 'form2'
               ? 'bg-amber-50/70 dark:bg-amber-900/30 text-amber-900 dark:text-amber-300 border-amber-300 dark:border-amber-800 border-b-2 border-b-transparent shadow-xs font-extrabold'
               : 'bg-white dark:bg-slate-900 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white border-transparent hover:bg-slate-50 dark:hover:bg-slate-800'
@@ -264,7 +264,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
 
         <button 
           onClick={() => setActiveDocTab('complaint')}
-          className={`py-2.5 px-4 rounded-t-xl font-bold flex items-center space-x-2 border-t border-x transition-all ${
+          className={`py-2.5 px-4 rounded-t-lg font-bold flex items-center space-x-2 border-t border-x transition-all ${
             activeDocTab === 'complaint'
               ? 'bg-blue-50 dark:bg-blue-900/30 text-blue-900 dark:text-blue-300 border-blue-300 dark:border-blue-800 border-b-2 border-b-transparent shadow-xs font-extrabold'
               : 'bg-white dark:bg-slate-900 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white border-transparent hover:bg-slate-50 dark:hover:bg-slate-800'
@@ -276,7 +276,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
 
         <button 
           onClick={() => setActiveDocTab('panchnama')}
-          className={`py-2.5 px-4 rounded-t-xl font-bold flex items-center space-x-2 border-t border-x transition-all ${
+          className={`py-2.5 px-4 rounded-t-lg font-bold flex items-center space-x-2 border-t border-x transition-all ${
             activeDocTab === 'panchnama'
               ? 'bg-emerald-50 dark:bg-emerald-900/30 text-emerald-900 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800 border-b-2 border-b-transparent shadow-xs font-extrabold'
               : 'bg-white dark:bg-slate-900 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white border-transparent hover:bg-slate-50 dark:hover:bg-slate-800'
@@ -288,7 +288,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
 
         <button 
           onClick={() => setActiveDocTab('audit')}
-          className={`py-2.5 px-4 rounded-t-xl font-bold flex items-center space-x-2 border-t border-x transition-all ${
+          className={`py-2.5 px-4 rounded-t-lg font-bold flex items-center space-x-2 border-t border-x transition-all ${
             activeDocTab === 'audit'
               ? 'bg-purple-50 dark:bg-purple-900/30 text-purple-900 dark:text-purple-300 border-purple-300 dark:border-purple-800 border-b-2 border-b-transparent shadow-xs font-extrabold'
               : 'bg-white dark:bg-slate-900 text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white border-transparent hover:bg-slate-50 dark:hover:bg-slate-800'
@@ -305,7 +305,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
       {activeDocTab === 'form2' && (
         <div 
           ref={printRef}
-          className="bg-[#faf9f5] border-2 border-slate-400/80 rounded-2xl shadow-xl overflow-hidden font-serif relative"
+          className="bg-[#faf9f5] border-2 border-slate-400/80 rounded-xl shadow-md overflow-hidden font-serif relative"
         >
           {/* Official Background Watermark */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03] select-none">
@@ -716,7 +716,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
       {/* TAB 2: ORIGINAL COMPLAINANT APPLICATION LETTER FORMAT                      */}
       {/* ========================================================================= */}
       {activeDocTab === 'complaint' && (
-        <div className="bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-2xl p-6 md:p-10 space-y-6 shadow-sm font-mono text-xs transition-colors">
+        <div className="bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-xl p-6 md:p-10 space-y-6 shadow-sm font-mono text-xs transition-colors">
           <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4">
             <div>
               <span className="text-[10px] font-bold uppercase bg-blue-100 text-blue-800 border border-blue-200 px-2 py-0.5 rounded">
@@ -760,7 +760,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
       {/* TAB 3: SEIZURE PANCHNAMA & ASSET INVENTORY                                 */}
       {/* ========================================================================= */}
       {activeDocTab === 'panchnama' && (
-        <div className="bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-2xl p-6 md:p-8 space-y-6 shadow-sm font-mono text-xs transition-colors">
+        <div className="bg-white dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-xl p-6 md:p-8 space-y-6 shadow-sm font-mono text-xs transition-colors">
           <div className="flex items-center justify-between border-b border-slate-200 dark:border-slate-700 pb-4">
             <div>
               <span className="text-[10px] font-bold uppercase bg-emerald-100 text-emerald-800 border border-emerald-200 px-2 py-0.5 rounded">

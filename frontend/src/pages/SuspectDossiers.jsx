@@ -217,9 +217,9 @@ export function SuspectDossiers() {
       {/* ============================================================ */}
       {/* 1. TACTICAL COMMAND HEADER & CRUD ACTIONS                    */}
       {/* ============================================================ */}
-      <div className="bg-gradient-to-r from-blue-50/80 via-indigo-50/40 to-white border border-blue-100 rounded-3xl p-6 md:p-7 shadow-xs flex flex-col lg:flex-row lg:items-center justify-between gap-5">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-7 shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-5">
         <div className="flex items-center space-x-3 sm:space-x-4">
-          <div className="w-11 h-11 bg-blue-600 text-white rounded-2xl flex items-center justify-center font-bold shrink-0 shadow-md shadow-blue-500/20">
+          <div className="w-11 h-11 bg-blue-600 text-white rounded-xl flex items-center justify-center font-bold shrink-0 shadow-sm">
             <Fingerprint className="w-6 h-6 animate-pulse" />
           </div>
           <div>
@@ -241,7 +241,7 @@ export function SuspectDossiers() {
         <div className="flex flex-wrap items-center gap-2.5">
           <button 
             onClick={() => setIsBiometricScanModalOpen(true)}
-            className="btn-secondary"
+            className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-semibold flex items-center space-x-1.5 transition-colors text-xs shadow-sm"
           >
             <Scan className="w-3.5 h-3.5 text-slate-600" />
             <span>New Biometric Scan</span>
@@ -249,7 +249,7 @@ export function SuspectDossiers() {
 
           <button 
             onClick={handleOpenCreate}
-            className="btn-accent"
+            className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold flex items-center space-x-1.5 transition-colors text-xs shadow-sm"
           >
             <Plus className="w-4 h-4" />
             <span>Register Suspect</span>
@@ -260,8 +260,8 @@ export function SuspectDossiers() {
       {/* ============================================================ */}
       {/* 2. SEARCH & SQUAD FILTER BAR                                 */}
       {/* ============================================================ */}
-      <div className="bg-white border border-slate-200/90 p-4 rounded-2xl shadow-xs flex flex-col md:flex-row items-center justify-between gap-3">
-        <div className="flex items-center space-x-2 w-full md:w-80 bg-slate-50 border border-slate-200 px-3.5 py-2 rounded-xl">
+      <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-3">
+        <div className="flex items-center space-x-2 w-full md:w-80 bg-slate-50 border border-slate-200 px-3.5 py-2 rounded-lg">
           <Search className="w-4 h-4 text-slate-400 shrink-0" />
           <input 
             type="text" 
@@ -320,7 +320,7 @@ export function SuspectDossiers() {
         {/* ------------------------------------------------------------ */}
         {/* LEFT COLUMN: ACTIVE SUSPECT DETAILED BIOMETRIC DOSSIER (5)   */}
         {/* ------------------------------------------------------------ */}
-        <div className="lg:col-span-5 bg-white border border-slate-200/90 rounded-3xl p-5 space-y-4 shadow-xs relative overflow-hidden">
+        <div className="lg:col-span-5 bg-white border border-slate-200 rounded-2xl p-5 space-y-4 shadow-sm relative overflow-hidden">
           
           {/* Top Banner with Edit & Delete Actions */}
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
@@ -506,7 +506,7 @@ export function SuspectDossiers() {
                 addToCanvas({ id: activeDossier.id, type: 'Person', name: activeDossier.name });
                 showToast(`Pinned ${activeDossier.name} to Canva Studio Board`, 'success');
               }}
-              className="btn-accent flex-1"
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold flex items-center justify-center space-x-1.5 transition-colors text-xs flex-1 shadow-sm"
             >
               <LayoutTemplate className="w-4 h-4" />
               <span>Pin to Board</span>
@@ -514,7 +514,7 @@ export function SuspectDossiers() {
 
             <button 
               onClick={() => askAI(`Run complete biometric cross-verification and international criminal database check for ${activeDossier.name} (${activeDossier.id})`)}
-              className="btn-secondary flex-1"
+              className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-semibold flex items-center justify-center space-x-1.5 transition-colors text-xs flex-1 shadow-sm"
             >
               <Fingerprint className="w-4 h-4 text-slate-600" />
               <span>AFIS Cross-Check</span>
@@ -525,7 +525,7 @@ export function SuspectDossiers() {
         {/* ------------------------------------------------------------ */}
         {/* RIGHT COLUMN: TARGET ROSTER TABLE (7 Cols)                  */}
         {/* ------------------------------------------------------------ */}
-        <div className="lg:col-span-7 bg-white border border-slate-200/90 rounded-3xl p-5 space-y-4 shadow-xs flex flex-col justify-between">
+        <div className="lg:col-span-7 bg-white border border-slate-200 rounded-2xl p-5 space-y-4 shadow-sm flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
               <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider flex items-center space-x-2">
@@ -622,8 +622,8 @@ export function SuspectDossiers() {
               <div 
                 key={d.id}
                 onClick={() => selectSuspectDossier(d)}
-                className={`p-4 bg-white border rounded-2xl space-y-3 cursor-pointer transition-all hover:bg-blue-50/30 group shadow-2xs relative overflow-hidden ${
-                  activeDossier.id === d.id ? 'border-blue-500 ring-2 ring-blue-500/20 shadow-sm' : 'border-slate-200/90 hover:border-blue-300'
+                className={`p-4 bg-white border rounded-xl space-y-3 cursor-pointer transition-all hover:bg-blue-50/30 group shadow-sm relative overflow-hidden ${
+                  activeDossier.id === d.id ? 'border-blue-500 ring-2 ring-blue-500/20 shadow-md' : 'border-slate-200 hover:border-blue-300'
                 }`}
               >
                 <div className="flex items-center space-x-3.5">
@@ -679,7 +679,7 @@ export function SuspectDossiers() {
         </div>
 
         {/* Audio Intercept Transcript Stream */}
-        <div className="lg:col-span-4 bg-white border border-slate-200/90 rounded-2xl p-4 space-y-3 shadow-xs font-sans">
+        <div className="lg:col-span-4 bg-white border border-slate-200 rounded-2xl p-4 space-y-3 shadow-sm font-sans">
           <div className="flex items-center justify-between border-b border-slate-100 pb-2">
             <div className="flex items-center space-x-2">
               <Radio className="w-4 h-4 text-rose-600 animate-pulse" />

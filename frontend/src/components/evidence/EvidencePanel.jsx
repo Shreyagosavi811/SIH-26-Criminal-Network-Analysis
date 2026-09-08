@@ -258,8 +258,8 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
       
       {/* 1. TOP STATS KPI BAR */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 md:gap-4">
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
-          <div className="w-11 h-11 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-bold shrink-0">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
+          <div className="w-11 h-11 rounded-lg bg-blue-50 text-blue-700 flex items-center justify-center font-bold shrink-0">
             <FolderGit2 className="w-5 h-5" />
           </div>
           <div>
@@ -268,8 +268,8 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
           </div>
         </div>
 
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
-          <div className="w-11 h-11 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold shrink-0">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
+          <div className="w-11 h-11 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold shrink-0">
             <ShieldCheck className="w-5 h-5" />
           </div>
           <div>
@@ -278,8 +278,8 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
           </div>
         </div>
 
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
-          <div className="w-11 h-11 rounded-xl bg-rose-50 text-rose-700 flex items-center justify-center font-bold shrink-0">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
+          <div className="w-11 h-11 rounded-lg bg-rose-50 text-rose-700 flex items-center justify-center font-bold shrink-0">
             <ShieldAlert className="w-5 h-5" />
           </div>
           <div>
@@ -288,8 +288,8 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
           </div>
         </div>
 
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs flex items-center space-x-3.5">
-          <div className="w-11 h-11 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center font-bold shrink-0">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-sm flex items-center space-x-3.5">
+          <div className="w-11 h-11 rounded-lg bg-amber-50 text-amber-700 flex items-center justify-center font-bold shrink-0">
             <Layers className="w-5 h-5" />
           </div>
           <div>
@@ -300,7 +300,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
       </div>
 
       {/* 2. ACTIONS & VIEW MODE CONTROLS HEADER */}
-      <div className="bg-white border border-slate-200/90 rounded-3xl p-5 md:p-6 shadow-xs space-y-4">
+      <div className="bg-white border border-slate-200 rounded-2xl p-5 md:p-6 shadow-sm space-y-4">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
           <div>
             <div className="flex items-center space-x-2 text-xs text-slate-500 font-medium mb-1">
@@ -335,7 +335,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
 
             <button 
               onClick={() => openModal('log-evidence', { defaultCaseId: activeCaseId })}
-              className="btn-primary"
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition-colors shadow-sm"
             >
               <Plus className="w-4 h-4" />
               <span>+ Seize / Log Evidence</span>
@@ -449,7 +449,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
           </div>
 
           {filteredEvidence.length === 0 ? (
-            <div className="bg-white border border-slate-200 rounded-3xl p-12 text-center space-y-3">
+            <div className="bg-white border border-slate-200 rounded-2xl p-12 text-center space-y-3 shadow-sm">
               <FolderGit2 className="w-12 h-12 text-slate-300 mx-auto" />
               <div className="font-bold text-slate-800 text-base">No matching evidence exhibits found</div>
               <p className="text-xs text-slate-500 max-w-md mx-auto">Try resetting filters or search terms, or click the button below to record a new evidence item.</p>
@@ -472,7 +472,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
                   <div 
                     key={ev.id}
                     onClick={() => selectEvidence(ev.id)}
-                    className="bg-white hover:bg-slate-50/90 border border-slate-200/90 hover:border-blue-300 rounded-3xl overflow-hidden shadow-xs hover:shadow-md transition-all cursor-pointer flex flex-col justify-between group relative"
+                    className="bg-white hover:bg-slate-50 border border-slate-200 hover:border-blue-300 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all cursor-pointer flex flex-col justify-between group relative"
                   >
                     {/* Media Thumbnail Banner (For Video & Image exhibits) */}
                     {hasMedia ? (
@@ -638,7 +638,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
 
       {/* VIEW MODE 2: FORENSIC LAB INSPECTOR (SPLIT WORKBENCH) */}
       {viewMode === 'inspector' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-5 md:p-6 shadow-xs space-y-4">
+        <div className="bg-white border border-slate-200 rounded-2xl p-5 md:p-6 shadow-sm space-y-4">
           <div className="border-b border-slate-100 pb-3">
             <h3 className="font-bold text-slate-900 text-base">Digital Forensics Laboratory & Telemetry Workspace</h3>
             <p className="text-xs text-slate-500">Live multi-source reconstruction workbench linking 4K video surveillance, optical macro analysis, voice, and financial forensics</p>
@@ -848,7 +848,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
 
       {/* VIEW MODE 3: CUSTODY LEDGER TABLE */}
       {viewMode === 'table' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-4">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 pb-3">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Judicial Malkhana Custody Register</h3>
@@ -943,7 +943,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
 
       {/* VIEW MODE 4: SEIZURE CHRONOLOGY TIMELINE */}
       {viewMode === 'timeline' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-5">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-5">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Chronological Seizure Sequence</h3>
@@ -964,7 +964,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
                   <div className="absolute -left-[23px] md:-left-[29px] top-1.5 w-4 h-4 rounded-full bg-slate-900 border-4 border-white shadow-xs"></div>
                   <div 
                     onClick={() => selectEvidence(ev.id)}
-                    className="p-4.5 bg-slate-50 hover:bg-slate-100/90 border border-slate-200 rounded-2xl space-y-2 transition-colors cursor-pointer"
+                    className="p-4.5 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl space-y-2 transition-colors cursor-pointer shadow-sm"
                   >
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <div className="flex items-center space-x-2">

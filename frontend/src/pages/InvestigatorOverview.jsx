@@ -32,7 +32,7 @@ export function InvestigatorOverview() {
   return (
     <div className="space-y-6 text-slate-800 font-sans max-w-7xl mx-auto">
       {/* Header Bar */}
-      <div className="bg-white border border-slate-200/90 rounded-3xl p-6 md:p-7 shadow-xs space-y-4">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-7 shadow-sm space-y-4">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-2">
             <button 
@@ -67,7 +67,7 @@ export function InvestigatorOverview() {
       </div>
 
       {/* Case Summary Metric Cards */}
-      <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-4">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
         <div className="border-b border-slate-100 pb-3">
           <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500">Case Investigation Artifacts</h3>
         </div>
@@ -75,9 +75,9 @@ export function InvestigatorOverview() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           <button 
             onClick={() => navigate('analysis', { tab: 'entities' })}
-            className="p-4 bg-gradient-to-br from-blue-50/80 via-sky-50/30 to-white hover:from-blue-100/80 border border-blue-100 hover:border-blue-300 rounded-2xl text-center transition-all group active:scale-[0.98] shadow-2xs"
+            className="p-4 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
           >
-            <div className="w-10 h-10 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center mx-auto mb-2 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-xs">
+            <div className="w-10 h-10 rounded-lg bg-white text-blue-700 flex items-center justify-center mx-auto mb-2 border border-blue-200 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-sm">
               <Users className="w-4.5 h-4.5" />
             </div>
             <div className="text-xl font-extrabold text-blue-950">{currentCase.stats.persons}</div>
@@ -86,9 +86,9 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'evidence' })}
-            className="p-4 bg-gradient-to-br from-purple-50/80 via-indigo-50/30 to-white hover:from-purple-100/80 border border-purple-100 hover:border-purple-300 rounded-2xl text-center transition-all group active:scale-[0.98] shadow-2xs"
+            className="p-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
           >
-            <div className="w-10 h-10 rounded-2xl bg-purple-100 text-purple-700 flex items-center justify-center mx-auto mb-2 group-hover:bg-purple-600 group-hover:text-white transition-all shadow-xs">
+            <div className="w-10 h-10 rounded-lg bg-white text-purple-700 flex items-center justify-center mx-auto mb-2 border border-purple-200 group-hover:bg-purple-600 group-hover:text-white transition-all shadow-sm">
               <FolderGit2 className="w-4.5 h-4.5" />
             </div>
             <div className="text-xl font-extrabold text-purple-950">{currentCase.stats.evidence}</div>
@@ -97,9 +97,9 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'network' })}
-            className="p-4 bg-gradient-to-br from-amber-50/80 via-yellow-50/30 to-white hover:from-amber-100/80 border border-amber-100 hover:border-amber-300 rounded-2xl text-center transition-all group active:scale-[0.98] shadow-2xs"
+            className="p-4 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
           >
-            <div className="w-10 h-10 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center mx-auto mb-2 group-hover:bg-amber-600 group-hover:text-white transition-all shadow-xs">
+            <div className="w-10 h-10 rounded-lg bg-white text-amber-700 flex items-center justify-center mx-auto mb-2 border border-amber-200 group-hover:bg-amber-600 group-hover:text-white transition-all shadow-sm">
               <Network className="w-4.5 h-4.5" />
             </div>
             <div className="text-xl font-extrabold text-amber-950">{currentCase.stats.relations}</div>
@@ -108,9 +108,9 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'timeline' })}
-            className="p-4 bg-gradient-to-br from-emerald-50/80 via-teal-50/30 to-white hover:from-emerald-100/80 border border-emerald-100 hover:border-emerald-300 rounded-2xl text-center transition-all group active:scale-[0.98] shadow-2xs"
+            className="p-4 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
           >
-            <div className="w-10 h-10 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto mb-2 group-hover:bg-emerald-600 group-hover:text-white transition-all shadow-xs">
+            <div className="w-10 h-10 rounded-lg bg-white text-emerald-700 flex items-center justify-center mx-auto mb-2 border border-emerald-200 group-hover:bg-emerald-600 group-hover:text-white transition-all shadow-sm">
               <Clock className="w-4.5 h-4.5" />
             </div>
             <div className="text-xl font-extrabold text-emerald-950">4 Events</div>
@@ -119,9 +119,9 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'documents' })}
-            className="p-4 bg-gradient-to-br from-rose-50/80 via-pink-50/30 to-white hover:from-rose-100/80 border border-rose-100 hover:border-rose-300 rounded-2xl text-center transition-all group active:scale-[0.98] shadow-2xs"
+            className="p-4 bg-rose-50 hover:bg-rose-100 border border-rose-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
           >
-            <div className="w-10 h-10 rounded-2xl bg-rose-100 text-rose-700 flex items-center justify-center mx-auto mb-2 group-hover:bg-rose-600 group-hover:text-white transition-all shadow-xs">
+            <div className="w-10 h-10 rounded-lg bg-white text-rose-700 flex items-center justify-center mx-auto mb-2 border border-rose-200 group-hover:bg-rose-600 group-hover:text-white transition-all shadow-sm">
               <FileText className="w-4.5 h-4.5" />
             </div>
             <div className="text-xl font-extrabold text-rose-950">2 Dossiers</div>
@@ -130,9 +130,9 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('canvas')}
-            className="p-4 bg-gradient-to-br from-cyan-50/80 via-blue-50/30 to-white hover:from-cyan-100/80 border border-cyan-100 hover:border-cyan-300 rounded-2xl text-center transition-all group active:scale-[0.98] shadow-2xs"
+            className="p-4 bg-cyan-50 hover:bg-cyan-100 border border-cyan-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
           >
-            <div className="w-10 h-10 rounded-2xl bg-cyan-100 text-cyan-700 flex items-center justify-center mx-auto mb-2 group-hover:bg-cyan-600 group-hover:text-white transition-all shadow-xs">
+            <div className="w-10 h-10 rounded-lg bg-white text-cyan-700 flex items-center justify-center mx-auto mb-2 border border-cyan-200 group-hover:bg-cyan-600 group-hover:text-white transition-all shadow-sm">
               <LayoutTemplate className="w-4.5 h-4.5" />
             </div>
             <div className="text-xl font-extrabold text-cyan-950">Studio</div>
@@ -142,14 +142,14 @@ export function InvestigatorOverview() {
       </div>
 
       {/* Intelligence & Lead Analysis Box */}
-      <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-4 shadow-xs">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
         <div className="border-b border-slate-100 pb-3">
           <h2 className="text-sm font-bold text-slate-900">Syndicate Telemetry & Verified Connections</h2>
           <p className="text-xs text-slate-500">Cross-referenced against CDR cell towers and bank transaction ledgers</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-5 bg-slate-50 border border-slate-200 rounded-2xl space-y-3">
+          <div className="p-5 bg-slate-50 rounded-xl space-y-3 flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <span className="font-bold text-slate-900 text-xs">Primary Link: P007 (Amit Kumar)</span>
               <span className="text-slate-600 font-semibold text-[11px] bg-slate-200/70 px-2.5 py-0.5 rounded-full">
@@ -188,7 +188,7 @@ export function InvestigatorOverview() {
             </div>
           </div>
 
-          <div className="p-5 bg-slate-50 border border-slate-200 rounded-2xl space-y-3">
+          <div className="p-5 bg-slate-50 rounded-xl space-y-3 flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <span className="font-bold text-slate-900 text-xs">Cross-Case Reference: FIR-221 (Goa Narcotics)</span>
               <span className="text-slate-600 font-semibold text-[11px] bg-slate-200/70 px-2.5 py-0.5 rounded-full">
@@ -221,18 +221,18 @@ export function InvestigatorOverview() {
       </div>
 
       {/* Priority Operational Exhibits & Field Notes */}
-      <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-4 shadow-xs">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
         <h2 className="text-sm font-bold text-slate-900">Priority Field Leads & Surveillance Reports</h2>
 
         <div className="space-y-3">
-          <div className="p-4.5 bg-slate-50 border border-slate-200 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div className="flex items-center space-x-3.5">
+          <div className="p-4 bg-slate-50 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="flex items-center space-x-3.5 flex-1 min-w-0">
               <div className="w-9 h-9 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
                 <AlertTriangle className="w-4 h-4" />
               </div>
-              <div>
-                <div className="font-bold text-slate-900 text-xs">Mule Bank Account Transaction Detected</div>
-                <div className="text-slate-600 text-xs mt-0.5">P001 → P007 (₹5,00,000 transaction via HDFC mule account TX-00121)</div>
+              <div className="min-w-0">
+                <div className="font-bold text-slate-900 text-xs truncate">Mule Bank Account Transaction Detected</div>
+                <div className="text-slate-600 text-xs mt-0.5 truncate">P001 → P007 (₹5,00,000 transaction via HDFC mule account TX-00121)</div>
               </div>
             </div>
             <button 
@@ -244,14 +244,14 @@ export function InvestigatorOverview() {
             </button>
           </div>
 
-          <div className="p-4.5 bg-slate-50 border border-slate-200 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div className="flex items-center space-x-3.5">
+          <div className="p-4 bg-slate-50 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="flex items-center space-x-3.5 flex-1 min-w-0">
               <div className="w-9 h-9 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center shrink-0">
                 <Info className="w-4 h-4" />
               </div>
-              <div>
-                <div className="font-bold text-slate-900 text-xs">Vehicle V003 Highway Toll Capture</div>
-                <div className="text-slate-600 text-xs mt-0.5">Black SUV MH02AB1234 sighted near Panvel Toll Gate at 03:12 AM</div>
+              <div className="min-w-0">
+                <div className="font-bold text-slate-900 text-xs truncate">Vehicle V003 Highway Toll Capture</div>
+                <div className="text-slate-600 text-xs mt-0.5 truncate">Black SUV MH02AB1234 sighted near Panvel Toll Gate at 03:12 AM</div>
               </div>
             </div>
             <button 

@@ -240,7 +240,7 @@ export function InvestigationCanvas() {
       </div>
 
       {/* Main Canvas Studio Panel */}
-      <div className="h-[calc(100vh-14rem)] flex flex-col bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-xl font-mono text-xs transition-colors">
+      <div className="h-[calc(100vh-14rem)] flex flex-col bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm font-mono text-xs transition-colors">
         {/* Controls Bar */}
         <div className="p-3.5 bg-slate-50 dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center space-x-4">
@@ -293,7 +293,7 @@ export function InvestigationCanvas() {
               <span>{currentCanvas.version}</span>
               <ChevronDown className="w-3 h-3" />
             </button>
-            <div className="absolute right-0 top-9 w-48 bg-white border border-slate-200 rounded-xl shadow-2xl p-2 hidden group-hover:block z-50">
+            <div className="absolute right-0 top-9 w-48 bg-white border border-slate-200 rounded-xl shadow-lg p-2 hidden group-hover:block z-50">
               <div className="text-[10px] uppercase text-slate-400 font-bold px-2 py-1">Restore Version</div>
               {(currentCanvas.versionsAvailable || ['Version 1', 'Version 2', 'Version 3 (Latest)']).map(v => (
                 <button 
@@ -635,9 +635,9 @@ export function InvestigationCanvas() {
                   <div 
                     key={obj.id}
                     style={{ left: `${obj.x}px`, top: `${obj.y}px` }}
-                    className={`absolute z-20 min-w-[220px] max-w-[280px] p-3 bg-white dark:bg-slate-800 border dark:border-slate-700 rounded-xl shadow-lg transition-all glass-panel group select-none border-t-4 ${styling.borderColor} ${
+                    className={`absolute z-20 min-w-[220px] max-w-[280px] p-3 bg-white dark:bg-slate-800 border dark:border-slate-700 rounded-xl shadow-sm transition-all glass-panel group select-none border-t-4 ${styling.borderColor} ${
                       isConnectSource 
-                        ? 'ring-4 ring-red-500 scale-105 shadow-2xl' 
+                        ? 'ring-4 ring-red-500 scale-105 shadow-md' 
                         : activeCanvasTool === 'connect'
                         ? 'hover:ring-2 hover:ring-blue-400 cursor-pointer'
                         : activeCanvasTool === 'eraser'

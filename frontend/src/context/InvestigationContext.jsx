@@ -883,45 +883,79 @@ export function InvestigationProvider({ children }) {
   };
 
   // AI Query Action
-  const askAI = (queryText) => {
+  const askAI = async (queryText) => {
+    if (!queryText.trim()) {
+      showToast('Enter an investigative question first.', 'warning');
+      return;
+    }
+
     const userMsg = {
       sender: 'user',
       text: queryText,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     };
-    setAiMessages(prev => [...prev, userMsg]);
-
-    setTimeout(() => {
-      let aiResponseText = `Based on multi-source intelligence records for ${activeCaseId}, P001 and P007 have a strong observed relationship backed by communication (CDR-00821) and financial telemetry (TX-00121).`;
-      let evidenceList = ['CDR-00821', 'TX-00121', 'FN-003'];
-
-      if (queryText.toLowerCase().includes('fir-104') || queryText.toLowerCase().includes('show fir')) {
-        setAiMessages(prev => [
-          ...prev,
-          {
-            sender: 'ai',
-            text: 'FIR-104 records loaded. Select an area below to inspect immediately:',
-            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-            isDynamicRoute: true
-          }
-        ]);
-      } else {
-        setAiMessages(prev => [
-          ...prev,
-          {
-            sender: 'ai',
-            text: aiResponseText,
-            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-            evidence: evidenceList,
-            structuredConnections: [
-              { id: 'P007', label: 'P007 (Amit Kumar)', type: 'Financial + Communication', confidence: 'HIGH' },
-              { id: 'V003', label: 'V003 (Vehicle MH02AB1234)', type: 'Vehicle association', confidence: 'MEDIUM' },
-              { id: 'FIR-221', label: 'FIR-221 (Cross-case relationship)', type: 'Cross-case link', confidence: 'HIGH' }
-            ]
-          }
-        ]);
+    
+    // Push user message and a temporary loading message
+    const loadingId = Date.now();
+    setAiMessages(prev => [
+      ...prev, 
+      userMsg,
+      {
+        id: loadingId,
+        sender: 'ai',
+        text: 'Analyzing observed records...',
+        isLoading: true,
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
       }
-    }, 600);
+    ]);
+
+    try {
+      const activeScenario = availableScenarios.length > 0 ? availableScenarios[0].scenario_id : 'S01';
+      
+      const response = await fetch('http://localhost:8000/api/ai/query', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          query: queryText,
+          scenario_id: activeScenario
+        })
+      });
+      
+      if (!response.ok) {
+        throw new Error('Backend responded with error');
+      }
+      
+      const data = await response.json();
+      
+      if (data.status === 'success' && data.llm_response) {
+        setAiMessages(prev => prev.map(msg => 
+          msg.id === loadingId ? {
+            sender: 'ai',
+            text: data.llm_response.answer || 'No answer provided.',
+            timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+            citations: data.llm_response.citations || [],
+            evidence_basis: data.llm_response.evidence_basis || null,
+            confidence: data.llm_response.confidence || 'insufficient',
+            mode: data.llm_response.mode || 'retrieval_fallback'
+          } : msg
+        ));
+      } else {
+        throw new Error('Malformed response');
+      }
+      
+    } catch (err) {
+      console.error('AI query failed:', err);
+      // Fallback behavior
+      setAiMessages(prev => prev.map(msg => 
+        msg.id === loadingId ? {
+          sender: 'ai',
+          text: 'AI analysis is temporarily unavailable. Please try again. (Evidence retrieval fallback)',
+          timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+          mode: 'retrieval_fallback',
+          confidence: 'insufficient'
+        } : msg
+      ));
+    }
   };
 
   // Global Search Action

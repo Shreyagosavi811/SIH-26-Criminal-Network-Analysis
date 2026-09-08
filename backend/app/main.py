@@ -74,14 +74,21 @@ def get_network(scenario_id: str):
         
     return build_network(scenario_id)
 
+from app.services.retrieval_service import retrieval_service
+from app.services.llm_service import llm_service
+
 @app.post("/api/ai/query")
 def ai_query(req: AIQueryRequest):
-    # Deterministic search over the observed corpus
-    results = corpus_service.search_records(query=req.query, scenario_id=req.scenario_id, limit=5)
+    # Phase 3A: Retrieve top-k records
+    retrieved_records = retrieval_service.retrieve(query=req.query, scenario_id=req.scenario_id, top_k=5)
+    
+    # Phase 3B: Grounded LLM Response
+    llm_response = llm_service.generate_grounded_response(query=req.query, retrieved_records=retrieved_records)
     
     return {
         "status": "success",
-        "message": "Results deterministically retrieved from observed corpus records (Not real RAG/LLM yet).",
+        "message": llm_response.get("answer", "No answer generated."),
         "query": req.query,
-        "results": results
+        "results": retrieved_records,
+        "llm_response": llm_response
     }

@@ -121,7 +121,7 @@ export function InvestigationAnalysis() {
   return (
     <div className="space-y-6 text-slate-800 font-sans max-w-7xl mx-auto">
       {/* Top Title & Navigation Tabs */}
-      <div className="bg-white border border-slate-200/90 rounded-3xl p-6 md:p-7 shadow-xs space-y-4">
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-7 shadow-sm space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <div className="flex items-center space-x-2 text-xs text-slate-500 font-medium mb-1">
@@ -158,7 +158,7 @@ export function InvestigationAnalysis() {
                 onClick={() => setActiveAnalysisTab(tab.id)}
                 className={`px-4 py-2 rounded-full font-semibold text-xs flex items-center space-x-2 transition-all shrink-0 ${
                   isActive 
-                    ? 'bg-white text-slate-900 shadow-2xs font-bold' 
+                    ? 'bg-white text-slate-900 shadow-sm font-bold' 
                     : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
@@ -172,7 +172,7 @@ export function InvestigationAnalysis() {
 
       {/* TAB 1: NETWORK GRAPH */}
       {activeAnalysisTab === 'network' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-4 shadow-xs">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <div>
               <h3 className="font-bold text-slate-900 text-sm">Syndicate Topology & Relationship Map</h3>
@@ -267,7 +267,7 @@ export function InvestigationAnalysis() {
 
       {/* TAB 3: CASE CHRONOLOGY */}
       {activeAnalysisTab === 'timeline' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-6 shadow-xs">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-6 shadow-sm">
           <div className="flex items-center justify-between border-b border-slate-100 pb-4">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Chronological Case Reconstruction</h3>
@@ -291,7 +291,7 @@ export function InvestigationAnalysis() {
                   </div>
                   
                   {/* Event Card */}
-                  <div className="p-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-2xl shadow-xs transition-all group-hover:shadow-md group-hover:border-slate-300">
+                  <div className="p-4 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl shadow-sm transition-all hover:shadow-md hover:border-slate-300">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
                       <div className="flex items-center space-x-2">
                         <span className="text-slate-900 font-bold text-xs">{ev.time}</span>
@@ -369,7 +369,7 @@ export function InvestigationAnalysis() {
       {/* TAB 4: STATUTORY DOCUMENTS */}
       {activeAnalysisTab === 'documents' && (
         <div className="space-y-6">
-          <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-4">
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
               <div>
                 <h3 className="font-bold text-slate-900 text-base flex items-center space-x-2">
@@ -386,11 +386,11 @@ export function InvestigationAnalysis() {
             <RealFIRViewer defaultCaseId={activeCaseId} />
           </div>
 
-          <div className="bg-white border border-slate-200/90 rounded-3xl p-6 shadow-xs space-y-4">
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
             <h3 className="font-bold text-slate-900 text-sm uppercase tracking-wider">Inter-Agency Reports & Seizure Panchnama</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {mockDocuments.map(d => (
-                <div key={d.id} className="p-4.5 bg-slate-50 border border-slate-200 rounded-2xl space-y-3">
+                <div key={d.id} className="p-4.5 bg-slate-50 border border-slate-200 rounded-xl space-y-3 shadow-sm">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <FileText className="w-4 h-4 text-slate-700" />
@@ -420,7 +420,7 @@ export function InvestigationAnalysis() {
 
       {/* TAB 5: TRACKED PERSONS */}
       {activeAnalysisTab === 'entities' && (
-        <div className="bg-white border border-slate-200/90 rounded-3xl p-6 space-y-4 shadow-xs">
+        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Identified Persons & Suspects</h3>
@@ -439,7 +439,7 @@ export function InvestigationAnalysis() {
                   selectEntity(p.id);
                   showToast(`Viewing intelligence file for ${p.name}`, 'info');
                 }}
-                className="p-4.5 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-2xl cursor-pointer flex items-center justify-between group transition-colors"
+                className="p-4.5 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl cursor-pointer flex items-center justify-between group transition-colors shadow-sm"
               >
                 <div className="space-y-2.5">
                   <div className="space-y-0.5">

@@ -22,7 +22,7 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['"Figtree"', '"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'monospace']
       }
     },

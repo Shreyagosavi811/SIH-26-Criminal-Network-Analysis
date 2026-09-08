@@ -152,7 +152,7 @@ export function EvidenceDetailModal({ evidence: propEvidence, closeModal: propCl
 
   return (
     <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 md:p-6 select-none font-sans animate-fade-in">
-      <div className="bg-white border border-slate-200 rounded-3xl shadow-2xl max-w-4xl w-full overflow-hidden flex flex-col max-h-[92vh] text-slate-800 animate-scale-up">
+      <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl max-w-4xl w-full overflow-hidden flex flex-col max-h-[92vh] text-slate-800 animate-scale-up">
         
         {/* Header */}
         <div className="p-5 sm:p-6 bg-slate-900 text-white flex items-start justify-between relative overflow-hidden shrink-0">

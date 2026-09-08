@@ -82,11 +82,11 @@ export function CrimeTrackerDashboard() {
 
   // Top National KPI Cards with Light Pastel Accents
   const trackerKPIs = [
-    { label: 'TOTAL INCIDENTS (INDIA)', value: '6,257', color: 'text-blue-950', badgeBg: 'bg-gradient-to-br from-blue-50/90 via-sky-50/40 to-white border-blue-100' },
-    { label: 'SEIZED ASSETS QUANTUM', value: '₹42.8 Cr', color: 'text-emerald-950', badgeBg: 'bg-gradient-to-br from-emerald-50/90 via-teal-50/40 to-white border-emerald-100' },
-    { label: 'ACTIVE TRANSIT CORRIDORS', value: '8 Routes', color: 'text-amber-950', badgeBg: 'bg-gradient-to-br from-amber-50/90 via-yellow-50/40 to-white border-amber-100' },
-    { label: 'HIGH PRIORITY RED FLAGS', value: '1,820', color: 'text-rose-950', badgeBg: 'bg-gradient-to-br from-rose-50/90 via-pink-50/40 to-white border-rose-100' },
-    { label: 'DISPATCH UNITS IN FIELD', value: '412 Units', color: 'text-purple-950', badgeBg: 'bg-gradient-to-br from-purple-50/90 via-indigo-50/40 to-white border-purple-100' }
+    { label: 'TOTAL INCIDENTS (INDIA)', value: '6,257', color: 'text-blue-950', badgeBg: 'bg-blue-50 border-blue-100' },
+    { label: 'SEIZED ASSETS QUANTUM', value: '₹42.8 Cr', color: 'text-emerald-950', badgeBg: 'bg-emerald-50 border-emerald-100' },
+    { label: 'ACTIVE TRANSIT CORRIDORS', value: '8 Routes', color: 'text-amber-950', badgeBg: 'bg-amber-50 border-amber-100' },
+    { label: 'HIGH PRIORITY RED FLAGS', value: '1,820', color: 'text-rose-950', badgeBg: 'bg-rose-50 border-rose-100' },
+    { label: 'DISPATCH UNITS IN FIELD', value: '412 Units', color: 'text-purple-950', badgeBg: 'bg-purple-50 border-purple-100' }
   ];
 
   // Top Indian States & Cyber Telemetry
@@ -500,7 +500,7 @@ export function CrimeTrackerDashboard() {
   }, [isLeafletReady, mapViewMode, filteredHotspots, mapTileStyle, mapProvider, indianMapApiKey, mapLayer, selectedHotspot]);
 
   return (
-    <div className="w-full min-h-full bg-white text-slate-800 font-sans p-4 md:p-6 space-y-6 rounded-3xl select-none border border-slate-200/90 shadow-xs">
+    <div className="w-full min-h-full bg-white text-slate-800 font-sans p-4 md:p-6 space-y-6 rounded-2xl select-none border border-slate-200 shadow-sm">
       
       {/* 1. TOP HEADER & KPI METRICS */}
       <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4 pb-4 border-b border-slate-100">
@@ -542,7 +542,7 @@ export function CrimeTrackerDashboard() {
       </div>
 
       {/* 2. INTERACTIVE FILTER & MAP CONTROLS TOOLBAR */}
-      <div className="bg-slate-50 border border-slate-200/90 rounded-2xl p-4 flex flex-col lg:flex-row lg:items-center justify-between gap-4 shadow-2xs">
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col lg:flex-row lg:items-center justify-between gap-4 shadow-sm">
         
         {/* Left: Time Range Pills & Category Dropdown */}
         <div className="flex flex-wrap items-center gap-2 text-xs">
@@ -559,10 +559,10 @@ export function CrimeTrackerDashboard() {
                 setTimeRange(t.id);
                 showToast(`Switched telemetry window to ${t.label}`, 'info');
               }}
-              className={`px-3 py-1 rounded-full font-semibold transition-all ${
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 timeRange === t.id 
-                  ? 'bg-blue-600 text-white shadow-xs font-bold' 
-                  : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 shadow-2xs'
+                  ? 'bg-blue-600 text-white shadow-sm font-bold' 
+                  : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 shadow-sm'
               }`}
             >
               {t.label}
@@ -576,10 +576,10 @@ export function CrimeTrackerDashboard() {
             <button 
               key={cat}
               onClick={() => setCrimeCategory(cat)}
-              className={`px-3 py-1 rounded-full font-semibold transition-all ${
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all ${
                 crimeCategory === cat 
-                  ? 'bg-slate-900 text-white shadow-xs font-bold' 
-                  : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 shadow-2xs'
+                  ? 'bg-slate-900 text-white shadow-sm font-bold' 
+                  : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200 shadow-sm'
               }`}
             >
               {cat}
@@ -634,7 +634,7 @@ export function CrimeTrackerDashboard() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* Left: Top Indian States Incident Volume */}
-        <div className="lg:col-span-3 bg-slate-50/80 border border-slate-200/90 rounded-3xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-2xs">
+        <div className="lg:col-span-3 bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-sm">
           <div className="space-y-3">
             <div className="flex items-center justify-between border-b border-slate-200 pb-2">
               <span className="text-xs font-bold text-slate-800 uppercase tracking-wider">Top Incident Precincts</span>
@@ -645,7 +645,7 @@ export function CrimeTrackerDashboard() {
               {topStates.map((st, i) => (
                 <div 
                   key={st.name} 
-                  className="space-y-1.5 cursor-pointer p-2.5 rounded-xl bg-white border border-slate-200/70 hover:border-blue-300 hover:shadow-2xs transition-all group"
+                  className="space-y-1.5 cursor-pointer p-2.5 rounded-lg bg-white border border-slate-200 hover:border-blue-300 hover:shadow-sm transition-all group"
                   onClick={() => showToast(`Selected ${st.name} jurisdiction (${st.cases} records)`, 'info')}
                 >
                   <div className="flex justify-between items-center text-xs">
@@ -678,7 +678,7 @@ export function CrimeTrackerDashboard() {
         </div>
 
         {/* Center: Interactive India Map Visualizer & GIS Gateway */}
-        <div className="lg:col-span-6 bg-slate-950/90 border border-slate-800/90 rounded-2xl p-4 sm:p-5 flex flex-col justify-between relative overflow-hidden">
+        <div className="lg:col-span-6 bg-slate-900 border border-slate-800 rounded-xl p-4 sm:p-5 flex flex-col justify-between relative overflow-hidden">
           {/* Map Header & Multi-Mode Controls */}
           <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3 z-10">
             <div>
@@ -946,7 +946,7 @@ export function CrimeTrackerDashboard() {
 
             {/* Selected Hotspot Detailed Drawer Overlay */}
             {selectedHotspot && (
-              <div className="absolute bottom-3 left-3 right-3 z-[500] bg-white/95 border border-slate-200 p-4 sm:p-5 rounded-3xl shadow-2xl space-y-4 text-xs backdrop-blur-md animate-scale-up">
+              <div className="absolute bottom-3 left-3 right-3 z-[500] bg-white border border-slate-200 p-4 sm:p-5 rounded-xl shadow-lg space-y-4 text-xs">
                 <div className="flex items-start justify-between">
                   <div className="space-y-2">
                     <div className="flex items-center space-x-2.5">
@@ -1022,8 +1022,8 @@ export function CrimeTrackerDashboard() {
 
         {/* INDIAN MAP API KEY CONFIGURATION MODAL */}
         {isApiKeyModalOpen && (
-          <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
-            <div className="bg-slate-900 border border-slate-700 w-full max-w-lg rounded-3xl p-5 sm:p-6 shadow-2xl space-y-4 text-white font-sans text-xs animate-scale-up">
+          <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm flex items-center justify-center p-4">
+            <div className="bg-slate-900 border border-slate-700 w-full max-w-lg rounded-2xl p-5 sm:p-6 shadow-xl space-y-4 text-white font-sans text-xs animate-scale-up">
               {/* Header */}
               <div className="flex items-center justify-between border-b border-slate-800 pb-3">
                 <div className="flex items-center space-x-2.5">
@@ -1138,7 +1138,7 @@ export function CrimeTrackerDashboard() {
         )}
 
         {/* Right: Live Indian Police Incident Feed with Light Cards */}
-        <div className="lg:col-span-3 bg-slate-50/80 border border-slate-200/90 rounded-3xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-2xs">
+        <div className="lg:col-span-3 bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-sm">
           <div className="space-y-3">
             <div className="flex items-center justify-between border-b border-slate-200 pb-2">
               <span className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center space-x-2">
@@ -1153,7 +1153,7 @@ export function CrimeTrackerDashboard() {
                 <div 
                   key={inc.id}
                   onClick={() => navigate('overview', { caseId: inc.caseId })}
-                  className="p-3 bg-white hover:bg-blue-50/40 border border-slate-200/80 hover:border-blue-300 rounded-2xl space-y-1.5 cursor-pointer transition-all shadow-2xs group"
+                  className="p-3 bg-white hover:bg-slate-50 border border-slate-200 hover:border-blue-300 rounded-lg space-y-1.5 cursor-pointer transition-all shadow-sm group"
                 >
                   <div className="flex items-center justify-between text-[10px]">
                     <span className="text-blue-700 font-mono font-bold">{inc.time} IST</span>
