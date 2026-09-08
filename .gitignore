@@ -41,20 +41,22 @@ dist/
 out/
 
 # SIH Investigation Engine - Local Qdrant DB
-output/qdrant_storage/
+investigation_dataset_engine/output/qdrant_storage/
 
-# SIH Investigation Engine - Large Corpora
-output/RAG_CORPUS/corpus_full.jsonl
-output/RAG_CORPUS/corpus_small.jsonl
-output/RAG_CORPUS/checkpoints_*
+# Large generated corpus
+investigation_dataset_engine/output/RAG_CORPUS/corpus_full.jsonl
+investigation_dataset_engine/output/RAG_CORPUS/checkpoints_*/
 
-# SIH Investigation Engine - Temp Caches
-output/RAG_EVALUATION/*.sqlite
-output/RAG_BENCHMARK/*.sqlite
-scratch/
+# Keep MVP corpus tracked
+!investigation_dataset_engine/output/RAG_CORPUS/corpus_small.jsonl
+
+# Temporary generated evaluation databases
+investigation_dataset_engine/output/RAG_EVALUATION/*.sqlite
+investigation_dataset_engine/output/RAG_BENCHMARK/*.sqlite
+investigation_dataset_engine/scratch/
 
 # SIH Investigation Engine - Trackable directories explicitly allowed (not ignored)
-!output/FINAL_EVALUATION/
-!output/RAG_BENCHMARK/
-!output/RAG_EVALUATION/
-!output/REPORTS/
+!investigation_dataset_engine/output/FINAL_EVALUATION/
+!investigation_dataset_engine/output/RAG_BENCHMARK/
+!investigation_dataset_engine/output/RAG_EVALUATION/
+!investigation_dataset_engine/output/REPORTS/
