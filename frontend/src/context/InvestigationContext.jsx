@@ -9,6 +9,8 @@ import {
 } from '../data/mockData.js';
 import { mockFIRDetails, generateRealFIRRecord } from '../data/mockFIRs.js';
 
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+
 const InvestigationContext = createContext();
 
 export function InvestigationProvider({ children }) {
@@ -47,8 +49,8 @@ export function InvestigationProvider({ children }) {
     const checkBackend = async () => {
       try {
         const [healthRes, scenariosRes] = await Promise.all([
-          fetch('http://localhost:8000/api/health').catch(() => null),
-          fetch('http://localhost:8000/api/scenarios').catch(() => null)
+          fetch(`${API_BASE_URL}/api/health`).catch(() => null),
+          fetch(`${API_BASE_URL}/api/scenarios`).catch(() => null)
         ]);
         
         if (healthRes && healthRes.ok) {
@@ -65,7 +67,7 @@ export function InvestigationProvider({ children }) {
           // PHASE 2A: Fetch real observed FIRs for the dashboard
           const defaultScenario = scenarios[0]?.scenario_id || 'S01';
           try {
-            const firRes = await fetch(`http://localhost:8000/api/records?scenario_id=${defaultScenario}&source_type=cctns_fir_records`);
+            const firRes = await fetch(`${API_BASE_URL}/api/records?scenario_id=${defaultScenario}&source_type=cctns_fir_records`);
             if (firRes.ok) {
               const data = await firRes.json();
               
@@ -101,7 +103,7 @@ export function InvestigationProvider({ children }) {
 
           // PHASE 2C: Fetch all observed records for Evidence Vault
           try {
-            const evRes = await fetch(`http://localhost:8000/api/records?scenario_id=${defaultScenario}`);
+            const evRes = await fetch(`${API_BASE_URL}/api/records?scenario_id=${defaultScenario}`);
             if (evRes.ok) {
               const data = await evRes.json();
               const mappedEvidence = (data.records || []).map(r => {
@@ -331,7 +333,7 @@ export function InvestigationProvider({ children }) {
             }
 
             // PHASE 2G: Fetch Network Graph
-            const netRes = await fetch(`http://localhost:8000/api/network/${defaultScenario}`).catch(() => null);
+            const netRes = await fetch(`${API_BASE_URL}/api/network/${defaultScenario}`).catch(() => null);
             if (netRes && netRes.ok) {
               const netData = await netRes.json();
               setBackendNetwork(netData);
@@ -656,11 +658,34 @@ export function InvestigationProvider({ children }) {
   };
 
   // Canvas Actions
-  const addToCanvas = (item) => {
+  const addToCanvas = (item, sourceModule = null) => {
+    if (!item) return;
+    
+    // Determine a stable ID to check for duplicates
+    let itemId = typeof item === 'string' ? item : (item.id || item.label);
+    
+    // Check for duplicates
+    if (itemId) {
+      const isDuplicate = (currentCanvas.objects || []).some(o => 
+        o.entityId === itemId || o.evidenceId === itemId || o.originalId === itemId || o.label === itemId || o.label?.startsWith(itemId + ':') || o.label?.startsWith(itemId + '\n')
+      );
+      if (isDuplicate) {
+        showToast(`Item is already pinned to the board!`, 'info');
+        return;
+      }
+    }
+
     let newObj = null;
+    const baseFields = {
+      id: `c-obj-${Date.now()}`,
+      originalId: itemId,
+      source: sourceModule,
+      originalType: item.type || null
+    };
+
     if (item.type === 'Person' || item.type === 'Vehicle' || item.type === 'Account' || item.type === 'Location') {
       newObj = {
-        id: `c-obj-${Date.now()}`,
+        ...baseFields,
         type: item.type ? item.type.toLowerCase() : 'entity',
         entityId: item.id,
         label: `${item.id}: ${item.name || item.id}`,
@@ -670,7 +695,7 @@ export function InvestigationProvider({ children }) {
       };
     } else if (item.amount || item.category || item.evidenceId) {
       newObj = {
-        id: `c-obj-${Date.now()}`,
+        ...baseFields,
         type: 'evidence',
         evidenceId: item.id,
         label: `${item.id}\n${item.title || item.type || 'Evidence Item'}`,
@@ -680,18 +705,18 @@ export function InvestigationProvider({ children }) {
       };
     } else if (typeof item === 'string') {
       newObj = {
-        id: `c-obj-${Date.now()}`,
+        ...baseFields,
         type: 'note',
         label: item,
         x: 180 + Math.floor(Math.random() * 150),
         y: 200 + Math.floor(Math.random() * 150),
         color: '#2563eb'
       };
-    } else if (item.label) {
+    } else if (item.label || item.type === 'fir') {
       newObj = {
-        id: `c-obj-${Date.now()}`,
+        ...baseFields,
         type: item.type || 'note',
-        label: item.label,
+        label: item.label || `${item.id}: ${item.title}`,
         x: item.x || (200 + Math.floor(Math.random() * 150)),
         y: item.y || (150 + Math.floor(Math.random() * 150)),
         color: item.color || '#2563eb'
@@ -912,7 +937,7 @@ export function InvestigationProvider({ children }) {
     try {
       const activeScenario = availableScenarios.length > 0 ? availableScenarios[0].scenario_id : 'S01';
       
-      const response = await fetch('http://localhost:8000/api/ai/query', {
+      const response = await fetch(`${API_BASE_URL}/api/ai/query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -968,20 +993,44 @@ export function InvestigationProvider({ children }) {
     }
     setIsSearchOpen(true);
     const q = query.toLowerCase();
-    const matchedEntities = mockEntities.filter(e => 
-      e.id.toLowerCase().includes(q) || e.name.toLowerCase().includes(q) || (e.phone && e.phone.includes(q))
-    );
-    const matchedCases = mockCases.filter(c => 
-      c.id.toLowerCase().includes(q) || c.title.toLowerCase().includes(q)
-    );
-    const matchedEvidence = mockEvidence.filter(ev => 
-      ev.id.toLowerCase().includes(q) || ev.title.toLowerCase().includes(q)
-    );
-    setGlobalSearchResults({
-      entities: matchedEntities,
-      cases: matchedCases,
-      evidence: matchedEvidence
-    });
+    
+    // We should also search dynamically managed context lists
+    const activeEntities = [...mockEntities, ...suspectDossiers].filter((v, i, a) => a.findIndex(v2 => (v2.id === v.id)) === i);
+    const activeCases = [...mockCases, ...cases].filter((v, i, a) => a.findIndex(v2 => (v2.id === v.id)) === i);
+    const activeEvidence = [...mockEvidence, ...evidenceList].filter((v, i, a) => a.findIndex(v2 => (v2.id === v.id)) === i);
+
+    const matchedEntities = activeEntities.filter(e => 
+      e.id.toLowerCase().includes(q) || (e.name && e.name.toLowerCase().includes(q)) || (e.phone && e.phone.includes(q))
+    ).map(e => ({
+      title: e.name || e.id,
+      subtitle: `Entity • ID: ${e.id}`,
+      type: 'ENTITY',
+      originalId: e.id,
+      original: e
+    }));
+
+    const matchedCases = activeCases.filter(c => 
+      c.id.toLowerCase().includes(q) || (c.title && c.title.toLowerCase().includes(q))
+    ).map(c => ({
+      title: c.title || c.id,
+      subtitle: `Case • ID: ${c.id}`,
+      type: 'CASE',
+      caseId: c.id,
+      original: c
+    }));
+
+    const matchedEvidence = activeEvidence.filter(ev => 
+      ev.id.toLowerCase().includes(q) || (ev.title && ev.title.toLowerCase().includes(q))
+    ).map(ev => ({
+      title: ev.title || ev.id,
+      subtitle: `Evidence • ID: ${ev.id}`,
+      type: 'EVIDENCE',
+      evidenceId: ev.id,
+      original: ev
+    }));
+
+    const combinedResults = [...matchedEntities, ...matchedCases, ...matchedEvidence];
+    setGlobalSearchResults(combinedResults);
   };
 
   const registerFIR = (firData) => {

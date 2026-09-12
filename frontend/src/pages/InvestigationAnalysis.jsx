@@ -121,7 +121,7 @@ export function InvestigationAnalysis() {
   return (
     <div className="space-y-6 text-slate-800 font-sans max-w-7xl mx-auto">
       {/* Top Title & Navigation Tabs */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-7 shadow-sm space-y-4">
+      <div className="bg-white rounded-xl p-6 md:p-7 shadow-md shadow-slate-200/50 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <div className="flex items-center space-x-2 text-xs text-slate-500 font-medium mb-1">
@@ -130,7 +130,7 @@ export function InvestigationAnalysis() {
               <span className="font-bold text-slate-800">{activeCaseId}</span>
             </div>
             <h1 className="text-2xl font-bold text-slate-900 tracking-tight">Case Intelligence & Link Analysis</h1>
-            <p className="text-xs text-slate-500 mt-0.5">Multi-source correlation engine for syndicate relationship mapping and timeline synthesis</p>
+            <p className="text-sm text-slate-500 mt-0.5">Multi-source correlation engine for syndicate relationship mapping and timeline synthesis</p>
           </div>
           <button 
             onClick={() => navigate('canvas')} 
@@ -172,7 +172,7 @@ export function InvestigationAnalysis() {
 
       {/* TAB 1: NETWORK GRAPH */}
       {activeAnalysisTab === 'network' && (
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
+        <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <div>
               <h3 className="font-bold text-slate-900 text-sm">Syndicate Topology & Relationship Map</h3>
@@ -183,8 +183,8 @@ export function InvestigationAnalysis() {
             </span>
           </div>
 
-          <div className="relative w-full h-[520px] bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden p-4">
-            <div className="absolute top-4 left-4 z-10 bg-white border border-slate-200 p-3 rounded-2xl text-xs space-y-1.5 text-slate-700 shadow-sm">
+          <div className="relative w-full h-[520px] bg-slate-50 rounded-lg border border-slate-200 overflow-hidden p-4">
+            <div className="absolute top-4 left-4 z-10 bg-white border border-slate-200 p-3 rounded-lg text-xs space-y-1.5 text-slate-700 shadow-sm">
               <div className="font-bold text-slate-900 uppercase tracking-wider text-[10px] mb-1">Legend</div>
               <div className="flex items-center space-x-2"><span className="w-3 h-3 rounded-full bg-rose-500"></span><span className="text-[11px]">Suspect Person</span></div>
               <div className="flex items-center space-x-2"><span className="w-3 h-3 rounded-full bg-amber-500"></span><span className="text-[11px]">Financial Conduit</span></div>
@@ -267,11 +267,11 @@ export function InvestigationAnalysis() {
 
       {/* TAB 3: CASE CHRONOLOGY */}
       {activeAnalysisTab === 'timeline' && (
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-6 shadow-sm">
+        <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-6">
           <div className="flex items-center justify-between border-b border-slate-100 pb-4">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Chronological Case Reconstruction</h3>
-              <p className="text-xs text-slate-500 mt-0.5">Chronology verified across CDR cell towers, bank timestamps, and witness records</p>
+              <p className="text-sm text-slate-500 mt-0.5">Chronology verified across CDR cell towers, bank timestamps, and witness records</p>
             </div>
             <span className="text-xs text-slate-500 bg-slate-100 px-3 py-1 rounded-full font-medium">
               {actualTimeline.length} Events Verified
@@ -313,7 +313,7 @@ export function InvestigationAnalysis() {
                       >
                         {ev.title}
                       </h4>
-                      <p className="text-slate-600 text-xs leading-relaxed">{ev.description}</p>
+                      <p className="text-slate-600 text-sm leading-relaxed">{ev.description}</p>
                       
                       {/* PHASE 2F: Cross-Module Links */}
                       {(ev.entities?.length > 0 || ev.location || ev.caseRef) && (
@@ -369,14 +369,14 @@ export function InvestigationAnalysis() {
       {/* TAB 4: STATUTORY DOCUMENTS */}
       {activeAnalysisTab === 'documents' && (
         <div className="space-y-6">
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
+          <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
               <div>
                 <h3 className="font-bold text-slate-900 text-base flex items-center space-x-2">
                   <FileText className="w-5 h-5 text-slate-700" />
                   <span>Statutory First Information Report (Form No. II) — {activeCaseId}</span>
                 </h3>
-                <p className="text-xs text-slate-500 mt-0.5">Section 154 Cr.P.C. / BNSS certified document</p>
+                <p className="text-sm text-slate-500 mt-0.5">Section 154 Cr.P.C. / BNSS certified document</p>
               </div>
               <span className="px-3 py-1 bg-slate-100 text-slate-700 border border-slate-200 rounded-full font-semibold text-xs">
                 CCTNS VERIFIED
@@ -386,11 +386,11 @@ export function InvestigationAnalysis() {
             <RealFIRViewer defaultCaseId={activeCaseId} />
           </div>
 
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
+          <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
             <h3 className="font-bold text-slate-900 text-sm uppercase tracking-wider">Inter-Agency Reports & Seizure Panchnama</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {mockDocuments.map(d => (
-                <div key={d.id} className="p-4.5 bg-slate-50 border border-slate-200 rounded-xl space-y-3 shadow-sm">
+                <div key={d.id} className="p-4.5 bg-slate-50 rounded-lg space-y-3 shadow-sm">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                       <FileText className="w-4 h-4 text-slate-700" />
@@ -398,12 +398,12 @@ export function InvestigationAnalysis() {
                     </div>
                     <span className="text-[10px] px-2.5 py-0.5 rounded-full bg-slate-200 text-slate-700 font-semibold">{d.classification}</span>
                   </div>
-                  <p className="text-slate-700 text-xs bg-white p-3 rounded-xl border border-slate-200 leading-relaxed font-medium">{d.summary}</p>
+                  <p className="text-slate-700 text-sm bg-white p-3 rounded-lg shadow-sm shadow-slate-200/50 leading-relaxed font-medium">{d.summary}</p>
                   <div className="flex justify-between items-center text-slate-400 text-xs">
                     <span>IO: {d.author} ({d.date})</span>
                     <button 
                       onClick={() => {
-                        addToCanvas(d.title);
+                        addToCanvas({ id: d.id || d.title, type: 'entity', name: d.title }, 'analysis');
                         showToast(`Pinned ${d.title} to Corkboard`, 'success');
                       }} 
                       className="btn-primary btn-sm"
@@ -420,11 +420,11 @@ export function InvestigationAnalysis() {
 
       {/* TAB 5: TRACKED PERSONS */}
       {activeAnalysisTab === 'entities' && (
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
+        <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <div>
               <h3 className="font-bold text-slate-900 text-base">Identified Persons & Suspects</h3>
-              <p className="text-xs text-slate-500">Cross-referenced with NAFIS fingerprint database</p>
+              <p className="text-sm text-slate-500">Cross-referenced with NAFIS fingerprint database</p>
             </div>
             <span className="text-xs text-slate-500 bg-slate-100 px-3 py-1 rounded-full font-medium">
               {mockEntities.length} Tracked
@@ -439,12 +439,12 @@ export function InvestigationAnalysis() {
                   selectEntity(p.id);
                   showToast(`Viewing intelligence file for ${p.name}`, 'info');
                 }}
-                className="p-4.5 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl cursor-pointer flex items-center justify-between group transition-colors shadow-sm"
+                className="p-4.5 bg-slate-50 hover:bg-slate-100 rounded-lg cursor-pointer flex items-center justify-between group transition-colors shadow-sm"
               >
                 <div className="space-y-2.5">
                   <div className="space-y-0.5">
                     <div className="font-bold text-slate-900 text-sm group-hover:text-blue-600 transition-colors line-clamp-1">{p.id}: {p.name}</div>
-                    <div className="text-xs text-slate-500 line-clamp-1">{p.roleInNetwork}</div>
+                    <div className="text-sm text-slate-500 line-clamp-1">{p.roleInNetwork}</div>
                   </div>
                   <div>
                     {(() => {
@@ -462,7 +462,7 @@ export function InvestigationAnalysis() {
                 <button 
                   onClick={(e) => {
                     e.stopPropagation();
-                    addToCanvas(p);
+                    addToCanvas(p, 'analysis');
                     showToast(`Pinned ${p.name} to Corkboard`, 'success');
                   }}
                   className="btn-primary btn-sm shrink-0"

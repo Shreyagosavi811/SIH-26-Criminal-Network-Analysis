@@ -34,7 +34,10 @@ import {
   Landmark,
   FileSearch,
   StickyNote,
-  HelpCircle
+  HelpCircle,
+  Maximize2,
+  Minimize2,
+  ExternalLink
 } from 'lucide-react';
 
 export function InvestigationCanvas() {
@@ -62,12 +65,19 @@ export function InvestigationCanvas() {
     clearCanvasConnections,
     autoLinkCanvasWithAI,
     openModal, 
+    selectEvidence,
+    selectEntity,
+    selectSuspectDossier,
+    navigate
   } = useInvestigation();
 
   const [isDrawing, setIsDrawing] = useState(false);
   const [currentPathPoints, setCurrentPathPoints] = useState([]);
   const boardRef = useRef(null);
+  const canvasWrapperRef = useRef(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const [draggedObjId, setDraggedObjId] = useState(null);
+  const [dragStartCoords, setDragStartCoords] = useState(null);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [connectSourceId, setConnectSourceId] = useState(null);
   const [hoveredPathId, setHoveredPathId] = useState(null);
@@ -78,6 +88,12 @@ export function InvestigationCanvas() {
     const rect = boardRef.current.getBoundingClientRect();
     const clientX = e.touches ? e.touches[0].clientX : e.clientX;
     const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    
+    // We get the wrapper element which is the scroll container
+    // However, since we scroll the wrapper and boardRef is inside it,
+    // getBoundingClientRect() already accounts for the scroll position
+    // by yielding negative top/left coordinates.
+    // Thus `clientX - rect.left` naturally gives the absolute coordinate on the canvas.
     return {
       x: Math.round(clientX - rect.left),
       y: Math.round(clientY - rect.top)
@@ -114,7 +130,23 @@ export function InvestigationCanvas() {
     }
   };
 
-  const handleMouseUp = () => {
+  const navigateToSource = (obj) => {
+    if (!obj.source || !obj.originalId) return;
+    if (obj.source === 'overview') {
+      navigate('overview', { caseId: obj.originalId });
+    } else if (obj.source === 'evidence') {
+      selectEvidence(obj.originalId);
+      navigate('analysis', { tab: 'evidence' });
+    } else if (obj.source === 'dossiers') {
+      selectSuspectDossier(obj.originalId);
+      navigate('dossiers');
+    } else if (obj.source === 'analysis') {
+      selectEntity(obj.originalId);
+      navigate('analysis', { tab: 'network' });
+    }
+  };
+
+  const handleMouseUp = (e) => {
     if (isDrawing && activeCanvasTool === 'pen' && currentPathPoints.length > 1) {
       let d = `M ${currentPathPoints[0].x} ${currentPathPoints[0].y}`;
       for (let i = 1; i < currentPathPoints.length; i++) {
@@ -131,9 +163,23 @@ export function InvestigationCanvas() {
         drawnPaths: [...(prev.drawnPaths || []), newPath]
       }));
     }
+    
+    if (activeCanvasTool === 'select' && draggedObjId && dragStartCoords) {
+      const endCoords = getCanvasCoords(e);
+      const dist = Math.sqrt(Math.pow(endCoords.x - dragStartCoords.x, 2) + Math.pow(endCoords.y - dragStartCoords.y, 2));
+      if (dist < 5) {
+        // Threshold met: It's a click!
+        const obj = (currentCanvas.objects || []).find(o => o.id === draggedObjId);
+        if (obj && obj.source) {
+          navigateToSource(obj);
+        }
+      }
+    }
+
     setIsDrawing(false);
     setCurrentPathPoints([]);
     setDraggedObjId(null);
+    setDragStartCoords(null);
   };
 
   const handleObjectMouseDown = (e, objId) => {
@@ -141,6 +187,7 @@ export function InvestigationCanvas() {
       e.stopPropagation();
       setDraggedObjId(objId);
       const coords = getCanvasCoords(e);
+      setDragStartCoords(coords);
       const obj = (currentCanvas.objects || []).find(o => o.id === objId);
       if (obj) {
         setDragOffset({
@@ -175,8 +222,22 @@ export function InvestigationCanvas() {
     };
   };
 
+  const toggleFullscreen = () => {
+    setIsFullscreen(prev => !prev);
+  };
+
+  React.useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && isFullscreen) {
+        setIsFullscreen(false);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isFullscreen]);
+
   return (
-    <div className="space-y-4 text-slate-800 dark:text-slate-200 font-sans">
+    <div className="flex flex-col space-y-4">
       {/* Standalone Section Header for Canvas */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm font-sans text-xs">
         <div className="flex items-start space-x-4">
@@ -218,9 +279,6 @@ export function InvestigationCanvas() {
 
           <button 
             type="button"
-            onClick={() => {
-              showToast(`Exported high-resolution snapshot for ${currentCanvas.title} (PNG/PDF)`, 'success');
-            }}
             className="py-2.5 px-3.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold border border-slate-200 flex items-center space-x-1.5 transition-colors cursor-pointer"
             title="Export Corkboard Snapshot"
           >
@@ -240,7 +298,10 @@ export function InvestigationCanvas() {
       </div>
 
       {/* Main Canvas Studio Panel */}
-      <div className="h-[calc(100vh-14rem)] flex flex-col bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm font-mono text-xs transition-colors">
+      <div 
+        ref={canvasWrapperRef}
+        className={`${isFullscreen ? 'fixed inset-0 z-40 bg-slate-100 dark:bg-slate-900 flex flex-col p-4' : 'h-[calc(100vh-14rem)] flex flex-col bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm font-sans text-xs transition-colors'}`}
+      >
         {/* Controls Bar */}
         <div className="p-3.5 bg-slate-50 dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center space-x-4">
@@ -248,8 +309,25 @@ export function InvestigationCanvas() {
               <span className="text-slate-400 font-bold">BOARD:</span>
               <span className="font-bold text-slate-900 dark:text-slate-100">{currentCanvas.title}</span>
             </div>
-            <div className="h-4 w-px bg-slate-300 dark:bg-slate-600 hidden sm:block"></div>
             <div className="flex items-center space-x-2">
+              <span className="text-slate-400 font-bold">STATE:</span>
+              <span className="text-emerald-600 dark:text-emerald-400 font-bold flex items-center">
+                <Check className="w-3 h-3 mr-1" />
+                Auto-Saved
+              </span>
+            </div>
+          </div>
+          
+          <div className="flex items-center space-x-2">
+            <button
+              onClick={toggleFullscreen}
+              className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 dark:hover:text-slate-200 transition-colors"
+              title={isFullscreen ? 'Exit fullscreen' : 'Expand canvas'}
+            >
+              {isFullscreen ? <Minimize2 className="w-4 h-4" /> : <Maximize2 className="w-4 h-4" />}
+            </button>
+            <div className="flex items-center space-x-1.5 bg-white dark:bg-slate-900 p-1.5 rounded-lg border border-slate-200 dark:border-slate-700">
+              <span className="text-slate-400 font-bold px-1 text-[10px]">VER</span>
               <span className="text-slate-400 font-bold">CANVAS ID:</span>
               <span className="text-blue-700 dark:text-blue-400 font-bold">{currentCanvas.id}</span>
             </div>
@@ -457,26 +535,27 @@ export function InvestigationCanvas() {
             </div>
           </div>
 
-          {/* Corkboard Interactive Drawing Area */}
-          <div 
-            ref={boardRef}
-            className={`flex-1 canvas-grid-bg relative overflow-hidden p-6 select-none ${
-              activeCanvasTool === 'pen' ? 'cursor-crosshair' : activeCanvasTool === 'eraser' ? 'cursor-no-drop' : activeCanvasTool === 'connect' ? 'cursor-pointer' : 'cursor-default'
-            }`}
-            onMouseDown={handleMouseDown}
-            onMouseMove={handleMouseMove}
-            onMouseUp={handleMouseUp}
-            onTouchStart={handleMouseDown}
-            onTouchMove={handleMouseMove}
-            onTouchEnd={handleMouseUp}
-          >
-            {/* SVG Dynamic Yarn & Freehand Vector Paths Layer */}
-            <svg className="absolute inset-0 w-full h-full pointer-events-none z-10 overflow-visible">
-              <defs>
-                <filter id="yarn-shadow" x="-10%" y="-10%" width="120%" height="120%">
-                  <feDropShadow dx="1" dy="2" stdDeviation="1.5" floodColor="#000000" floodOpacity="0.3"/>
-                </filter>
-              </defs>
+          {/* Corkboard Interactive Drawing Area (Scrollable Workspace) */}
+          <div className="flex-1 overflow-auto bg-slate-50 dark:bg-slate-900 canvas-grid-bg-container relative">
+            <div 
+              ref={boardRef}
+              className={`w-[4000px] h-[4000px] canvas-grid-bg relative p-6 select-none ${
+                activeCanvasTool === 'pen' ? 'cursor-crosshair' : activeCanvasTool === 'eraser' ? 'cursor-no-drop' : activeCanvasTool === 'connect' ? 'cursor-pointer' : 'cursor-default'
+              }`}
+              onMouseDown={handleMouseDown}
+              onMouseMove={handleMouseMove}
+              onMouseUp={handleMouseUp}
+              onTouchStart={handleMouseDown}
+              onTouchMove={handleMouseMove}
+              onTouchEnd={handleMouseUp}
+            >
+              {/* SVG Dynamic Yarn & Freehand Vector Paths Layer */}
+              <svg className="absolute inset-0 w-full h-full pointer-events-none z-10 overflow-visible">
+                <defs>
+                  <filter id="yarn-shadow" x="-10%" y="-10%" width="120%" height="120%">
+                    <feDropShadow dx="1" dy="2" stdDeviation="1.5" floodColor="#000000" floodOpacity="0.3"/>
+                  </filter>
+                </defs>
 
               {/* DYNAMIC RED YARN STRINGS / CONNECTIONS */}
               {(currentCanvas.connections || []).map((conn, idx) => {
@@ -642,16 +721,17 @@ export function InvestigationCanvas() {
                         ? 'hover:ring-2 hover:ring-blue-400 cursor-pointer'
                         : activeCanvasTool === 'eraser'
                         ? 'hover:border-red-500 hover:bg-red-50/50 cursor-no-drop'
-                        : 'cursor-grab active:cursor-grabbing hover:border-blue-500'
+                        : `cursor-grab active:cursor-grabbing hover:border-blue-500 ${obj.source ? 'hover:shadow-md hover:-translate-y-0.5' : ''}`
                     }`}
                     onMouseDown={(e) => handleObjectMouseDown(e, obj.id)}
+                    title={obj.source ? "Click to open source record, drag to move" : undefined}
                   >
                     {/* Pushpin at top center of card */}
                     <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-red-600 border-2 border-white shadow-md flex items-center justify-center z-10">
                       <div className="w-1.5 h-1.5 rounded-full bg-white/80"></div>
                     </div>
 
-                    <div className="flex items-center justify-between font-mono text-xs mb-1.5">
+                    <div className="flex items-center justify-between font-sans text-xs mb-1.5">
                       <div className="flex items-center space-x-1.5">
                         <div className={`p-1.5 rounded-lg ${styling.bgClass} ${styling.iconColor}`}>
                           <TypeIcon className="w-4 h-4" />
@@ -659,6 +739,13 @@ export function InvestigationCanvas() {
                         <span className="font-bold text-[10px] uppercase text-slate-500 tracking-wider">
                           {obj.type || 'NOTE'}
                         </span>
+                      </div>
+                      <div className="flex items-center space-x-1">
+                        {obj.source && (
+                          <div className="text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity p-1" title="Has source context">
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </div>
+                        )}
                       </div>
 
                       {/* Action Controls: [Link], [Edit], [Remove] */}
@@ -718,10 +805,11 @@ export function InvestigationCanvas() {
               })}
             </div>
           </div>
+          </div>
         </div>
 
         {/* Footer Status Bar */}
-        <div className="p-3 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between font-mono text-xs px-6 gap-2">
+        <div className="p-3 bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between font-sans text-xs px-6 gap-2">
           <div className="flex items-center space-x-3">
             <span className="text-slate-500 font-bold">MODE:</span>
             <span className={`px-2.5 py-0.5 rounded-md font-bold uppercase ${

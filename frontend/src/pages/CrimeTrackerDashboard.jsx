@@ -500,7 +500,7 @@ export function CrimeTrackerDashboard() {
   }, [isLeafletReady, mapViewMode, filteredHotspots, mapTileStyle, mapProvider, indianMapApiKey, mapLayer, selectedHotspot]);
 
   return (
-    <div className="w-full min-h-full bg-white text-slate-800 font-sans p-4 md:p-6 space-y-6 rounded-2xl select-none border border-slate-200 shadow-sm">
+    <div className="w-full min-h-full bg-white text-slate-800 font-sans p-4 md:p-6 space-y-6 rounded-xl select-none shadow-md shadow-slate-200/50">
       
       {/* 1. TOP HEADER & KPI METRICS */}
       <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4 pb-4 border-b border-slate-100">
@@ -517,7 +517,7 @@ export function CrimeTrackerDashboard() {
               <span>I4C & CCTNS LIVE FEED</span>
             </div>
           </div>
-          <p className="text-xs text-slate-500 mt-1">
+          <p className="text-sm text-slate-500 mt-1">
             Inter-state tactical intelligence grid linking police crime branches across 28 States & 8 Union Territories
           </p>
         </div>
@@ -527,7 +527,7 @@ export function CrimeTrackerDashboard() {
           {trackerKPIs.map((kpi, idx) => (
             <div
               key={idx}
-              className={`p-3 rounded-2xl border ${kpi.badgeBg} flex flex-col items-center justify-center shadow-xs cursor-pointer hover:scale-[1.02] transition-transform`}
+              className={`p-3 rounded-xl border ${kpi.badgeBg} flex flex-col items-center justify-center shadow-xs cursor-pointer hover:scale-[1.02] transition-transform`}
               onClick={() => showToast(`Filtered telemetry by ${kpi.label} (${kpi.value})`, 'info')}
             >
               <div className={`text-lg sm:text-xl font-extrabold tracking-tight ${kpi.color}`}>
@@ -542,7 +542,7 @@ export function CrimeTrackerDashboard() {
       </div>
 
       {/* 2. INTERACTIVE FILTER & MAP CONTROLS TOOLBAR */}
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 flex flex-col lg:flex-row lg:items-center justify-between gap-4 shadow-sm">
+      <div className="bg-white rounded-xl p-4 flex flex-col lg:flex-row lg:items-center justify-between gap-4 shadow-md shadow-slate-200/50">
         
         {/* Left: Time Range Pills & Category Dropdown */}
         <div className="flex flex-wrap items-center gap-2 text-xs">
@@ -634,7 +634,7 @@ export function CrimeTrackerDashboard() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* Left: Top Indian States Incident Volume */}
-        <div className="lg:col-span-3 bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-sm">
+        <div className="lg:col-span-3 bg-white rounded-xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-md shadow-slate-200/50">
           <div className="space-y-3">
             <div className="flex items-center justify-between border-b border-slate-200 pb-2">
               <span className="text-xs font-bold text-slate-800 uppercase tracking-wider">Top Incident Precincts</span>
@@ -988,7 +988,7 @@ export function CrimeTrackerDashboard() {
                           id: `hotspot-${selectedHotspot.id}`,
                           type: 'location',
                           label: `${selectedHotspot.label}\n${selectedHotspot.activeThreat}`
-                        });
+                        }, 'overview');
                         showToast(`Pinned ${selectedHotspot.label} to Corkboard Canvas`, 'success');
                       }}
                       className="px-3 py-1.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl font-bold flex items-center space-x-1.5 transition-colors cursor-pointer shadow-xs"
@@ -1138,7 +1138,7 @@ export function CrimeTrackerDashboard() {
         )}
 
         {/* Right: Live Indian Police Incident Feed with Light Cards */}
-        <div className="lg:col-span-3 bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-sm">
+        <div className="lg:col-span-3 bg-white rounded-xl p-4 sm:p-5 space-y-4 flex flex-col justify-between shadow-md shadow-slate-200/50">
           <div className="space-y-3">
             <div className="flex items-center justify-between border-b border-slate-200 pb-2">
               <span className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center space-x-2">

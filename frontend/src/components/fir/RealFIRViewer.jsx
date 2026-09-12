@@ -224,7 +224,7 @@ export function RealFIRViewer({ defaultCaseId, onBack }) {
 
           <button 
             onClick={() => {
-              addToCanvas(firData.id + ': Official FIR Form II');
+              addToCanvas({ id: firData.id, type: 'fir', title: firData.title }, 'overview');
               showToast(`Added ${firData.id} FIR Document node to Canvas corkboard`, 'success');
             }}
             className="px-3 py-2 rounded-lg bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white border border-emerald-300 font-bold flex items-center space-x-1.5 shadow-sm transition-all"

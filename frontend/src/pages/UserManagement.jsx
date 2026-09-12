@@ -216,7 +216,7 @@ export function UserManagement() {
                 <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-blue-600' : 'text-slate-400'}`} />
                 <span>{tab.label}</span>
                 {tab.count !== undefined && (
-                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-sans ${
                     isActive ? 'bg-slate-900 text-white' : 'bg-slate-200 text-slate-600'
                   }`}>
                     {tab.count}
@@ -285,7 +285,7 @@ export function UserManagement() {
                         </div>
                         <div>
                           <div className="font-bold text-slate-900 text-sm group-hover:text-blue-700 transition-colors">{u.name}</div>
-                          <div className="text-[11px] text-slate-500 font-mono mt-0.5">{u.email}</div>
+                          <div className="text-[11px] text-slate-500 font-sans mt-0.5">{u.email}</div>
                         </div>
                       </div>
                     </td>
@@ -403,7 +403,7 @@ export function UserManagement() {
                         {log.targetResource}
                       </span>
                     </td>
-                    <td className="p-3.5 text-slate-600 whitespace-nowrap font-mono text-[11px]">
+                    <td className="p-3.5 text-slate-600 whitespace-nowrap font-sans text-[11px]">
                       <div>{log.ipAddress}</div>
                       <div className="text-[10px] text-slate-400 font-sans">{log.device}</div>
                     </td>
@@ -416,7 +416,7 @@ export function UserManagement() {
                         {log.riskLevel}
                       </span>
                     </td>
-                    <td className="p-3.5 text-right font-mono text-[10px] whitespace-nowrap">
+                    <td className="p-3.5 text-right font-sans text-[10px] whitespace-nowrap">
                       <button 
                         onClick={() => copyHash(log.hashSignature, log.id)}
                         className="bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-200 px-2 py-1 rounded-lg font-bold transition-colors"

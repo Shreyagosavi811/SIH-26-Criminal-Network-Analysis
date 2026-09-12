@@ -69,7 +69,7 @@ export function InvestigationDashboard() {
   return (
     <div className="space-y-6 text-slate-800 font-sans max-w-7xl mx-auto">
       {/* Officer Header & Actions */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-7 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-5">
+      <div className="bg-white rounded-xl p-6 md:p-7 shadow-md shadow-slate-200/50 flex flex-col md:flex-row md:items-center justify-between gap-5">
         <div>
           <div className="flex items-center space-x-2 text-xs text-slate-500 mb-1">
             <span className="font-semibold text-slate-700">{currentUser.department || 'Crime Investigation Department'}</span>
@@ -79,7 +79,7 @@ export function InvestigationDashboard() {
           <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">
             Case Files & Investigation Hub
           </h1>
-          <p className="text-xs text-slate-500 mt-1">
+          <p className="text-sm text-slate-500 mt-1">
             Logged in as <span className="font-semibold text-slate-800">{currentUser.name}</span> ({currentUser.role}) — {filteredCases.length} active investigations in {activeRegionFilter}
           </p>
         </div>
@@ -143,7 +143,7 @@ export function InvestigationDashboard() {
       </div>
 
       {/* Filter and Search Bar */}
-      <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm space-y-3">
+      <div className="bg-white p-4 rounded-xl shadow-md shadow-slate-200/50 space-y-3">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
           {/* Segmented Pill Tabs */}
           <div className="flex items-center space-x-1 bg-slate-100 p-1 rounded-lg text-xs font-medium">
@@ -221,13 +221,13 @@ export function InvestigationDashboard() {
 
       {/* TAB 1: ACTIVE CASES TABLE & CARDS */}
       {activeCaseCategoryTab === 'recent' && (
-        <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden">
+        <div className="bg-white rounded-xl shadow-md shadow-slate-200/50 overflow-hidden">
           <div className="px-6 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
             <h2 className="text-sm font-bold text-slate-900">Current Investigation Roster</h2>
             <span className="text-xs font-medium text-slate-500">{filteredCases.length} assigned records</span>
           </div>
 
-          <div className="divide-y divide-slate-100">
+          <div className="flex flex-col gap-4 p-4">
             {filteredCases.map(c => {
               const pStyle = getPriorityStyle(c.priority);
               const sStyle = getStatusStyle(c.status);
@@ -261,7 +261,7 @@ export function InvestigationDashboard() {
                         </span>
                       </div>
 
-                      <p className="text-xs text-slate-600 line-clamp-1 leading-relaxed">{c.description}</p>
+                      <p className="text-sm text-slate-600 line-clamp-1 leading-relaxed">{c.description}</p>
 
                       <div className="flex flex-wrap items-center gap-x-4 gap-y-2 pt-1 text-xs text-slate-500 font-medium">
                         <div className="flex items-center space-x-1.5">
@@ -316,11 +316,11 @@ export function InvestigationDashboard() {
 
       {/* TAB 2: ARCHIVED DATABASE */}
       {activeCaseCategoryTab === 'old' && (
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-6 shadow-sm">
+        <div className="bg-white rounded-xl p-6 space-y-6 shadow-md shadow-slate-200/50">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
             <div>
               <h2 className="text-base font-bold text-slate-900">Historical & Archived Case Index</h2>
-              <p className="text-xs font-medium text-slate-500">2,000 closed and historical police records available for precedent lookup</p>
+              <p className="text-sm font-medium text-slate-500">2,000 closed and historical police records available for precedent lookup</p>
             </div>
           </div>
 
@@ -350,65 +350,65 @@ export function InvestigationDashboard() {
       )}
 
       {/* Workspace Analytical Panels Grid */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
+      <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
         <div className="border-b border-slate-100 pb-3">
           <h3 className="text-sm font-bold text-slate-900">Investigation Workspace Modules</h3>
-          <p className="text-xs font-medium text-slate-500">Quick access to specialized analytical workspaces</p>
+          <p className="text-sm font-medium text-slate-500">Quick access to specialized analytical workspaces</p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           <div 
             onClick={() => navigate('analysis', { tab: 'evidence' })} 
-            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
+            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
           >
             <FolderGit2 className="w-5 h-5 text-slate-500 mx-auto group-hover:text-blue-600 transition-colors" />
             <div className="font-semibold text-slate-900 text-xs">Evidence Vault</div>
-            <div className="text-[11px] text-slate-500 font-medium">CDR, Bank & ANPR</div>
+            <div className="text-xs text-slate-500 font-medium">CDR, Bank & ANPR</div>
           </div>
 
           <div 
             onClick={() => navigate('analysis', { tab: 'network' })} 
-            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
+            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
           >
             <Network className="w-5 h-5 text-slate-500 mx-auto group-hover:text-blue-600 transition-colors" />
             <div className="font-semibold text-slate-900 text-xs">Network Graph</div>
-            <div className="text-[11px] text-slate-500 font-medium">Entity Topology</div>
+            <div className="text-xs text-slate-500 font-medium">Entity Topology</div>
           </div>
 
           <div 
             onClick={() => navigate('analysis', { tab: 'timeline' })} 
-            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
+            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
           >
             <Clock className="w-5 h-5 text-slate-500 mx-auto group-hover:text-blue-600 transition-colors" />
             <div className="font-semibold text-slate-900 text-xs">Timeline Analysis</div>
-            <div className="text-[11px] text-slate-500 font-medium">Chronology Matrix</div>
+            <div className="text-xs text-slate-500 font-medium">Chronology Matrix</div>
           </div>
 
           <div 
             onClick={() => navigate('dossiers')} 
-            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
+            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
           >
             <UserCheck className="w-5 h-5 text-slate-500 mx-auto group-hover:text-blue-600 transition-colors" />
             <div className="font-semibold text-slate-900 text-xs">Suspect Dossiers</div>
-            <div className="text-[11px] text-slate-500 font-medium">AFIS & Biometrics</div>
+            <div className="text-xs text-slate-500 font-medium">AFIS & Biometrics</div>
           </div>
 
           <div 
             onClick={() => navigate('tracker')} 
-            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
+            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
           >
             <BarChart2 className="w-5 h-5 text-slate-500 mx-auto group-hover:text-blue-600 transition-colors" />
             <div className="font-semibold text-slate-900 text-xs">Incident Map</div>
-            <div className="text-[11px] text-slate-500 font-medium">Telemetry Feed</div>
+            <div className="text-xs text-slate-500 font-medium">Telemetry Feed</div>
           </div>
 
           <div 
             onClick={() => navigate('canvas')} 
-            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-xl text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
+            className="p-4 bg-slate-50 hover:bg-slate-100 border border-slate-200 rounded-lg text-center cursor-pointer transition-colors space-y-1.5 group active:scale-[0.98]"
           >
             <LayoutTemplate className="w-5 h-5 text-slate-500 mx-auto group-hover:text-blue-600 transition-colors" />
             <div className="font-semibold text-slate-900 text-xs">Corkboard Studio</div>
-            <div className="text-[11px] text-slate-500 font-medium">Tactical Canvas</div>
+            <div className="text-xs text-slate-500 font-medium">Tactical Canvas</div>
           </div>
         </div>
       </div>

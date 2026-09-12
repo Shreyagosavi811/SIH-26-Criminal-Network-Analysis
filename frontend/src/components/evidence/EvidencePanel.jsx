@@ -231,7 +231,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
     const s = (suspicion || '').toUpperCase();
     if (s === 'HIGH') {
       return (
-        <span className={`inline-flex items-center space-x-1 px-1.5 py-0.5 rounded-md font-mono text-[9px] font-bold border shadow-xs ${dark ? 'bg-rose-500/90 text-white border-rose-400/50 backdrop-blur-sm' : 'bg-rose-50 text-rose-700 border-rose-200'}`}>
+        <span className={`inline-flex items-center space-x-1 px-1.5 py-0.5 rounded-md font-sans text-[9px] font-bold border shadow-xs ${dark ? 'bg-rose-500/90 text-white border-rose-400/50 backdrop-blur-sm' : 'bg-rose-50 text-rose-700 border-rose-200'}`}>
           <AlertTriangle className="w-2.5 h-2.5" />
           <span>CRITICAL</span>
         </span>
@@ -239,14 +239,14 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
     }
     if (s === 'MEDIUM') {
       return (
-        <span className={`inline-flex items-center space-x-1 px-1.5 py-0.5 rounded-md font-mono text-[9px] font-bold border shadow-xs ${dark ? 'bg-amber-500/90 text-white border-amber-400/50 backdrop-blur-sm' : 'bg-amber-50 text-amber-700 border-amber-200'}`}>
+        <span className={`inline-flex items-center space-x-1 px-1.5 py-0.5 rounded-md font-sans text-[9px] font-bold border shadow-xs ${dark ? 'bg-amber-500/90 text-white border-amber-400/50 backdrop-blur-sm' : 'bg-amber-50 text-amber-700 border-amber-200'}`}>
           <AlertTriangle className="w-2.5 h-2.5" />
           <span>FLAGGED</span>
         </span>
       );
     }
     return (
-      <span className={`inline-flex items-center space-x-1 px-1.5 py-0.5 rounded-md font-mono text-[9px] font-bold border shadow-xs ${dark ? 'bg-slate-800/90 text-slate-200 border-slate-600/50 backdrop-blur-sm' : 'bg-slate-50 text-slate-600 border-slate-200'}`}>
+      <span className={`inline-flex items-center space-x-1 px-1.5 py-0.5 rounded-md font-sans text-[9px] font-bold border shadow-xs ${dark ? 'bg-slate-800/90 text-slate-200 border-slate-600/50 backdrop-blur-sm' : 'bg-slate-50 text-slate-600 border-slate-200'}`}>
         <Info className="w-2.5 h-2.5" />
         <span>LOGGED</span>
       </span>
@@ -414,7 +414,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
                   }`}
                 >
                   <span>{cat}</span>
-                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono ${
+                  <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-sans ${
                     isSelected ? 'bg-slate-700 text-white' : 'bg-slate-200 text-slate-600'
                   }`}>
                     {count}
@@ -605,7 +605,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
                           <button 
                             onClick={(e) => {
                               e.stopPropagation();
-                              addToCanvas(ev);
+                              addToCanvas(ev, 'evidence');
                               showToast(`Pinned ${ev.id} to Corkboard Studio`, 'success');
                             }}
                             className="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold rounded-lg text-xs transition-colors flex items-center space-x-1"
@@ -709,7 +709,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
                     <div className="flex items-center space-x-2">
                       <button 
                         onClick={() => {
-                          addToCanvas(activeInspectorItem);
+                          addToCanvas(activeInspectorItem, 'evidence');
                           showToast(`Pinned ${activeInspectorItem.id} to Corkboard Canvas`, 'success');
                         }}
                         className="px-3 py-1.5 bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 rounded-xl font-semibold text-xs transition-colors flex items-center space-x-1 shadow-2xs"
@@ -923,7 +923,7 @@ export function EvidencePanel({ embeddedInAnalysis = false }) {
                         </button>
                         <button 
                           onClick={() => {
-                            addToCanvas(ev);
+                            addToCanvas(ev, 'evidence');
                             showToast(`Pinned ${ev.id} to Corkboard Canvas`, 'success');
                           }}
                           className="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg font-semibold text-[11px] transition-colors"

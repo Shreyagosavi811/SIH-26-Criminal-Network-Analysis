@@ -222,7 +222,7 @@ export function Modal() {
                 }
                 closeModal();
               }}
-              className="p-5 space-y-4 font-mono text-xs"
+              className="p-5 space-y-4 font-sans text-xs"
             >
               <div className="space-y-1">
                 <label className="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase">Card Content / Description</label>
@@ -306,7 +306,7 @@ export function Modal() {
                 });
                 closeModal();
               }}
-              className="p-5 space-y-4 font-mono text-xs"
+              className="p-5 space-y-4 font-sans text-xs"
             >
               <div className="space-y-1">
                 <label className="text-[11px] font-bold text-slate-500 uppercase">Item Category</label>
@@ -398,7 +398,7 @@ export function Modal() {
                 }
                 closeModal();
               }}
-              className="p-5 space-y-4 font-mono text-xs"
+              className="p-5 space-y-4 font-sans text-xs"
             >
               <div className="space-y-1">
                 <label className="text-[11px] font-bold text-slate-500 uppercase">Connection Link Description</label>

@@ -42,7 +42,9 @@ export function TopBar() {
     navigate,
     openModal,
     isDarkMode,
-    toggleDarkMode
+    toggleDarkMode,
+    selectEntity,
+    selectEvidence
   } = useInvestigation();
 
   return (
@@ -67,9 +69,6 @@ export function TopBar() {
           <div>
             <div className="font-bold text-slate-900 text-sm tracking-tight flex items-center space-x-2">
               <span>CRIMINAL INVESTIGATION PLATFORM</span>
-              <span className="text-[10px] font-semibold bg-slate-100 text-slate-600 border border-slate-200 px-2 py-0.5 rounded">
-                v2.4
-              </span>
             </div>
             <p className="text-[11px] text-slate-500 hidden sm:block">CID Network Telemetry & Case Analysis</p>
           </div>
@@ -106,7 +105,15 @@ export function TopBar() {
                 <div 
                   key={i}
                   onClick={() => {
-                    if (res.caseId) navigate('overview', { caseId: res.caseId });
+                    if (res.type === 'CASE' && res.caseId) {
+                      navigate('overview', { caseId: res.caseId });
+                    } else if (res.type === 'EVIDENCE' && res.evidenceId) {
+                      selectEvidence(res.evidenceId);
+                      navigate('analysis', { tab: 'evidence' });
+                    } else if (res.type === 'ENTITY' && res.originalId) {
+                      selectEntity(res.originalId);
+                      navigate('analysis', { tab: 'network' });
+                    }
                     setIsSearchOpen(false);
                     showToast(`Opened ${res.title}`, 'info');
                   }}

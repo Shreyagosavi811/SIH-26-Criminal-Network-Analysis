@@ -32,15 +32,15 @@ button:disabled, [role="button"]:disabled {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.55rem 1.15rem;
+  padding: 0.625rem 1.25rem;
   border-radius: 0.875rem;
   background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
   color: #ffffff;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1rem;
   letter-spacing: -0.01em;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(15, 23, 42, 0.8);
   transition: all 0.16s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: pointer;
@@ -48,7 +48,7 @@ button:disabled, [role="button"]:disabled {
 
 .btn-primary:hover {
   background: linear-gradient(180deg, #334155 0%, #1e293b 100%);
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   border-color: #334155;
   transform: translateY(-1px);
 }
@@ -64,15 +64,15 @@ button:disabled, [role="button"]:disabled {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.55rem 1.15rem;
+  padding: 0.625rem 1.25rem;
   border-radius: 0.875rem;
   background: linear-gradient(180deg, #3b82f6 0%, #1d4ed8 100%);
   color: #ffffff;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1rem;
   letter-spacing: -0.01em;
-  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(29, 78, 216, 0.8);
   transition: all 0.16s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: pointer;
@@ -80,7 +80,7 @@ button:disabled, [role="button"]:disabled {
 
 .btn-accent:hover {
   background: linear-gradient(180deg, #60a5fa 0%, #2563eb 100%);
-  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
   transform: translateY(-1px);
 }
 
@@ -95,13 +95,13 @@ button:disabled, [role="button"]:disabled {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.55rem 1rem;
+  padding: 0.625rem 1.15rem;
   border-radius: 0.875rem;
   background-color: #ffffff;
   color: #1e293b;
   border: 1px solid #e2e8f0;
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1rem;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
   transition: all 0.16s cubic-bezier(0.16, 1, 0.3, 1);
@@ -126,14 +126,14 @@ button:disabled, [role="button"]:disabled {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0.55rem 1.15rem;
+  padding: 0.625rem 1.25rem;
   border-radius: 0.875rem;
   background: linear-gradient(180deg, #ef4444 0%, #dc2626 100%);
   color: #ffffff;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1rem;
-  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 6px rgba(220, 38, 38, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(185, 28, 28, 0.8);
   transition: all 0.16s ease-in-out;
   cursor: pointer;
@@ -141,7 +141,7 @@ button:disabled, [role="button"]:disabled {
 
 .btn-danger:hover {
   background: linear-gradient(180deg, #f87171 0%, #ef4444 100%);
-  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.35);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.25);
   transform: translateY(-1px);
 }
 
@@ -150,11 +150,11 @@ button:disabled, [role="button"]:disabled {
   align-items: center;
   justify-content: center;
   gap: 0.375rem;
-  padding: 0.45rem 0.85rem;
+  padding: 0.55rem 1rem;
   border-radius: 0.75rem;
   color: #475569;
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1rem;
   transition: all 0.16s ease;
   cursor: pointer;

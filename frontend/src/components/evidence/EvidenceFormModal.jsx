@@ -302,7 +302,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
               <span className="text-[10px] font-bold text-blue-400 uppercase tracking-wider flex items-center space-x-1">
                 <span>{mediaType === 'video' ? '🎥 4K Surveillance Video Feed & Live Preview' : '📷 High-Resolution Optical Image Preview'}</span>
               </span>
-              <span className="text-[10px] text-slate-400 font-mono">
+              <span className="text-[10px] text-slate-400 font-sans">
                 {mediaType === 'video' ? videoResolution : imageResolution}
               </span>
             </div>
@@ -319,16 +319,16 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
                 
                 {mediaType === 'video' ? (
                   <>
-                    <div className="absolute top-1.5 left-1.5 bg-red-600 text-white text-[8px] font-mono font-bold px-1.5 py-0.5 rounded flex items-center space-x-1">
+                    <div className="absolute top-1.5 left-1.5 bg-red-600 text-white text-[8px] font-sans font-bold px-1.5 py-0.5 rounded flex items-center space-x-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
                       <span>REC • 4K</span>
                     </div>
-                    <div className="absolute bottom-1.5 right-1.5 bg-black/80 text-white text-[9px] font-mono px-1.5 py-0.5 rounded">
+                    <div className="absolute bottom-1.5 right-1.5 bg-black/80 text-white text-[9px] font-sans px-1.5 py-0.5 rounded">
                       {videoDuration}
                     </div>
                   </>
                 ) : (
-                  <div className="absolute top-1.5 left-1.5 bg-indigo-600 text-white text-[8px] font-mono font-bold px-1.5 py-0.5 rounded">
+                  <div className="absolute top-1.5 left-1.5 bg-indigo-600 text-white text-[8px] font-sans font-bold px-1.5 py-0.5 rounded">
                     RAW PHOTO
                   </div>
                 )}
@@ -346,7 +346,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
                       setThumbnailUrl(e.target.value);
                     }}
                     placeholder="https://... (Image or Video Stream URL)"
-                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white font-mono text-xs focus:outline-none focus:border-blue-500 mt-1"
+                    className="w-full bg-slate-800 border border-slate-700 rounded-lg p-2 text-white font-sans text-xs focus:outline-none focus:border-blue-500 mt-1"
                   />
                 </div>
 
@@ -359,7 +359,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
                         value={videoCameraId}
                         onChange={(e) => setVideoCameraId(e.target.value)}
                         placeholder="e.g. CAM-PORT-BERTH4B-PTZ"
-                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-mono text-[11px] focus:outline-none"
+                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-sans text-[11px] focus:outline-none"
                       />
                     </div>
                     <div>
@@ -369,7 +369,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
                         value={videoDuration}
                         onChange={(e) => setVideoDuration(e.target.value)}
                         placeholder="e.g. 02:44 (60 FPS)"
-                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-mono text-[11px] focus:outline-none"
+                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-sans text-[11px] focus:outline-none"
                       />
                     </div>
                   </div>
@@ -384,7 +384,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
                         value={imageSensor}
                         onChange={(e) => setImageSensor(e.target.value)}
                         placeholder="e.g. Keyence VHX-7000 Macro"
-                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-mono text-[11px] focus:outline-none"
+                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-sans text-[11px] focus:outline-none"
                       />
                     </div>
                     <div>
@@ -394,7 +394,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
                         value={imageResolution}
                         onChange={(e) => setImageResolution(e.target.value)}
                         placeholder="e.g. 4000x3000 RAW"
-                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-mono text-[11px] focus:outline-none"
+                        className="w-full bg-slate-800 border border-slate-700 rounded-lg p-1.5 text-white font-sans text-[11px] focus:outline-none"
                       />
                     </div>
                   </div>
@@ -468,7 +468,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
               value={amount}
               onChange={(e) => setAmount(e.target.value)}
               placeholder="e.g. ₹5,00,000 or N/A"
-              className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2 text-slate-900 focus:outline-none focus:border-blue-500 font-mono"
+              className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2 text-slate-900 focus:outline-none focus:border-blue-500 font-sans"
             />
           </div>
 
@@ -480,7 +480,7 @@ export default function EvidenceFormModal({ isEdit, modalData, closeModal }) {
               value={custodyLocker}
               onChange={(e) => setCustodyLocker(e.target.value)}
               placeholder="e.g. DIGI-CCTV-01, VAL-04"
-              className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2 text-slate-900 font-bold focus:outline-none focus:border-blue-500 font-mono"
+              className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2 text-slate-900 font-bold focus:outline-none focus:border-blue-500 font-sans"
             />
           </div>
         </div>

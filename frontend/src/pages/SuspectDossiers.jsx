@@ -217,7 +217,7 @@ export function SuspectDossiers() {
       {/* ============================================================ */}
       {/* 1. TACTICAL COMMAND HEADER & CRUD ACTIONS                    */}
       {/* ============================================================ */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-7 shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-5">
+      <div className="bg-white rounded-xl p-6 md:p-7 shadow-md shadow-slate-200/50 flex flex-col lg:flex-row lg:items-center justify-between gap-5">
         <div className="flex items-center space-x-3 sm:space-x-4">
           <div className="w-11 h-11 bg-blue-600 text-white rounded-xl flex items-center justify-center font-bold shrink-0 shadow-sm">
             <Fingerprint className="w-6 h-6 animate-pulse" />
@@ -231,7 +231,7 @@ export function SuspectDossiers() {
                 AFIS • NAFIS Live
               </span>
             </div>
-            <p className="text-xs text-slate-500 mt-0.5">
+            <p className="text-sm text-slate-500 mt-0.5">
               Live biometric verification, AFIS fingerprints, DNA telemetry, and real-time dossier records management.
             </p>
           </div>
@@ -260,7 +260,7 @@ export function SuspectDossiers() {
       {/* ============================================================ */}
       {/* 2. SEARCH & SQUAD FILTER BAR                                 */}
       {/* ============================================================ */}
-      <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-3">
+      <div className="bg-white rounded-xl p-4 shadow-md shadow-slate-200/50 flex flex-col md:flex-row items-center justify-between gap-3">
         <div className="flex items-center space-x-2 w-full md:w-80 bg-slate-50 border border-slate-200 px-3.5 py-2 rounded-lg">
           <Search className="w-4 h-4 text-slate-400 shrink-0" />
           <input 
@@ -320,7 +320,7 @@ export function SuspectDossiers() {
         {/* ------------------------------------------------------------ */}
         {/* LEFT COLUMN: ACTIVE SUSPECT DETAILED BIOMETRIC DOSSIER (5)   */}
         {/* ------------------------------------------------------------ */}
-        <div className="lg:col-span-5 bg-white border border-slate-200 rounded-2xl p-5 space-y-4 shadow-sm relative overflow-hidden">
+        <div className="lg:col-span-5 bg-white rounded-xl p-5 space-y-4 shadow-md shadow-slate-200/50 relative overflow-hidden">
           
           {/* Top Banner with Edit & Delete Actions */}
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
@@ -503,7 +503,7 @@ export function SuspectDossiers() {
           <div className="flex items-center space-x-2.5 pt-2">
             <button 
               onClick={() => {
-                addToCanvas({ id: activeDossier.id, type: 'Person', name: activeDossier.name });
+                addToCanvas({ id: activeDossier.id, type: 'Person', name: activeDossier.name }, 'dossiers');
                 showToast(`Pinned ${activeDossier.name} to Canva Studio Board`, 'success');
               }}
               className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold flex items-center justify-center space-x-1.5 transition-colors text-xs flex-1 shadow-sm"
@@ -525,7 +525,7 @@ export function SuspectDossiers() {
         {/* ------------------------------------------------------------ */}
         {/* RIGHT COLUMN: TARGET ROSTER TABLE (7 Cols)                  */}
         {/* ------------------------------------------------------------ */}
-        <div className="lg:col-span-7 bg-white border border-slate-200 rounded-2xl p-5 space-y-4 shadow-sm flex flex-col justify-between">
+        <div className="lg:col-span-7 bg-white rounded-xl p-5 space-y-4 shadow-md shadow-slate-200/50 flex flex-col justify-between">
           <div>
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
               <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider flex items-center space-x-2">
@@ -664,7 +664,7 @@ export function SuspectDossiers() {
                     <button 
                       onClick={(e) => {
                         e.stopPropagation();
-                        addToCanvas({ id: d.id, type: 'Person', name: d.name });
+                        addToCanvas({ id: d.id, type: 'Person', name: d.name }, 'dossiers');
                         showToast(`Pinned ${d.name} to canvas board`, 'success');
                       }}
                       className="px-2.5 py-1 bg-blue-50 text-blue-700 border border-blue-200 rounded-lg font-semibold hover:bg-blue-100 text-[11px]"
@@ -679,7 +679,7 @@ export function SuspectDossiers() {
         </div>
 
         {/* Audio Intercept Transcript Stream */}
-        <div className="lg:col-span-4 bg-white border border-slate-200 rounded-2xl p-4 space-y-3 shadow-sm font-sans">
+        <div className="lg:col-span-4 bg-white rounded-xl p-4 space-y-3 shadow-md shadow-slate-200/50 font-sans">
           <div className="flex items-center justify-between border-b border-slate-100 pb-2">
             <div className="flex items-center space-x-2">
               <Radio className="w-4 h-4 text-rose-600 animate-pulse" />

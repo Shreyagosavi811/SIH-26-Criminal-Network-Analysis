@@ -24,7 +24,7 @@ export function Drawer() {
 
   return (
     <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex justify-end">
-      <div className="w-full max-w-md bg-white border-l border-slate-200 h-full shadow-2xl flex flex-col font-mono text-xs animate-slide-left overflow-y-auto">
+      <div className="w-full max-w-md bg-white border-l border-slate-200 h-full shadow-2xl flex flex-col font-sans text-xs animate-slide-left overflow-y-auto">
         {/* Header */}
         <div className="p-5 bg-slate-50 border-b border-slate-200 flex items-center justify-between">
           <div>
@@ -80,7 +80,7 @@ export function Drawer() {
 
               <div className="pt-2 flex space-x-2">
                 <button 
-                  onClick={() => addToCanvas(selectedEntity)}
+                  onClick={() => addToCanvas(selectedEntity, 'analysis')}
                   className="flex-1 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl flex items-center justify-center space-x-1.5 shadow-sm transition-colors cursor-pointer"
                 >
                   <LayoutTemplate className="w-4 h-4" />
@@ -153,7 +153,7 @@ export function Drawer() {
                 <div className="flex space-x-2">
                   <button 
                     onClick={() => {
-                      addToCanvas(selectedEvidence);
+                      addToCanvas(selectedEvidence, 'evidence');
                       showToast(`Pinned ${selectedEvidence.id} to Corkboard`, 'success');
                     }}
                     className="flex-1 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded-xl flex items-center justify-center space-x-1.5 transition-colors cursor-pointer"

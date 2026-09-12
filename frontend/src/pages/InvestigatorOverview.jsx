@@ -32,7 +32,7 @@ export function InvestigatorOverview() {
   return (
     <div className="space-y-6 text-slate-800 font-sans max-w-7xl mx-auto">
       {/* Header Bar */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-7 shadow-sm space-y-4">
+      <div className="bg-white rounded-xl p-6 md:p-7 shadow-md shadow-slate-200/50 space-y-4">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-2">
             <button 
@@ -55,7 +55,7 @@ export function InvestigatorOverview() {
               </span>
             </div>
 
-            <p className="text-slate-600 text-xs max-w-3xl leading-relaxed">{currentCase.description}</p>
+            <p className="text-slate-600 text-sm max-w-3xl leading-relaxed">{currentCase.description}</p>
           </div>
 
           <div className="flex md:flex-col justify-between md:text-right text-xs text-slate-500 border-t md:border-t-0 md:border-l border-slate-200 pt-3 md:pt-0 md:pl-6 shrink-0 space-y-1">
@@ -67,7 +67,7 @@ export function InvestigatorOverview() {
       </div>
 
       {/* Case Summary Metric Cards */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-4">
+      <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
         <div className="border-b border-slate-100 pb-3">
           <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500">Case Investigation Artifacts</h3>
         </div>
@@ -75,7 +75,7 @@ export function InvestigatorOverview() {
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           <button 
             onClick={() => navigate('analysis', { tab: 'entities' })}
-            className="p-4 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
+            className="p-4 bg-blue-50 hover:bg-blue-100 border border-blue-200 rounded-lg text-center transition-all group active:scale-[0.98] shadow-sm"
           >
             <div className="w-10 h-10 rounded-lg bg-white text-blue-700 flex items-center justify-center mx-auto mb-2 border border-blue-200 group-hover:bg-blue-600 group-hover:text-white transition-all shadow-sm">
               <Users className="w-4.5 h-4.5" />
@@ -86,7 +86,7 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'evidence' })}
-            className="p-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
+            className="p-4 bg-purple-50 hover:bg-purple-100 border border-purple-200 rounded-lg text-center transition-all group active:scale-[0.98] shadow-sm"
           >
             <div className="w-10 h-10 rounded-lg bg-white text-purple-700 flex items-center justify-center mx-auto mb-2 border border-purple-200 group-hover:bg-purple-600 group-hover:text-white transition-all shadow-sm">
               <FolderGit2 className="w-4.5 h-4.5" />
@@ -97,7 +97,7 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'network' })}
-            className="p-4 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
+            className="p-4 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-lg text-center transition-all group active:scale-[0.98] shadow-sm"
           >
             <div className="w-10 h-10 rounded-lg bg-white text-amber-700 flex items-center justify-center mx-auto mb-2 border border-amber-200 group-hover:bg-amber-600 group-hover:text-white transition-all shadow-sm">
               <Network className="w-4.5 h-4.5" />
@@ -108,7 +108,7 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'timeline' })}
-            className="p-4 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
+            className="p-4 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-lg text-center transition-all group active:scale-[0.98] shadow-sm"
           >
             <div className="w-10 h-10 rounded-lg bg-white text-emerald-700 flex items-center justify-center mx-auto mb-2 border border-emerald-200 group-hover:bg-emerald-600 group-hover:text-white transition-all shadow-sm">
               <Clock className="w-4.5 h-4.5" />
@@ -119,7 +119,7 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('analysis', { tab: 'documents' })}
-            className="p-4 bg-rose-50 hover:bg-rose-100 border border-rose-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
+            className="p-4 bg-rose-50 hover:bg-rose-100 border border-rose-200 rounded-lg text-center transition-all group active:scale-[0.98] shadow-sm"
           >
             <div className="w-10 h-10 rounded-lg bg-white text-rose-700 flex items-center justify-center mx-auto mb-2 border border-rose-200 group-hover:bg-rose-600 group-hover:text-white transition-all shadow-sm">
               <FileText className="w-4.5 h-4.5" />
@@ -130,7 +130,7 @@ export function InvestigatorOverview() {
 
           <button 
             onClick={() => navigate('canvas')}
-            className="p-4 bg-cyan-50 hover:bg-cyan-100 border border-cyan-200 rounded-xl text-center transition-all group active:scale-[0.98] shadow-sm"
+            className="p-4 bg-cyan-50 hover:bg-cyan-100 border border-cyan-200 rounded-lg text-center transition-all group active:scale-[0.98] shadow-sm"
           >
             <div className="w-10 h-10 rounded-lg bg-white text-cyan-700 flex items-center justify-center mx-auto mb-2 border border-cyan-200 group-hover:bg-cyan-600 group-hover:text-white transition-all shadow-sm">
               <LayoutTemplate className="w-4.5 h-4.5" />
@@ -142,21 +142,21 @@ export function InvestigatorOverview() {
       </div>
 
       {/* Intelligence & Lead Analysis Box */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
+      <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
         <div className="border-b border-slate-100 pb-3">
           <h2 className="text-sm font-bold text-slate-900">Syndicate Telemetry & Verified Connections</h2>
-          <p className="text-xs text-slate-500">Cross-referenced against CDR cell towers and bank transaction ledgers</p>
+          <p className="text-sm text-slate-500">Cross-referenced against CDR cell towers and bank transaction ledgers</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-5 bg-slate-50 rounded-xl space-y-3 flex flex-col justify-between">
+          <div className="p-5 bg-slate-50 rounded-lg space-y-3 flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <span className="font-bold text-slate-900 text-xs">Primary Link: P007 (Amit Kumar)</span>
               <span className="text-slate-600 font-semibold text-[11px] bg-slate-200/70 px-2.5 py-0.5 rounded-full">
                 Verified Exhibit
               </span>
             </div>
-            <p className="text-slate-600 text-xs leading-relaxed">Direct financial transfer & phone communication logged via CDR-00821 and Exhibit TX-00121.</p>
+            <p className="text-slate-600 text-sm leading-relaxed">Direct financial transfer & phone communication logged via CDR-00821 and Exhibit TX-00121.</p>
             <div className="flex flex-wrap items-center gap-2 pt-1">
               <button 
                 onClick={() => {
@@ -178,7 +178,7 @@ export function InvestigatorOverview() {
               </button>
               <button 
                 onClick={() => {
-                  addToCanvas('P007');
+                  addToCanvas({ id: 'P007', type: 'Person', name: 'Unknown Target' }, 'overview');
                   showToast('Pinned P007 to Corkboard Studio', 'success');
                 }} 
                 className="btn-secondary btn-sm"
@@ -188,14 +188,14 @@ export function InvestigatorOverview() {
             </div>
           </div>
 
-          <div className="p-5 bg-slate-50 rounded-xl space-y-3 flex flex-col justify-between">
+          <div className="p-5 bg-slate-50 rounded-lg space-y-3 flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <span className="font-bold text-slate-900 text-xs">Cross-Case Reference: FIR-221 (Goa Narcotics)</span>
               <span className="text-slate-600 font-semibold text-[11px] bg-slate-200/70 px-2.5 py-0.5 rounded-full">
                 Inter-Precinct
               </span>
             </div>
-            <p className="text-slate-600 text-xs leading-relaxed">Suspect P007 identified as primary mule account holder in active Goa case FIR-221.</p>
+            <p className="text-slate-600 text-sm leading-relaxed">Suspect P007 identified as primary mule account holder in active Goa case FIR-221.</p>
             <div className="flex flex-wrap items-center gap-2 pt-1">
               <button 
                 onClick={() => {
@@ -208,7 +208,7 @@ export function InvestigatorOverview() {
               </button>
               <button 
                 onClick={() => {
-                  addToCanvas('FIR-221 Link');
+                  addToCanvas({ id: 'FIR-221', type: 'fir', title: 'FIR-221 Link' }, 'overview');
                   showToast('Pinned FIR-221 Link to Corkboard Studio', 'success');
                 }} 
                 className="btn-secondary btn-sm"
@@ -221,18 +221,18 @@ export function InvestigatorOverview() {
       </div>
 
       {/* Priority Operational Exhibits & Field Notes */}
-      <div className="bg-white border border-slate-200 rounded-2xl p-6 space-y-4 shadow-sm">
+      <div className="bg-white rounded-xl p-6 shadow-md shadow-slate-200/50 space-y-4">
         <h2 className="text-sm font-bold text-slate-900">Priority Field Leads & Surveillance Reports</h2>
 
         <div className="space-y-3">
-          <div className="p-4 bg-slate-50 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="p-4 bg-slate-50 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-center space-x-3.5 flex-1 min-w-0">
               <div className="w-9 h-9 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center shrink-0">
                 <AlertTriangle className="w-4 h-4" />
               </div>
               <div className="min-w-0">
-                <div className="font-bold text-slate-900 text-xs truncate">Mule Bank Account Transaction Detected</div>
-                <div className="text-slate-600 text-xs mt-0.5 truncate">P001 → P007 (₹5,00,000 transaction via HDFC mule account TX-00121)</div>
+                <div className="font-bold text-slate-900 text-sm truncate">Mule Bank Account Transaction Detected</div>
+                <div className="text-slate-600 text-sm mt-0.5 truncate">P001 → P007 (₹5,00,000 transaction via HDFC mule account TX-00121)</div>
               </div>
             </div>
             <button 
@@ -244,14 +244,14 @@ export function InvestigatorOverview() {
             </button>
           </div>
 
-          <div className="p-4 bg-slate-50 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="p-4 bg-slate-50 rounded-lg flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div className="flex items-center space-x-3.5 flex-1 min-w-0">
               <div className="w-9 h-9 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center shrink-0">
                 <Info className="w-4 h-4" />
               </div>
               <div className="min-w-0">
-                <div className="font-bold text-slate-900 text-xs truncate">Vehicle V003 Highway Toll Capture</div>
-                <div className="text-slate-600 text-xs mt-0.5 truncate">Black SUV MH02AB1234 sighted near Panvel Toll Gate at 03:12 AM</div>
+                <div className="font-bold text-slate-900 text-sm truncate">Vehicle V003 Highway Toll Capture</div>
+                <div className="text-slate-600 text-sm mt-0.5 truncate">Black SUV MH02AB1234 sighted near Panvel Toll Gate at 03:12 AM</div>
               </div>
             </div>
             <button 

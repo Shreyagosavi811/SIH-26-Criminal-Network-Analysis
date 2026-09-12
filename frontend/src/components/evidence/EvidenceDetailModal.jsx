@@ -248,7 +248,7 @@ export function EvidenceDetailModal({ evidence: propEvidence, closeModal: propCl
           <div className="hidden sm:flex items-center space-x-2 text-xs">
             <button 
               onClick={() => {
-                addToCanvas(evidence);
+                addToCanvas(evidence, 'evidence');
                 showToast(`Pinned ${evidence.id} to Corkboard Canvas`, 'success');
               }}
               className="px-3 py-1.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 rounded-xl font-semibold flex items-center space-x-1.5 transition-colors shadow-2xs cursor-pointer"
@@ -616,7 +616,7 @@ export function EvidenceDetailModal({ evidence: propEvidence, closeModal: propCl
                   {evidence.forensics?.transcriptSnippet && (
                     <div className="space-y-1.5">
                       <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Synchronized Transcript Extraction</div>
-                      <div className="p-3 bg-slate-950/70 border border-slate-700/60 rounded-xl font-mono text-xs text-slate-300 whitespace-pre-line leading-relaxed">
+                      <div className="p-3 bg-slate-950/70 border border-slate-700/60 rounded-xl font-sans text-xs text-slate-300 whitespace-pre-line leading-relaxed">
                         {evidence.forensics.transcriptSnippet}
                       </div>
                     </div>
@@ -701,7 +701,7 @@ export function EvidenceDetailModal({ evidence: propEvidence, closeModal: propCl
                   <div className="p-3 bg-slate-950/80 rounded-xl border border-slate-700/60 space-y-1">
                     <div className="text-[10px] text-slate-400 uppercase font-bold">Recovered Artifacts Payload</div>
                     <div className="text-slate-200 text-xs">{evidence.forensics?.recoveredItems || '14 Deleted Signal Chats, 8 Geo-Tagged Photos'}</div>
-                    <div className="text-blue-400 font-mono text-[11px] pt-1">EXIF GPS: {evidence.forensics?.gpsWaypoints || '19.0596° N, 72.8295° E'}</div>
+                    <div className="text-blue-400 font-sans text-[11px] pt-1">EXIF GPS: {evidence.forensics?.gpsWaypoints || '19.0596° N, 72.8295° E'}</div>
                   </div>
                 </div>
               )}
