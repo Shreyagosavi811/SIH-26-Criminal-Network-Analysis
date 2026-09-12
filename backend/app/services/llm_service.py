@@ -1,25 +1,46 @@
 import os
 import json
-import google.generativeai as genai
+from pathlib import Path
+from dotenv import load_dotenv, find_dotenv
+from openai import OpenAI
 from typing import List, Dict, Any
+
+# Automatically load environment variables from backend/.env or parent directories
+env_path = Path(__file__).resolve().parent.parent.parent / ".env"
+if env_path.exists():
+    load_dotenv(dotenv_path=env_path)
+else:
+    load_dotenv(find_dotenv(usecwd=True))
 
 class LLMService:
     def __init__(self):
         # Configure the library directly with the API key from environment
-        self.api_key = os.environ.get("GEMINI_API_KEY")
+        self.api_key = os.environ.get("GROK_API_KEY")
+        self.client = None
         if self.api_key:
-            genai.configure(api_key=self.api_key)
+            self.client = OpenAI(
+                api_key=self.api_key,
+                base_url="https://api.x.ai/v1"
+            )
         
-        self.model_name = os.environ.get("GEMINI_MODEL", "gemini-1.5-pro")
+        self.model_name = os.environ.get("GROK_MODEL", "grok-2-latest")
 
     def is_configured(self) -> bool:
-        return bool(self.api_key)
+        if not self.api_key and os.environ.get("GROK_API_KEY"):
+            self.api_key = os.environ.get("GROK_API_KEY")
+            self.model_name = os.environ.get("GROK_MODEL", "grok-2-latest")
+            self.client = OpenAI(
+                api_key=self.api_key,
+                base_url="https://api.x.ai/v1"
+            )
+        return bool(self.api_key and self.client)
 
     def generate_grounded_response(self, query: str, retrieved_records: List[Dict[str, Any]]) -> Dict[str, Any]:
         """
         Takes a natural language query and top-k retrieved observed records.
         Returns a structured JSON response.
         """
+
         # If no records, we don't call the LLM to prevent hallucinations.
         if not retrieved_records:
             return {
@@ -92,31 +113,21 @@ Notes on "confidence": This means evidence-support status ONLY. Do not use it as
         
         evidence_block = "\n".join(evidence_texts)
         
-        prompt = f"""SYSTEM INSTRUCTIONS:
-{system_instructions}
-
-RETRIEVED OBSERVED RECORDS:
-{evidence_block}
-
-USER QUERY:
-{query}
-
-ANSWER REQUIREMENTS:
-Answer ONLY using the retrieved records. Cite source_record_id values. If evidence is insufficient, explicitly say so.
-Return valid JSON.
-"""
+        system_content = f"{system_instructions}\n\nANSWER REQUIREMENTS:\nAnswer ONLY using the retrieved records. Cite source_record_id values. If evidence is insufficient, explicitly say so.\nReturn valid JSON."
+        user_content = f"RETRIEVED OBSERVED RECORDS:\n{evidence_block}\n\nUSER QUERY:\n{query}"
         
         try:
-            model = genai.GenerativeModel(self.model_name)
-            response = model.generate_content(
-                prompt,
-                generation_config=genai.GenerationConfig(
-                    temperature=0.0, 
-                    response_mime_type="application/json"
-                )
+            response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {"role": "system", "content": system_content},
+                    {"role": "user", "content": user_content}
+                ],
+                temperature=0.0,
+                response_format={"type": "json_object"}
             )
             
-            response_text = response.text
+            response_text = response.choices[0].message.content
             
             try:
                 parsed_json = json.loads(response_text)

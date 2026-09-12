@@ -61,7 +61,7 @@ def test_ai_query():
     assert response.status_code == 200
     data = response.json()
     assert data["status"] == "success"
-    # Depending on whether GEMINI_API_KEY is present, it could be a fallback or an LLM answer
+    # Depending on whether GROK_API_KEY is present, it could be a fallback or an LLM answer
     # but it will always return llm_response object
     assert "llm_response" in data
     llm = data["llm_response"]
