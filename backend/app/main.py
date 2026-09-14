@@ -1,4 +1,6 @@
-from fastapi import FastAPI, Query, HTTPException
+import logging
+
+from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional, List, Dict, Any
 from pydantic import BaseModel
@@ -6,7 +8,23 @@ from pydantic import BaseModel
 from app.services.corpus_service import corpus_service
 from app.services.network_service import build_network
 
+# Auth imports
+from app.auth.models import Role
+from app.auth.dependencies import get_current_user, require_role
+from app.auth.routes import router as auth_router
+
+# ---------------------------------------------------------------------------
+# Logging — audit trail for 403s is critical (criminal investigation tool)
+# ---------------------------------------------------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(name)s | %(levelname)s | %(message)s",
+)
+
 app = FastAPI(title="SIH26189 Backend MVP API")
+
+# Include auth routes (/api/auth/login, /api/auth/register)
+app.include_router(auth_router)
 
 # Configure CORS for Vite dev server
 app.add_middleware(
@@ -21,6 +39,11 @@ class AIQueryRequest(BaseModel):
     query: str
     scenario_id: str
 
+
+# ---------------------------------------------------------------------------
+# Public — no auth required
+# ---------------------------------------------------------------------------
+
 @app.get("/api/health")
 def get_health():
     records = corpus_service.get_all_records()
@@ -31,8 +54,13 @@ def get_health():
         "records": len(records)
     }
 
+
+# ---------------------------------------------------------------------------
+# Viewer+ — read-only investigation data
+# ---------------------------------------------------------------------------
+
 @app.get("/api/scenarios")
-def get_scenarios():
+def get_scenarios(user: dict = Depends(require_role(Role.viewer, Role.investigator, Role.admin))):
     scenarios = corpus_service.get_scenarios()
     return [
         {"scenario_id": sid, "record_count": count}
@@ -45,12 +73,13 @@ def get_records(
     source_type: Optional[str] = None,
     entity_id: Optional[str] = None,
     limit: int = 50,
-    offset: int = 0
+    offset: int = 0,
+    user: dict = Depends(require_role(Role.viewer, Role.investigator, Role.admin)),
 ):
     # Guard against too large limits to prevent memory issues in MVP
     if limit > 200:
         limit = 200
-        
+
     records = corpus_service.get_records(
         scenario_id=scenario_id,
         source_type=source_type,
@@ -61,30 +90,44 @@ def get_records(
     return {"total": len(records), "records": records}
 
 @app.get("/api/entities/{entity_id}/records")
-def get_entity_records(entity_id: str):
+def get_entity_records(
+    entity_id: str,
+    user: dict = Depends(require_role(Role.viewer, Role.investigator, Role.admin)),
+):
     records = corpus_service.get_records(entity_id=entity_id, limit=200)
     return {"entity_id": entity_id, "total": len(records), "records": records}
 
 @app.get("/api/network/{scenario_id}")
-def get_network(scenario_id: str):
+def get_network(
+    scenario_id: str,
+    user: dict = Depends(require_role(Role.viewer, Role.investigator, Role.admin)),
+):
     # Verify scenario exists
     scenarios = corpus_service.get_scenarios()
     if scenario_id not in scenarios:
         raise HTTPException(status_code=404, detail="Scenario not found")
-        
+
     return build_network(scenario_id)
+
+
+# ---------------------------------------------------------------------------
+# Investigator+ — write-like / analytical actions
+# ---------------------------------------------------------------------------
 
 from app.services.retrieval_service import retrieval_service
 from app.services.llm_service import llm_service
 
 @app.post("/api/ai/query")
-def ai_query(req: AIQueryRequest):
+def ai_query(
+    req: AIQueryRequest,
+    user: dict = Depends(require_role(Role.investigator, Role.admin)),
+):
     # Phase 3A: Retrieve top-k records
     retrieved_records = retrieval_service.retrieve(query=req.query, scenario_id=req.scenario_id, top_k=5)
-    
+
     # Phase 3B: Grounded LLM Response
     llm_response = llm_service.generate_grounded_response(query=req.query, retrieved_records=retrieved_records)
-    
+
     return {
         "status": "success",
         "message": llm_response.get("answer", "No answer generated."),

@@ -4,6 +4,7 @@ import json
 from unittest.mock import patch, MagicMock
 
 os.environ["GROK_API_KEY"] = "dummy_test_key"
+os.environ.setdefault("JWT_SECRET_KEY", "test-secret-key-for-ci")
 
 from app.services.llm_service import llm_service
 # Force the singleton to be configured for testing
@@ -12,9 +13,27 @@ from openai import OpenAI
 llm_service.client = OpenAI(api_key="dummy_test_key", base_url="https://api.x.ai/v1")
 
 from app.main import app
+from app.auth.models import Role, User, pwd_context, user_store
 from fastapi.testclient import TestClient
 
 client = TestClient(app)
+
+
+def _get_auth_headers() -> dict:
+    """Login as admin for protected endpoint tests."""
+    if not user_store.get_by_username("llm_test_admin"):
+        user_store._users.append(
+            User(
+                username="llm_test_admin",
+                hashed_password=pwd_context.hash("testpass"),
+                role=Role.admin,
+            )
+        )
+    resp = client.post(
+        "/api/auth/login",
+        data={"username": "llm_test_admin", "password": "testpass"},
+    )
+    return {"Authorization": f"Bearer {resp.json()['access_token']}"}
 
 @pytest.fixture
 def mock_grok_success():
@@ -156,7 +175,7 @@ def test_llm_service_provider_failure(mock_grok_failure):
     assert res["evidence_basis"]["records_retrieved"] == 1
 
 def test_api_endpoint_llm_integration(mock_grok_success):
-    response = client.post("/api/ai/query", json={"query": "payment", "scenario_id": "S01"})
+    response = client.post("/api/ai/query", json={"query": "payment", "scenario_id": "S01"}, headers=_get_auth_headers())
     assert response.status_code == 200
     data = response.json()
     assert "llm_response" in data

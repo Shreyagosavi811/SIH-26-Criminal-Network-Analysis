@@ -1,9 +1,35 @@
+import os
 import pytest
 from fastapi.testclient import TestClient
-from app.main import app
 import json
 
+# Ensure JWT secret is set before app import
+os.environ.setdefault("JWT_SECRET_KEY", "test-secret-key-for-ci")
+
+from app.main import app
+from app.auth.models import Role, User, pwd_context, user_store
+
 client = TestClient(app)
+
+
+def _get_auth_headers() -> dict:
+    """Login as admin and return Authorization headers for protected routes."""
+    # Ensure an admin user exists in the store
+    if not user_store.get_by_username("test_admin"):
+        user_store._users.append(
+            User(
+                username="test_admin",
+                hashed_password=pwd_context.hash("testpass"),
+                role=Role.admin,
+            )
+        )
+    resp = client.post(
+        "/api/auth/login",
+        data={"username": "test_admin", "password": "testpass"},
+    )
+    token = resp.json()["access_token"]
+    return {"Authorization": f"Bearer {token}"}
+
 
 def test_health():
     response = client.get("/api/health")
@@ -14,7 +40,7 @@ def test_health():
     assert data["records"] == 100
 
 def test_scenarios():
-    response = client.get("/api/scenarios")
+    response = client.get("/api/scenarios", headers=_get_auth_headers())
     assert response.status_code == 200
     data = response.json()
     assert len(data) == 1
@@ -22,7 +48,7 @@ def test_scenarios():
     assert data[0]["record_count"] == 100
 
 def test_records_and_provenance_security():
-    response = client.get("/api/records?scenario_id=S01&limit=10")
+    response = client.get("/api/records?scenario_id=S01&limit=10", headers=_get_auth_headers())
     assert response.status_code == 200
     data = response.json()
     assert data["total"] > 0
@@ -41,14 +67,14 @@ def test_records_and_provenance_security():
         assert source_path.startswith("Redacted /")
 
 def test_entity_lookup():
-    response = client.get("/api/entities/3189/records")
+    response = client.get("/api/entities/3189/records", headers=_get_auth_headers())
     assert response.status_code == 200
     data = response.json()
     # Entity 3189 should definitely have records since it's an account
     assert data["total"] > 0
 
 def test_network():
-    response = client.get("/api/network/S01")
+    response = client.get("/api/network/S01", headers=_get_auth_headers())
     assert response.status_code == 200
     data = response.json()
     assert "nodes" in data
@@ -57,7 +83,7 @@ def test_network():
     assert len(data["nodes"]) > 0
 
 def test_ai_query():
-    response = client.post("/api/ai/query", json={"query": "payment", "scenario_id": "S01"})
+    response = client.post("/api/ai/query", json={"query": "payment", "scenario_id": "S01"}, headers=_get_auth_headers())
     assert response.status_code == 200
     data = response.json()
     assert data["status"] == "success"
