@@ -1,0 +1,38 @@
+[
+  {
+    "id": "e7ad02d67e754030b75f46780297c471",
+    "username": "admin_user",
+    "hashed_password": "$2b$12$HLLlS0CFGFZx91yPV/UcGOelTn9tcIicVvZZjUqA0mwSehhfM9hAK",
+    "role": "admin",
+    "department": "Test Department",
+    "badge_id": "TEST-0001",
+    "is_approved": true
+  },
+  {
+    "id": "70e2cf6512244a058c0035a4c09a4973",
+    "username": "investigator_user",
+    "hashed_password": "$2b$12$8SLQzOOohu5xSd6oK6XrEe1EKVpS11L2uebEIqLXA.wsqwv5aed5.",
+    "role": "investigator",
+    "department": "Test Department",
+    "badge_id": "TEST-0001",
+    "is_approved": true
+  },
+  {
+    "id": "60da9d3f26354f8a8e642c14edf29805",
+    "username": "viewer_user",
+    "hashed_password": "$2b$12$nN/qW1ChQUE3AC76EYsmruUSmHuOsrS1px0eU0i1N.n7UJV9IQLii",
+    "role": "viewer",
+    "department": "Test Department",
+    "badge_id": "TEST-0001",
+    "is_approved": false
+  },
+  {
+    "id": "dc358c6cdb344eddb3a07351a6d9e659",
+    "username": "unapproved_user",
+    "hashed_password": "$2b$12$eyO/ktla8loa6.sYuioTaOsFn6WfpTzx5ypJmleHcrGOGfzKwBrOi",
+    "role": "viewer",
+    "department": "Test Department",
+    "badge_id": "TEST-0001",
+    "is_approved": false
+  }
+]
